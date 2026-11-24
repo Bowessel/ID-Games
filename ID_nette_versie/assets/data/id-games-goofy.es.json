@@ -1,0 +1,411 @@
+{
+  "versie": "2026-11-24",
+  "taal": "es",
+  "id": "goofy",
+  "naam": "Goofy",
+  "omschrijving": "Absurdo, raro y totalmente ilógico.",
+  "bron": "id-games-goofy.json",
+  "aantal": 100,
+  "vragen": [
+    {
+      "nr": 1,
+      "tekst": "¿Quién tiene las costumbres más raras?"
+    },
+    {
+      "nr": 2,
+      "tekst": "Si todos tuviéramos que escalar una montaña, ¿quién sobreviviría y llegaría primero a la cima?"
+    },
+    {
+      "nr": 3,
+      "tekst": "¿Quién tiene los pies más bonitos?"
+    },
+    {
+      "nr": 4,
+      "tekst": "¿Quién tiene más posibilidades de ganar un reality?"
+    },
+    {
+      "nr": 5,
+      "tekst": "¿Quién come las combinaciones más raras?"
+    },
+    {
+      "nr": 6,
+      "tekst": "¿Quién acaba más a menudo en el hospital?"
+    },
+    {
+      "nr": 7,
+      "tekst": "¿Quién habría encajado mejor en la Edad Media?"
+    },
+    {
+      "nr": 8,
+      "tekst": "¿Quién se parece más a un gato?"
+    },
+    {
+      "nr": 9,
+      "tekst": "¿Quién tiene más cosas que no sirven para nada?"
+    },
+    {
+      "nr": 10,
+      "tekst": "¿Quién aguantaría más en una isla desierta?"
+    },
+    {
+      "nr": 11,
+      "tekst": "¿Quién sobreviviría mejor a un apocalipsis zombi?"
+    },
+    {
+      "nr": 12,
+      "tekst": "¿Quién tendrá canas primero?"
+    },
+    {
+      "nr": 13,
+      "tekst": "¿Quién pasa más tiempo en el baño?"
+    },
+    {
+      "nr": 14,
+      "tekst": "¿Quién es el primero en creerse una historia que no tiene ningún sentido?"
+    },
+    {
+      "nr": 15,
+      "tekst": "¿Quién podría convertirse antes en influencer?"
+    },
+    {
+      "nr": 16,
+      "tekst": "¿Quién es el primero en subirse al tren equivocado?"
+    },
+    {
+      "nr": 17,
+      "tekst": "¿Quién busca más a menudo algo que tiene en la mano?"
+    },
+    {
+      "nr": 18,
+      "tekst": "¿Quién se perdería primero en el año 1800?"
+    },
+    {
+      "nr": 19,
+      "tekst": "¿Quién sabría educar mejor a un perro y aun así no tiene?"
+    },
+    {
+      "nr": 20,
+      "tekst": "¿Quién habla solo más a menudo?"
+    },
+    {
+      "nr": 21,
+      "tekst": "¿Quién tiene más a menudo un momento de 'protagonista'?"
+    },
+    {
+      "nr": 22,
+      "tekst": "¿Quién sería el primero en huir de una oca?"
+    },
+    {
+      "nr": 23,
+      "tekst": "¿Quién podría sobrevivir más tiempo sin móvil?"
+    },
+    {
+      "nr": 24,
+      "tekst": "¿Quién tiene la risa más rara?"
+    },
+    {
+      "nr": 25,
+      "tekst": "¿Quién inventaría una teoría de la conspiración que la gente se creyera de verdad?"
+    },
+    {
+      "nr": 26,
+      "tekst": "¿Quién rompe cosas más a menudo sin darse cuenta?"
+    },
+    {
+      "nr": 27,
+      "tekst": "¿Quién tiene el ritual más raro antes de dormir?"
+    },
+    {
+      "nr": 28,
+      "tekst": "¿Quién se apuntaría a un viaje a Marte sin billete de vuelta?"
+    },
+    {
+      "nr": 29,
+      "tekst": "¿Quién es el primero en comerse algo que se ha caído al suelo?"
+    },
+    {
+      "nr": 30,
+      "tekst": "¿Quién se hace viral por algo que le da muchísima vergüenza?"
+    },
+    {
+      "nr": 31,
+      "tekst": "¿Quién sería el mejor cómico de monólogos?"
+    },
+    {
+      "nr": 32,
+      "tekst": "¿Quién estornuda más fuerte?"
+    },
+    {
+      "nr": 33,
+      "tekst": "¿Quién fundaría una secta sin querer?"
+    },
+    {
+      "nr": 34,
+      "tekst": "¿Quién sería el primero en desesperarse si se fuera la luz tres días?"
+    },
+    {
+      "nr": 35,
+      "tekst": "¿Quién se choca más a menudo con una puerta de cristal?"
+    },
+    {
+      "nr": 36,
+      "tekst": "¿Quién lo coloca todo siempre en el mismo orden?"
+    },
+    {
+      "nr": 37,
+      "tekst": "¿Quién fue algo totalmente distinto en una vida pasada?"
+    },
+    {
+      "nr": 38,
+      "tekst": "¿Quién tiene el bolso más desordenado?"
+    },
+    {
+      "nr": 39,
+      "tekst": "¿Quién prefiere hablar con animales antes que con personas?"
+    },
+    {
+      "nr": 40,
+      "tekst": "¿Quién podría vivir más tiempo solo a base de pan?"
+    },
+    {
+      "nr": 41,
+      "tekst": "¿Quién encajaría mejor en una familia real?"
+    },
+    {
+      "nr": 42,
+      "tekst": "¿Quién se pierde en su propia ciudad?"
+    },
+    {
+      "nr": 43,
+      "tekst": "¿Quién toma el mando cuando algo sale realmente mal?"
+    },
+    {
+      "nr": 44,
+      "tekst": "¿Quién tiene las manos más frías?"
+    },
+    {
+      "nr": 45,
+      "tekst": "¿Quién cree en serio que una vez vio extraterrestres?"
+    },
+    {
+      "nr": 46,
+      "tekst": "¿Quién lo huele todo antes de comérselo?"
+    },
+    {
+      "nr": 47,
+      "tekst": "¿Quién tiene las cosas más raras en la nevera?"
+    },
+    {
+      "nr": 48,
+      "tekst": "¿Quién sería el peor viajero en el tiempo?"
+    },
+    {
+      "nr": 49,
+      "tekst": "¿Quién guarda cosas que hace tiempo que debería haber tirado?"
+    },
+    {
+      "nr": 50,
+      "tekst": "¿Quién se llevaría mejor con un loro?"
+    },
+    {
+      "nr": 51,
+      "tekst": "¿Quién llama más a menudo a la persona equivocada?"
+    },
+    {
+      "nr": 52,
+      "tekst": "¿Quién encuentra el camino de vuelta en el bosque sin móvil?"
+    },
+    {
+      "nr": 53,
+      "tekst": "¿Quién duerme en la postura más rara?"
+    },
+    {
+      "nr": 54,
+      "tekst": "¿Quién sería el primer eliminado de un concurso de talentos?"
+    },
+    {
+      "nr": 55,
+      "tekst": "¿Quién mantiene viva una planta más tiempo?"
+    },
+    {
+      "nr": 56,
+      "tekst": "¿Quién arregla algo con cinta adhesiva y lo da por terminado?"
+    },
+    {
+      "nr": 57,
+      "tekst": "¿Quién tiene la forma de andar más rara sin saberlo?"
+    },
+    {
+      "nr": 58,
+      "tekst": "¿Quién se atreve a probarlo todo, por mala pinta que tenga?"
+    },
+    {
+      "nr": 59,
+      "tekst": "¿Quién sería exactamente igual en otro siglo?"
+    },
+    {
+      "nr": 60,
+      "tekst": "¿Quién es el primero en comerse algo que mejor habría sido dejar?"
+    },
+    {
+      "nr": 61,
+      "tekst": "¿Quién comprueba más a menudo si la puerta está bien cerrada?"
+    },
+    {
+      "nr": 62,
+      "tekst": "¿Quién insiste más tiempo en tener razón cuando todos saben que no?"
+    },
+    {
+      "nr": 63,
+      "tekst": "¿Quién empezaría un pódcast que no escucha nadie?"
+    },
+    {
+      "nr": 64,
+      "tekst": "¿Quién entra en pánico por algo que no tiene importancia?"
+    },
+    {
+      "nr": 65,
+      "tekst": "¿Quién pone más caras al hablar?"
+    },
+    {
+      "nr": 66,
+      "tekst": "¿Quién se deja las llaves dentro más a menudo?"
+    },
+    {
+      "nr": 67,
+      "tekst": "¿Quién tiene más miedo de algo que a nadie le da miedo?"
+    },
+    {
+      "nr": 68,
+      "tekst": "¿Quién podría dirigir mejor un pueblo sin electricidad?"
+    },
+    {
+      "nr": 69,
+      "tekst": "¿Quién tiene más cables que nadie sabe para qué son?"
+    },
+    {
+      "nr": 70,
+      "tekst": "¿Quién tiene un amuleto de la suerte del que nadie sabe nada?"
+    },
+    {
+      "nr": 71,
+      "tekst": "¿Quién aguantaría más en una casa llena de cámaras sin pelearse?"
+    },
+    {
+      "nr": 72,
+      "tekst": "¿Quién saca la araña de la ducha por los demás?"
+    },
+    {
+      "nr": 73,
+      "tekst": "¿Quién se haría el tatuaje más loco?"
+    },
+    {
+      "nr": 74,
+      "tekst": "¿Quién aguantaría una semana pasando frío sin quejarse?"
+    },
+    {
+      "nr": 75,
+      "tekst": "¿Para quién es más importante el horóscopo que el parte del tiempo?"
+    },
+    {
+      "nr": 76,
+      "tekst": "¿Quién es el primero en dormirse en un sitio donde no toca?"
+    },
+    {
+      "nr": 77,
+      "tekst": "¿Quién tiene la colección más inútil?"
+    },
+    {
+      "nr": 78,
+      "tekst": "¿Quién cocina algo con muy buena pinta que no sabe a nada?"
+    },
+    {
+      "nr": 79,
+      "tekst": "¿Quién encajaría mejor en una época en la que nadie hacía fotos?"
+    },
+    {
+      "nr": 80,
+      "tekst": "¿Quién se hace famoso por algo absolutamente estúpido?"
+    },
+    {
+      "nr": 81,
+      "tekst": "¿Quién pone el despertador y nunca se despierta con él?"
+    },
+    {
+      "nr": 82,
+      "tekst": "¿Quién sería el peor presentador de noticias?"
+    },
+    {
+      "nr": 83,
+      "tekst": "¿Quién perdería antes contra una gaviota?"
+    },
+    {
+      "nr": 84,
+      "tekst": "¿Quién es el único que canta las canciones de los anuncios?"
+    },
+    {
+      "nr": 85,
+      "tekst": "¿Quién hace más ruido al comer?"
+    },
+    {
+      "nr": 86,
+      "tekst": "¿Quién convence a los demás de algo que se acaba de inventar?"
+    },
+    {
+      "nr": 87,
+      "tekst": "¿Quién es el primero en construir algo inútil con palos?"
+    },
+    {
+      "nr": 88,
+      "tekst": "¿Quién compra más a menudo cosas que nunca usa?"
+    },
+    {
+      "nr": 89,
+      "tekst": "¿Quién se caería del caballo en menos de un día si fuera caballero?"
+    },
+    {
+      "nr": 90,
+      "tekst": "¿Quién come más despacio de todos?"
+    },
+    {
+      "nr": 91,
+      "tekst": "¿A quién pillarías primero cantando karaoke a las 3 de la madrugada?"
+    },
+    {
+      "nr": 92,
+      "tekst": "¿Quién habla con los aparatos como si le escucharan?"
+    },
+    {
+      "nr": 93,
+      "tekst": "¿Quién tiene más talento para algo que no sirve para nada?"
+    },
+    {
+      "nr": 94,
+      "tekst": "¿Quién deja los platos sin fregar más tiempo?"
+    },
+    {
+      "nr": 95,
+      "tekst": "¿Quién aguanta más con los ojos abiertos sin parpadear?"
+    },
+    {
+      "nr": 96,
+      "tekst": "¿Quién cuenta una historia de fantasmas como si hubiera pasado de verdad?"
+    },
+    {
+      "nr": 97,
+      "tekst": "¿Quién encajaría mejor en una película del Oeste?"
+    },
+    {
+      "nr": 98,
+      "tekst": "¿Para quién es totalmente normal desayunar para cenar?"
+    },
+    {
+      "nr": 99,
+      "tekst": "¿Quién podría vivir mejor con lobos?"
+    },
+    {
+      "nr": 100,
+      "tekst": "¿A quién se comen primero en cualquier catástrofe?"
+    }
+  ]
+}

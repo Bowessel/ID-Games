@@ -1,0 +1,411 @@
+{
+  "versie": "2026-11-24",
+  "taal": "es",
+  "id": "spicy",
+  "naam": "Spicy",
+  "omschrijving": "Picante, atrevido y sin filtros.",
+  "bron": "id-games-spicy.json",
+  "aantal": 100,
+  "vragen": [
+    {
+      "nr": 1,
+      "tekst": "¿A quién le cambia más el carácter después de cuatro cervezas?"
+    },
+    {
+      "nr": 2,
+      "tekst": "¿A quién es más fácil ligarse?"
+    },
+    {
+      "nr": 3,
+      "tekst": "¿Quién suelta el móvil con menos ganas?"
+    },
+    {
+      "nr": 4,
+      "tekst": "¿Quién es el mejor en la cama?"
+    },
+    {
+      "nr": 5,
+      "tekst": "¿Quién vuelve más a menudo a casa sin chaqueta?"
+    },
+    {
+      "nr": 6,
+      "tekst": "¿A quién rechazan más a menudo?"
+    },
+    {
+      "nr": 7,
+      "tekst": "¿Quién es el primero en subirse a la mesa?"
+    },
+    {
+      "nr": 8,
+      "tekst": "¿Quién solo fuma cuando ha bebido?"
+    },
+    {
+      "nr": 9,
+      "tekst": "¿Quién es el primero en bañarse desnudo?"
+    },
+    {
+      "nr": 10,
+      "tekst": "¿Quién sigue mirando de vez en cuando el perfil de un ex?"
+    },
+    {
+      "nr": 11,
+      "tekst": "¿Quién sería el primero en poner los cuernos?"
+    },
+    {
+      "nr": 12,
+      "tekst": "¿Quién se emborracha más rápido?"
+    },
+    {
+      "nr": 13,
+      "tekst": "¿Quién le miente a su familia con más facilidad?"
+    },
+    {
+      "nr": 14,
+      "tekst": "¿Quién se atreve primero a hablar con alguien en un bar?"
+    },
+    {
+      "nr": 15,
+      "tekst": "¿Quién tiene más lagunas de una noche de fiesta?"
+    },
+    {
+      "nr": 16,
+      "tekst": "¿Quién besa mejor?"
+    },
+    {
+      "nr": 17,
+      "tekst": "¿Quién haría más cosas por dinero?"
+    },
+    {
+      "nr": 18,
+      "tekst": "¿Quién se pone a cocinar borracho?"
+    },
+    {
+      "nr": 19,
+      "tekst": "¿Quién tiene el historial de búsqueda más raro?"
+    },
+    {
+      "nr": 20,
+      "tekst": "¿A quién le cuesta más pasar página?"
+    },
+    {
+      "nr": 21,
+      "tekst": "¿Quién se pone sentimental cuando la noche se alarga?"
+    },
+    {
+      "nr": 22,
+      "tekst": "¿Quién se apuntaría antes a un trío?"
+    },
+    {
+      "nr": 23,
+      "tekst": "¿Quién es el primero en caer con una frase de ligoteo mala?"
+    },
+    {
+      "nr": 24,
+      "tekst": "¿Quién aguanta más en un festival?"
+    },
+    {
+      "nr": 25,
+      "tekst": "¿Quién se arrepiente más a menudo al día siguiente de lo que dijo?"
+    },
+    {
+      "nr": 26,
+      "tekst": "¿Quién lleva la ropa interior más barata?"
+    },
+    {
+      "nr": 27,
+      "tekst": "¿Quién se lleva del bar algo que no es suyo?"
+    },
+    {
+      "nr": 28,
+      "tekst": "¿Quién siempre quiere la última cuando los demás se quieren ir?"
+    },
+    {
+      "nr": 29,
+      "tekst": "¿Quién guarda peor un secreto?"
+    },
+    {
+      "nr": 30,
+      "tekst": "¿Quién tiene más ex con los que prefiere no cruzarse?"
+    },
+    {
+      "nr": 31,
+      "tekst": "¿A quién puedes despertar por la noche para tener sexo?"
+    },
+    {
+      "nr": 32,
+      "tekst": "¿Quién llama borracho a alguien a quien nunca llamaría sobrio?"
+    },
+    {
+      "nr": 33,
+      "tekst": "¿Quién liga sin darse cuenta?"
+    },
+    {
+      "nr": 34,
+      "tekst": "¿Quién es el primero en mandar un mensaje de disculpa a la mañana siguiente?"
+    },
+    {
+      "nr": 35,
+      "tekst": "¿Quién es el más celoso en pareja?"
+    },
+    {
+      "nr": 36,
+      "tekst": "¿Quién tiene menos vergüenza?"
+    },
+    {
+      "nr": 37,
+      "tekst": "¿Quién dice que sí más rápido cuando le ofrecen algo?"
+    },
+    {
+      "nr": 38,
+      "tekst": "¿Quién se pone cariñoso después de unas copas?"
+    },
+    {
+      "nr": 39,
+      "tekst": "¿Quién se atreve primero a hacer algo que mira todo el bar?"
+    },
+    {
+      "nr": 40,
+      "tekst": "¿Quién mira más a menudo quién ha visto su historia?"
+    },
+    {
+      "nr": 41,
+      "tekst": "¿Quién es el más sexy?"
+    },
+    {
+      "nr": 42,
+      "tekst": "¿Quién busca pelea cuando está borracho?"
+    },
+    {
+      "nr": 43,
+      "tekst": "¿Quién piensa antes que alguien está interesado?"
+    },
+    {
+      "nr": 44,
+      "tekst": "¿Quién se despierta en los sitios más raros?"
+    },
+    {
+      "nr": 45,
+      "tekst": "¿Quién ha tenido más romances de vacaciones?"
+    },
+    {
+      "nr": 46,
+      "tekst": "¿Quién miente de forma más convincente sin inmutarse?"
+    },
+    {
+      "nr": 47,
+      "tekst": "¿Quién pierde algo más a menudo en una noche de fiesta?"
+    },
+    {
+      "nr": 48,
+      "tekst": "¿A quién asustaría más una captura de pantalla al azar de sus chats?"
+    },
+    {
+      "nr": 49,
+      "tekst": "¿Quién se mete más en lo que hacen los demás en una noche de fiesta?"
+    },
+    {
+      "nr": 50,
+      "tekst": "¿Quién sigue siendo amigo de un ex con más facilidad?"
+    },
+    {
+      "nr": 51,
+      "tekst": "¿Quién se desnudaría antes por un millón?"
+    },
+    {
+      "nr": 52,
+      "tekst": "¿Quién es el primero en quedarse frito en el sofá?"
+    },
+    {
+      "nr": 53,
+      "tekst": "¿Quién se va antes a casa con alguien?"
+    },
+    {
+      "nr": 54,
+      "tekst": "¿Quién tiene más mensajes que es mejor no releer?"
+    },
+    {
+      "nr": 55,
+      "tekst": "¿Quién se queda más tiempo en la cama al día siguiente?"
+    },
+    {
+      "nr": 56,
+      "tekst": "¿Quién podría estar colado en secreto por un profesor o un compañero de trabajo?"
+    },
+    {
+      "nr": 57,
+      "tekst": "¿Quién es el primero en cantar con todo el bar?"
+    },
+    {
+      "nr": 58,
+      "tekst": "¿Quién grita más fuerte que nunca se apuntará y al final se apunta?"
+    },
+    {
+      "nr": 59,
+      "tekst": "¿Quién vuelve más rápido con alguien que le ha dejado?"
+    },
+    {
+      "nr": 60,
+      "tekst": "¿Quién se apuntaría antes a un programa de citas en la tele?"
+    },
+    {
+      "nr": 61,
+      "tekst": "¿Quién es el más salvaje en la cama?"
+    },
+    {
+      "nr": 62,
+      "tekst": "¿Quién peor sabe cuándo parar?"
+    },
+    {
+      "nr": 63,
+      "tekst": "¿Quién rechaza a los demás con más dureza?"
+    },
+    {
+      "nr": 64,
+      "tekst": "¿Quién tiene que mirar el móvil más a menudo para saber qué pasó?"
+    },
+    {
+      "nr": 65,
+      "tekst": "¿Quién sabría seducir mejor a alguien solo con palabras?"
+    },
+    {
+      "nr": 66,
+      "tekst": "¿Quién tiene más números guardados con un nombre falso?"
+    },
+    {
+      "nr": 67,
+      "tekst": "¿Quién pide borracho un taxi para todo el grupo?"
+    },
+    {
+      "nr": 68,
+      "tekst": "¿Quién le revisaría el móvil a su pareja?"
+    },
+    {
+      "nr": 69,
+      "tekst": "¿Quién mantiene la cabeza fría cuando alguien se pasa?"
+    },
+    {
+      "nr": 70,
+      "tekst": "¿Quién acepta una apuesta imposible de ganar?"
+    },
+    {
+      "nr": 71,
+      "tekst": "¿Quién tiene menos experiencia?"
+    },
+    {
+      "nr": 72,
+      "tekst": "¿Quién bebe más sin que se le note?"
+    },
+    {
+      "nr": 73,
+      "tekst": "¿Quién consigue más números sin hacer nada con ellos?"
+    },
+    {
+      "nr": 74,
+      "tekst": "¿Quién hace como si nada al día siguiente?"
+    },
+    {
+      "nr": 75,
+      "tekst": "¿Quién gasta más en ropa interior que nadie ve?"
+    },
+    {
+      "nr": 76,
+      "tekst": "¿Quién llega más lejos por una buena historia?"
+    },
+    {
+      "nr": 77,
+      "tekst": "¿Quién invita borracho a una ronda que no puede pagar?"
+    },
+    {
+      "nr": 78,
+      "tekst": "¿Quién tiene más fotos en el móvil que nadie puede ver?"
+    },
+    {
+      "nr": 79,
+      "tekst": "¿Quién tiene el mayor secreto que nadie en esta mesa conoce?"
+    },
+    {
+      "nr": 80,
+      "tekst": "¿Quién llevaría peor una relación abierta?"
+    },
+    {
+      "nr": 81,
+      "tekst": "¿Quién ha besado más veces?"
+    },
+    {
+      "nr": 82,
+      "tekst": "¿Quién es el primero en hablar de sentimientos cuando se acaba la botella?"
+    },
+    {
+      "nr": 83,
+      "tekst": "¿Quién tiene más paciencia con una cita que claramente no va a ninguna parte?"
+    },
+    {
+      "nr": 84,
+      "tekst": "¿Quién hace más drama con la resaca?"
+    },
+    {
+      "nr": 85,
+      "tekst": "¿Quién es menos exigente cuando el bar está a punto de cerrar?"
+    },
+    {
+      "nr": 86,
+      "tekst": "¿Quién es el primero en cantar cuando el grupo no para de preguntar?"
+    },
+    {
+      "nr": 87,
+      "tekst": "¿Quién llenaría toda la conversación de una cita sin ayuda?"
+    },
+    {
+      "nr": 88,
+      "tekst": "¿A quién le chocaría más lo que hicieron los demás en el pasado?"
+    },
+    {
+      "nr": 89,
+      "tekst": "¿Quién tiene un tipo más marcado?"
+    },
+    {
+      "nr": 90,
+      "tekst": "¿Quién se queda solo cuando los demás salen corriendo?"
+    },
+    {
+      "nr": 91,
+      "tekst": "¿Quién habla de sexo en la mesa con más naturalidad?"
+    },
+    {
+      "nr": 92,
+      "tekst": "¿A quién no dejan entrar primero en la puerta?"
+    },
+    {
+      "nr": 93,
+      "tekst": "¿Quién es el primero en averiguar si alguien sigue soltero?"
+    },
+    {
+      "nr": 94,
+      "tekst": "¿Quién vuelve a darlo todo al día siguiente?"
+    },
+    {
+      "nr": 95,
+      "tekst": "¿Quién sigue hablando cuando los demás ya se han callado?"
+    },
+    {
+      "nr": 96,
+      "tekst": "¿Quién sería el primero en comprar un juguete sexual en una tienda en vez de por internet?"
+    },
+    {
+      "nr": 97,
+      "tekst": "¿Quién ha tenido más veces a dos personas a la vez dándoles largas?"
+    },
+    {
+      "nr": 98,
+      "tekst": "¿Quién se guarda más cosas sin que te des cuenta?"
+    },
+    {
+      "nr": 99,
+      "tekst": "¿Quién cancela una cita por algo mejor?"
+    },
+    {
+      "nr": 100,
+      "tekst": "¿Quién aguanta hasta el último autobús y luego espera al primero?"
+    }
+  ]
+}

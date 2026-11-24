@@ -1,0 +1,411 @@
+{
+  "versie": "2026-11-24",
+  "taal": "en",
+  "id": "classic",
+  "naam": "Classic",
+  "omschrijving": "The trusted mix for any group of friends.",
+  "bron": "id-games-classic.json",
+  "aantal": 100,
+  "vragen": [
+    {
+      "nr": 1,
+      "tekst": "Who is the biggest homebody?"
+    },
+    {
+      "nr": 2,
+      "tekst": "Who is the most fun to chat with?"
+    },
+    {
+      "nr": 3,
+      "tekst": "Who has the best sense of style?"
+    },
+    {
+      "nr": 4,
+      "tekst": "Who drinks the most?"
+    },
+    {
+      "nr": 5,
+      "tekst": "Who is the most persistent?"
+    },
+    {
+      "nr": 6,
+      "tekst": "Who do you tell the most secrets to?"
+    },
+    {
+      "nr": 7,
+      "tekst": "Who has the most beautiful eyes?"
+    },
+    {
+      "nr": 8,
+      "tekst": "Who will own a big villa one day?"
+    },
+    {
+      "nr": 9,
+      "tekst": "Who is the most sarcastic?"
+    },
+    {
+      "nr": 10,
+      "tekst": "Who has a crush most often?"
+    },
+    {
+      "nr": 11,
+      "tekst": "Who has the biggest sweet tooth?"
+    },
+    {
+      "nr": 12,
+      "tekst": "Who is the shyest?"
+    },
+    {
+      "nr": 13,
+      "tekst": "Who can you trust the most?"
+    },
+    {
+      "nr": 14,
+      "tekst": "Who is the bossiest?"
+    },
+    {
+      "nr": 15,
+      "tekst": "Who will get married first?"
+    },
+    {
+      "nr": 16,
+      "tekst": "Who is the luckiest?"
+    },
+    {
+      "nr": 17,
+      "tekst": "Who is the most creative?"
+    },
+    {
+      "nr": 18,
+      "tekst": "Who complains the most?"
+    },
+    {
+      "nr": 19,
+      "tekst": "Who has the most friends?"
+    },
+    {
+      "nr": 20,
+      "tekst": "Who eats the most?"
+    },
+    {
+      "nr": 21,
+      "tekst": "Who is the sweetest?"
+    },
+    {
+      "nr": 22,
+      "tekst": "Who is always on their phone?"
+    },
+    {
+      "nr": 23,
+      "tekst": "Who is the best mother or father figure?"
+    },
+    {
+      "nr": 24,
+      "tekst": "Who would you call if you were stuck abroad in the middle of the night?"
+    },
+    {
+      "nr": 25,
+      "tekst": "Who is the least tactful?"
+    },
+    {
+      "nr": 26,
+      "tekst": "Who has the nicest smile?"
+    },
+    {
+      "nr": 27,
+      "tekst": "Who lives the least healthily?"
+    },
+    {
+      "nr": 28,
+      "tekst": "Who will achieve the most?"
+    },
+    {
+      "nr": 29,
+      "tekst": "Who is the most indecisive?"
+    },
+    {
+      "nr": 30,
+      "tekst": "Who is the most 'one of the guys'?"
+    },
+    {
+      "nr": 31,
+      "tekst": "Who snacks the most?"
+    },
+    {
+      "nr": 32,
+      "tekst": "Who is the most self-confident?"
+    },
+    {
+      "nr": 33,
+      "tekst": "Who has the most influence in the group?"
+    },
+    {
+      "nr": 34,
+      "tekst": "Who could lead a secret double life?"
+    },
+    {
+      "nr": 35,
+      "tekst": "Who is the most romantic soul in the group?"
+    },
+    {
+      "nr": 36,
+      "tekst": "Who most often tells a white lie?"
+    },
+    {
+      "nr": 37,
+      "tekst": "Who wears the boldest clothes?"
+    },
+    {
+      "nr": 38,
+      "tekst": "Who is the best listener?"
+    },
+    {
+      "nr": 39,
+      "tekst": "Who will have the most children later?"
+    },
+    {
+      "nr": 40,
+      "tekst": "Who is the most serious?"
+    },
+    {
+      "nr": 41,
+      "tekst": "Who is the vainest?"
+    },
+    {
+      "nr": 42,
+      "tekst": "Who has the most exciting life?"
+    },
+    {
+      "nr": 43,
+      "tekst": "Who is the most naive?"
+    },
+    {
+      "nr": 44,
+      "tekst": "Who has the best haircut?"
+    },
+    {
+      "nr": 45,
+      "tekst": "Who would you like to travel the world with?"
+    },
+    {
+      "nr": 46,
+      "tekst": "Who thinks their family is the most important?"
+    },
+    {
+      "nr": 47,
+      "tekst": "Who is the easiest to fool?"
+    },
+    {
+      "nr": 48,
+      "tekst": "Who could become famous the fastest?"
+    },
+    {
+      "nr": 49,
+      "tekst": "Who has the most life wisdom in the group?"
+    },
+    {
+      "nr": 50,
+      "tekst": "Who is the most jealous by nature?"
+    },
+    {
+      "nr": 51,
+      "tekst": "Who enjoys life the most?"
+    },
+    {
+      "nr": 52,
+      "tekst": "Who is the most social and makes friends the most easily?"
+    },
+    {
+      "nr": 53,
+      "tekst": "Who has the nicest nose?"
+    },
+    {
+      "nr": 54,
+      "tekst": "Who do you trust the least behind the wheel?"
+    },
+    {
+      "nr": 55,
+      "tekst": "Who will move abroad the soonest?"
+    },
+    {
+      "nr": 56,
+      "tekst": "Who is the most positive?"
+    },
+    {
+      "nr": 57,
+      "tekst": "Who would you call in for a makeover?"
+    },
+    {
+      "nr": 58,
+      "tekst": "Who has their head in the clouds the most?"
+    },
+    {
+      "nr": 59,
+      "tekst": "Who is the most heroic?"
+    },
+    {
+      "nr": 60,
+      "tekst": "Who has the most secrets?"
+    },
+    {
+      "nr": 61,
+      "tekst": "Who is the most fashion-conscious?"
+    },
+    {
+      "nr": 62,
+      "tekst": "Who will have the longest relationship?"
+    },
+    {
+      "nr": 63,
+      "tekst": "Who is the easiest to persuade?"
+    },
+    {
+      "nr": 64,
+      "tekst": "Who is the happiest?"
+    },
+    {
+      "nr": 65,
+      "tekst": "Who do you find the most attractive?"
+    },
+    {
+      "nr": 66,
+      "tekst": "Who is the most experimental?"
+    },
+    {
+      "nr": 67,
+      "tekst": "Who has the best bond with their siblings?"
+    },
+    {
+      "nr": 68,
+      "tekst": "Who has changed the most since high school?"
+    },
+    {
+      "nr": 69,
+      "tekst": "Who is the best judge of character?"
+    },
+    {
+      "nr": 70,
+      "tekst": "Who best fits the picture of a house, a garden and a white picket fence?"
+    },
+    {
+      "nr": 71,
+      "tekst": "Who is the strongest with words?"
+    },
+    {
+      "nr": 72,
+      "tekst": "Who would be the most awkward on a first date?"
+    },
+    {
+      "nr": 73,
+      "tekst": "Who takes the best care of their belongings?"
+    },
+    {
+      "nr": 74,
+      "tekst": "Who will do something great for humanity one day?"
+    },
+    {
+      "nr": 75,
+      "tekst": "Who would you most like as your partner in an escape room?"
+    },
+    {
+      "nr": 76,
+      "tekst": "Who is the ideal daughter-in-law or son-in-law?"
+    },
+    {
+      "nr": 77,
+      "tekst": "Who has the strongest sense of responsibility?"
+    },
+    {
+      "nr": 78,
+      "tekst": "Who is the most girly girl?"
+    },
+    {
+      "nr": 79,
+      "tekst": "Who has the fewest opinions?"
+    },
+    {
+      "nr": 80,
+      "tekst": "Who will marry and stay with their first love?"
+    },
+    {
+      "nr": 81,
+      "tekst": "Who feels most at home in this group?"
+    },
+    {
+      "nr": 82,
+      "tekst": "Who will have the best-looking children?"
+    },
+    {
+      "nr": 83,
+      "tekst": "Who is the slowest on the uptake?"
+    },
+    {
+      "nr": 84,
+      "tekst": "Who would you most like to end up with in a bad situation?"
+    },
+    {
+      "nr": 85,
+      "tekst": "Who spends the most money on their looks?"
+    },
+    {
+      "nr": 86,
+      "tekst": "Who could write a book about their own life?"
+    },
+    {
+      "nr": 87,
+      "tekst": "Who behaves more maturely than the rest?"
+    },
+    {
+      "nr": 88,
+      "tekst": "Who would be found on a dating site the soonest?"
+    },
+    {
+      "nr": 89,
+      "tekst": "Who will still look the most the same later in life?"
+    },
+    {
+      "nr": 90,
+      "tekst": "Who is most likely to keep a diary?"
+    },
+    {
+      "nr": 91,
+      "tekst": "Who is most likely to emigrate on a whim?"
+    },
+    {
+      "nr": 92,
+      "tekst": "Who would you pick if you had to swap a day of your life?"
+    },
+    {
+      "nr": 93,
+      "tekst": "Who thinks looks matter most in a man?"
+    },
+    {
+      "nr": 94,
+      "tekst": "Who will live the longest?"
+    },
+    {
+      "nr": 95,
+      "tekst": "Who will dedicate their life to a good cause?"
+    },
+    {
+      "nr": 96,
+      "tekst": "Who would have the most dramatic break-up story?"
+    },
+    {
+      "nr": 97,
+      "tekst": "Who will end up with the most handsome husband?"
+    },
+    {
+      "nr": 98,
+      "tekst": "Who sees enjoying life as the most important goal?"
+    },
+    {
+      "nr": 99,
+      "tekst": "Who makes new friends the most easily?"
+    },
+    {
+      "nr": 100,
+      "tekst": "Who could you find at the food bank later in life?"
+    }
+  ]
+}

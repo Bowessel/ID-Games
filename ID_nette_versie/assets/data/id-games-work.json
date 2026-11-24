@@ -1,0 +1,410 @@
+{
+  "versie": "2026-11-24",
+  "taal": "nl",
+  "id": "work",
+  "naam": "Work",
+  "omschrijving": "Kantoorhumor, collega's en carriere.",
+  "aantal": 100,
+  "vragen": [
+    {
+      "nr": 1,
+      "tekst": "Wie komt er het vaakst te laat?"
+    },
+    {
+      "nr": 2,
+      "tekst": "Wie praat het langst in een vergadering?"
+    },
+    {
+      "nr": 3,
+      "tekst": "Wie hecht het meeste waarde aan een goed salaris?"
+    },
+    {
+      "nr": 4,
+      "tekst": "Wie heeft de meest uitgesproken kledingstijl op kantoor?"
+    },
+    {
+      "nr": 5,
+      "tekst": "Wie deelt per ongeluk het verkeerde scherm?"
+    },
+    {
+      "nr": 6,
+      "tekst": "Wie kan het beste dingen aan anderen aanleren?"
+    },
+    {
+      "nr": 7,
+      "tekst": "Wie heeft het rommeligste bureau?"
+    },
+    {
+      "nr": 8,
+      "tekst": "Wie blijft het langst op de vrijdagmiddagborrel?"
+    },
+    {
+      "nr": 9,
+      "tekst": "Wie kan het slechtst tegen feedback?"
+    },
+    {
+      "nr": 10,
+      "tekst": "Wie zou het best een bedrijf kunnen leiden dat niets met deze branche te maken heeft?"
+    },
+    {
+      "nr": 11,
+      "tekst": "Wie kan het beste problemen oplossen?"
+    },
+    {
+      "nr": 12,
+      "tekst": "Wie heeft de interessantste hobby waar bijna niemand van weet?"
+    },
+    {
+      "nr": 13,
+      "tekst": "Wie zegt in een vergadering het minst en denkt het meest?"
+    },
+    {
+      "nr": 14,
+      "tekst": "Wie zet de meeste koffie voor de rest?"
+    },
+    {
+      "nr": 15,
+      "tekst": "Wie overleeft een reorganisatie zonder dat iemand weet hoe?"
+    },
+    {
+      "nr": 16,
+      "tekst": "Wie wordt er multimiljonair?"
+    },
+    {
+      "nr": 17,
+      "tekst": "Wie stuurt mails om elf uur 's avonds?"
+    },
+    {
+      "nr": 18,
+      "tekst": "Wie is het rustigst als het druk wordt?"
+    },
+    {
+      "nr": 19,
+      "tekst": "Wie organiseert het teamuitje als niemand anders het doet?"
+    },
+    {
+      "nr": 20,
+      "tekst": "Wie houdt het team bij elkaar zonder dat het in de functieomschrijving staat?"
+    },
+    {
+      "nr": 21,
+      "tekst": "Wie is het grappigst zonder het te proberen?"
+    },
+    {
+      "nr": 22,
+      "tekst": "Wie laat de meeste kopjes staan?"
+    },
+    {
+      "nr": 23,
+      "tekst": "Wie zal er het langst studeren?"
+    },
+    {
+      "nr": 24,
+      "tekst": "Wie schrijft de langste mails?"
+    },
+    {
+      "nr": 25,
+      "tekst": "Wie zingt als eerste bij karaoke op het bedrijfsfeest?"
+    },
+    {
+      "nr": 26,
+      "tekst": "Wie is de beste organisator?"
+    },
+    {
+      "nr": 27,
+      "tekst": "Wie heeft de langste reistijd en klaagt er het minst over?"
+    },
+    {
+      "nr": 28,
+      "tekst": "Wie heeft de meeste ongelezen mails?"
+    },
+    {
+      "nr": 29,
+      "tekst": "Wie is als eerste binnen op maandagochtend?"
+    },
+    {
+      "nr": 30,
+      "tekst": "Wie zou het best undercover kunnen werken bij de concurrent?"
+    },
+    {
+      "nr": 31,
+      "tekst": "Wie krijgt er de beste baan?"
+    },
+    {
+      "nr": 32,
+      "tekst": "Wie antwoordt het snelst op een bericht?"
+    },
+    {
+      "nr": 33,
+      "tekst": "Wie neemt de langste lunchpauze zonder dat iemand het merkt?"
+    },
+    {
+      "nr": 34,
+      "tekst": "Wie geeft de meeste complimenten?"
+    },
+    {
+      "nr": 35,
+      "tekst": "Wie zou een lastige klant in één gesprek kunnen omdraaien?"
+    },
+    {
+      "nr": 36,
+      "tekst": "Wie praat het meest over de weekendplannen?"
+    },
+    {
+      "nr": 37,
+      "tekst": "Wie kan het beste knopen doorhakken?"
+    },
+    {
+      "nr": 38,
+      "tekst": "Wie heeft de meeste tabbladen openstaan?"
+    },
+    {
+      "nr": 39,
+      "tekst": "Wie gaat er het vaakst niet mee en wordt het meest gemist?"
+    },
+    {
+      "nr": 40,
+      "tekst": "Wie zit hier over tien jaar nog?"
+    },
+    {
+      "nr": 41,
+      "tekst": "Wie zou je het liefst naast je hebben bij een deadline om middernacht?"
+    },
+    {
+      "nr": 42,
+      "tekst": "Wie heeft de meeste planten op het bureau?"
+    },
+    {
+      "nr": 43,
+      "tekst": "Wie gebruikt de meeste afkortingen die niemand begrijpt?"
+    },
+    {
+      "nr": 44,
+      "tekst": "Wie is het meest geschikt voor een carrière in de politiek?"
+    },
+    {
+      "nr": 45,
+      "tekst": "Wie kent iedereen in het hele gebouw?"
+    },
+    {
+      "nr": 46,
+      "tekst": "Wie moppert het meest over kleine dingen?"
+    },
+    {
+      "nr": 47,
+      "tekst": "Wie belt liever dan dat hij of zij typt?"
+    },
+    {
+      "nr": 48,
+      "tekst": "Wie laat de meeste vakantiefoto's zien?"
+    },
+    {
+      "nr": 49,
+      "tekst": "Wie loopt het vaakst even langs om iets te vragen wat ook per mail had gekund?"
+    },
+    {
+      "nr": 50,
+      "tekst": "Wie zou als enige doorwerken als het kantoor in brand staat?"
+    },
+    {
+      "nr": 51,
+      "tekst": "Wie is het eerlijkst, ook als het niet uitkomt?"
+    },
+    {
+      "nr": 52,
+      "tekst": "Wie maakt op een borrel het snelst contact met een onbekende afdeling?"
+    },
+    {
+      "nr": 53,
+      "tekst": "Wie heeft altijd een opladerkabel bij zich?"
+    },
+    {
+      "nr": 54,
+      "tekst": "Wie start als eerste een eigen bedrijf?"
+    },
+    {
+      "nr": 55,
+      "tekst": "Wie stuurt als eerste een appje in de groep over iets wat niet over werk gaat?"
+    },
+    {
+      "nr": 56,
+      "tekst": "Wie vergeet het vaakst zichzelf te unmuten?"
+    },
+    {
+      "nr": 57,
+      "tekst": "Wie vraagt als enige door als iets niet klopt?"
+    },
+    {
+      "nr": 58,
+      "tekst": "Wie heeft de meest georganiseerde lunchtrommel?"
+    },
+    {
+      "nr": 59,
+      "tekst": "Wie zou het best een personeelsfeest kunnen presenteren?"
+    },
+    {
+      "nr": 60,
+      "tekst": "Wie neemt het werk het meest mee naar huis in het hoofd?"
+    },
+    {
+      "nr": 61,
+      "tekst": "Wie heeft een vergadering het vaakst op tijd klaar?"
+    },
+    {
+      "nr": 62,
+      "tekst": "Wie verdwijnt het vaakst ongemerkt een half uur?"
+    },
+    {
+      "nr": 63,
+      "tekst": "Wie is het nieuwsgierigst naar anderen?"
+    },
+    {
+      "nr": 64,
+      "tekst": "Wie zou het best een team van vijftig man kunnen leiden?"
+    },
+    {
+      "nr": 65,
+      "tekst": "Wie heeft de meest opvallende achtergrond in een videocall?"
+    },
+    {
+      "nr": 66,
+      "tekst": "Wie heeft het meeste verhaal te vertellen de dag na een personeelsfeest?"
+    },
+    {
+      "nr": 67,
+      "tekst": "Wie eet het vaakst aan het bureau door?"
+    },
+    {
+      "nr": 68,
+      "tekst": "Wie leeft het gezondst van negen tot vijf en het minst daarbuiten?"
+    },
+    {
+      "nr": 69,
+      "tekst": "Wie neemt het meeste werk over van anderen?"
+    },
+    {
+      "nr": 70,
+      "tekst": "Wie zou het langst volhouden in een baan die vreselijk is?"
+    },
+    {
+      "nr": 71,
+      "tekst": "Wie vraagt als eerste om opslag?"
+    },
+    {
+      "nr": 72,
+      "tekst": "Wie heeft de meeste snacks in de la?"
+    },
+    {
+      "nr": 73,
+      "tekst": "Wie weet altijd als eerste wat er speelt?"
+    },
+    {
+      "nr": 74,
+      "tekst": "Wie weet van elk programma een sneltoets?"
+    },
+    {
+      "nr": 75,
+      "tekst": "Wie begint elke meeting met een anekdote?"
+    },
+    {
+      "nr": 76,
+      "tekst": "Wie heeft het meeste verstand van iets waar niemand om vraagt?"
+    },
+    {
+      "nr": 77,
+      "tekst": "Wie laat het minst merken hoe het echt gaat?"
+    },
+    {
+      "nr": 78,
+      "tekst": "Wie zou je meesturen naar een beurs om klanten binnen te halen?"
+    },
+    {
+      "nr": 79,
+      "tekst": "Wie zegt als enige hardop wat de rest denkt?"
+    },
+    {
+      "nr": 80,
+      "tekst": "Wie zet als eerste een robot op de eigen plek in plaats van andersom?"
+    },
+    {
+      "nr": 81,
+      "tekst": "Wie zou je bellen als er echt iets misgaat?"
+    },
+    {
+      "nr": 82,
+      "tekst": "Wie zegt de baan op voor een jaar reizen?"
+    },
+    {
+      "nr": 83,
+      "tekst": "Wie typt in de chat wat hij of zij hardop niet durft te zeggen?"
+    },
+    {
+      "nr": 84,
+      "tekst": "Wie claimt altijd dezelfde stoel?"
+    },
+    {
+      "nr": 85,
+      "tekst": "Wie heeft het meeste geduld met een lastige klant?"
+    },
+    {
+      "nr": 86,
+      "tekst": "Wie slaat bestanden op een plek op die niemand terugvindt?"
+    },
+    {
+      "nr": 87,
+      "tekst": "Wie neemt als eerste het woord bij een afscheid?"
+    },
+    {
+      "nr": 88,
+      "tekst": "Wie zou je het liefst als buurman hebben?"
+    },
+    {
+      "nr": 89,
+      "tekst": "Wie had vroeger een heel ander beroep in gedachten?"
+    },
+    {
+      "nr": 90,
+      "tekst": "Wie zou de beste baas zijn en wil het het minst?"
+    },
+    {
+      "nr": 91,
+      "tekst": "Wie zegt het vaakst sorry zonder dat het nodig is?"
+    },
+    {
+      "nr": 92,
+      "tekst": "Wie regelt altijd de taart?"
+    },
+    {
+      "nr": 93,
+      "tekst": "Wie durft als eerste tegen de baas in te gaan?"
+    },
+    {
+      "nr": 94,
+      "tekst": "Wie zou het langst doorwerken als het systeem plat ligt?"
+    },
+    {
+      "nr": 95,
+      "tekst": "Wie is als laatste weg zonder dat het nodig is?"
+    },
+    {
+      "nr": 96,
+      "tekst": "Wie vat aan het eind altijd samen wat er is besloten?"
+    },
+    {
+      "nr": 97,
+      "tekst": "Wie heeft thuis een compleet ander leven dan je zou denken?"
+    },
+    {
+      "nr": 98,
+      "tekst": "Wie zou het best in een totaal andere branche opnieuw kunnen beginnen?"
+    },
+    {
+      "nr": 99,
+      "tekst": "Wie is het meest zichzelf op kantoor?"
+    },
+    {
+      "nr": 100,
+      "tekst": "Wie onderhandelt het best over iets wat niet van hem of haar is?"
+    }
+  ]
+}

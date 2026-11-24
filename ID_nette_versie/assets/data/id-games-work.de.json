@@ -1,0 +1,411 @@
+{
+  "versie": "2026-11-24",
+  "taal": "de",
+  "id": "work",
+  "naam": "Work",
+  "omschrijving": "Bürohumor, Kollegen & Karriere.",
+  "bron": "id-games-work.json",
+  "aantal": 100,
+  "vragen": [
+    {
+      "nr": 1,
+      "tekst": "Wer kommt am häufigsten zu spät?"
+    },
+    {
+      "nr": 2,
+      "tekst": "Wer redet in einem Meeting am längsten?"
+    },
+    {
+      "nr": 3,
+      "tekst": "Wem ist ein gutes Gehalt am wichtigsten?"
+    },
+    {
+      "nr": 4,
+      "tekst": "Wer hat im Büro den auffälligsten Kleidungsstil?"
+    },
+    {
+      "nr": 5,
+      "tekst": "Wer teilt aus Versehen den falschen Bildschirm?"
+    },
+    {
+      "nr": 6,
+      "tekst": "Wer kann anderen am besten etwas beibringen?"
+    },
+    {
+      "nr": 7,
+      "tekst": "Wer hat den unordentlichsten Schreibtisch?"
+    },
+    {
+      "nr": 8,
+      "tekst": "Wer bleibt am längsten beim Feierabendbier am Freitag?"
+    },
+    {
+      "nr": 9,
+      "tekst": "Wer kann am schlechtesten mit Feedback umgehen?"
+    },
+    {
+      "nr": 10,
+      "tekst": "Wer könnte am besten eine Firma leiten, die nichts mit dieser Branche zu tun hat?"
+    },
+    {
+      "nr": 11,
+      "tekst": "Wer kann am besten Probleme lösen?"
+    },
+    {
+      "nr": 12,
+      "tekst": "Wer hat das interessanteste Hobby, von dem kaum jemand weiß?"
+    },
+    {
+      "nr": 13,
+      "tekst": "Wer sagt im Meeting am wenigsten und denkt am meisten?"
+    },
+    {
+      "nr": 14,
+      "tekst": "Wer kocht am meisten Kaffee für die anderen?"
+    },
+    {
+      "nr": 15,
+      "tekst": "Wer übersteht eine Umstrukturierung, ohne dass jemand weiß, wie?"
+    },
+    {
+      "nr": 16,
+      "tekst": "Wer wird Multimillionär?"
+    },
+    {
+      "nr": 17,
+      "tekst": "Wer schickt um elf Uhr abends E-Mails?"
+    },
+    {
+      "nr": 18,
+      "tekst": "Wer bleibt am ruhigsten, wenn es stressig wird?"
+    },
+    {
+      "nr": 19,
+      "tekst": "Wer organisiert den Teamausflug, wenn es sonst niemand tut?"
+    },
+    {
+      "nr": 20,
+      "tekst": "Wer hält das Team zusammen, ohne dass es in der Stellenbeschreibung steht?"
+    },
+    {
+      "nr": 21,
+      "tekst": "Wer ist am lustigsten, ohne es zu versuchen?"
+    },
+    {
+      "nr": 22,
+      "tekst": "Wer lässt die meisten Tassen stehen?"
+    },
+    {
+      "nr": 23,
+      "tekst": "Wer wird am längsten studieren?"
+    },
+    {
+      "nr": 24,
+      "tekst": "Wer schreibt die längsten E-Mails?"
+    },
+    {
+      "nr": 25,
+      "tekst": "Wer singt beim Firmenfest als Erstes Karaoke?"
+    },
+    {
+      "nr": 26,
+      "tekst": "Wer ist der beste Organisator?"
+    },
+    {
+      "nr": 27,
+      "tekst": "Wer hat den längsten Arbeitsweg und beschwert sich am wenigsten darüber?"
+    },
+    {
+      "nr": 28,
+      "tekst": "Wer hat die meisten ungelesenen E-Mails?"
+    },
+    {
+      "nr": 29,
+      "tekst": "Wer ist am Montagmorgen als Erstes da?"
+    },
+    {
+      "nr": 30,
+      "tekst": "Wer könnte am besten undercover bei der Konkurrenz arbeiten?"
+    },
+    {
+      "nr": 31,
+      "tekst": "Wer bekommt den besten Job?"
+    },
+    {
+      "nr": 32,
+      "tekst": "Wer antwortet am schnellsten auf eine Nachricht?"
+    },
+    {
+      "nr": 33,
+      "tekst": "Wer macht die längste Mittagspause, ohne dass es jemand merkt?"
+    },
+    {
+      "nr": 34,
+      "tekst": "Wer macht die meisten Komplimente?"
+    },
+    {
+      "nr": 35,
+      "tekst": "Wer könnte einen schwierigen Kunden in einem einzigen Gespräch umstimmen?"
+    },
+    {
+      "nr": 36,
+      "tekst": "Wer redet am meisten über die Wochenendpläne?"
+    },
+    {
+      "nr": 37,
+      "tekst": "Wer kann am besten Entscheidungen treffen?"
+    },
+    {
+      "nr": 38,
+      "tekst": "Wer hat die meisten Tabs offen?"
+    },
+    {
+      "nr": 39,
+      "tekst": "Wer kommt am häufigsten nicht mit und wird am meisten vermisst?"
+    },
+    {
+      "nr": 40,
+      "tekst": "Wer sitzt in zehn Jahren noch hier?"
+    },
+    {
+      "nr": 41,
+      "tekst": "Wen hättest du bei einer Deadline um Mitternacht am liebsten neben dir?"
+    },
+    {
+      "nr": 42,
+      "tekst": "Wer hat die meisten Pflanzen auf dem Schreibtisch?"
+    },
+    {
+      "nr": 43,
+      "tekst": "Wer benutzt die meisten Abkürzungen, die niemand versteht?"
+    },
+    {
+      "nr": 44,
+      "tekst": "Wer ist am besten für eine Karriere in der Politik geeignet?"
+    },
+    {
+      "nr": 45,
+      "tekst": "Wer kennt jeden im ganzen Gebäude?"
+    },
+    {
+      "nr": 46,
+      "tekst": "Wer meckert am meisten über Kleinigkeiten?"
+    },
+    {
+      "nr": 47,
+      "tekst": "Wer ruft lieber an, als zu tippen?"
+    },
+    {
+      "nr": 48,
+      "tekst": "Wer zeigt die meisten Urlaubsfotos?"
+    },
+    {
+      "nr": 49,
+      "tekst": "Wer kommt am häufigsten vorbei, um etwas zu fragen, das auch per Mail gegangen wäre?"
+    },
+    {
+      "nr": 50,
+      "tekst": "Wer würde als Einziger weiterarbeiten, wenn das Büro brennt?"
+    },
+    {
+      "nr": 51,
+      "tekst": "Wer ist am ehrlichsten, auch wenn es gerade nicht passt?"
+    },
+    {
+      "nr": 52,
+      "tekst": "Wer kommt beim Umtrunk am schnellsten mit einer fremden Abteilung ins Gespräch?"
+    },
+    {
+      "nr": 53,
+      "tekst": "Wer hat immer ein Ladekabel dabei?"
+    },
+    {
+      "nr": 54,
+      "tekst": "Wer gründet als Erstes eine eigene Firma?"
+    },
+    {
+      "nr": 55,
+      "tekst": "Wer schickt als Erstes etwas in die Gruppe, das nichts mit der Arbeit zu tun hat?"
+    },
+    {
+      "nr": 56,
+      "tekst": "Wer vergisst am häufigsten, das Mikro wieder einzuschalten?"
+    },
+    {
+      "nr": 57,
+      "tekst": "Wer fragt als Einziger nach, wenn etwas nicht stimmt?"
+    },
+    {
+      "nr": 58,
+      "tekst": "Wer hat die ordentlichste Brotdose?"
+    },
+    {
+      "nr": 59,
+      "tekst": "Wer könnte am besten ein Betriebsfest moderieren?"
+    },
+    {
+      "nr": 60,
+      "tekst": "Wer nimmt die Arbeit gedanklich am meisten mit nach Hause?"
+    },
+    {
+      "nr": 61,
+      "tekst": "Wer beendet ein Meeting am häufigsten pünktlich?"
+    },
+    {
+      "nr": 62,
+      "tekst": "Wer verschwindet am häufigsten unbemerkt für eine halbe Stunde?"
+    },
+    {
+      "nr": 63,
+      "tekst": "Wer ist am neugierigsten auf andere?"
+    },
+    {
+      "nr": 64,
+      "tekst": "Wer könnte am besten ein Team von fünfzig Leuten leiten?"
+    },
+    {
+      "nr": 65,
+      "tekst": "Wer hat im Videocall den auffälligsten Hintergrund?"
+    },
+    {
+      "nr": 66,
+      "tekst": "Wer hat am Tag nach dem Betriebsfest am meisten zu erzählen?"
+    },
+    {
+      "nr": 67,
+      "tekst": "Wer isst am häufigsten am Schreibtisch weiter?"
+    },
+    {
+      "nr": 68,
+      "tekst": "Wer lebt von neun bis fünf am gesündesten und danach am wenigsten?"
+    },
+    {
+      "nr": 69,
+      "tekst": "Wer übernimmt am meisten Arbeit von anderen?"
+    },
+    {
+      "nr": 70,
+      "tekst": "Wer würde es am längsten in einem furchtbaren Job aushalten?"
+    },
+    {
+      "nr": 71,
+      "tekst": "Wer fragt als Erstes nach einer Gehaltserhöhung?"
+    },
+    {
+      "nr": 72,
+      "tekst": "Wer hat die meisten Snacks in der Schublade?"
+    },
+    {
+      "nr": 73,
+      "tekst": "Wer weiß immer als Erstes, was los ist?"
+    },
+    {
+      "nr": 74,
+      "tekst": "Wer kennt für jedes Programm ein Tastenkürzel?"
+    },
+    {
+      "nr": 75,
+      "tekst": "Wer beginnt jedes Meeting mit einer Anekdote?"
+    },
+    {
+      "nr": 76,
+      "tekst": "Wer kennt sich am besten mit etwas aus, wonach niemand fragt?"
+    },
+    {
+      "nr": 77,
+      "tekst": "Wer lässt am wenigsten merken, wie es wirklich geht?"
+    },
+    {
+      "nr": 78,
+      "tekst": "Wen würdest du auf eine Messe schicken, um Kunden zu gewinnen?"
+    },
+    {
+      "nr": 79,
+      "tekst": "Wer sagt als Einziger laut, was der Rest denkt?"
+    },
+    {
+      "nr": 80,
+      "tekst": "Wer setzt als Erstes einen Roboter auf den eigenen Platz statt umgekehrt?"
+    },
+    {
+      "nr": 81,
+      "tekst": "Wen würdest du anrufen, wenn wirklich etwas schiefgeht?"
+    },
+    {
+      "nr": 82,
+      "tekst": "Wer kündigt den Job für ein Jahr Reisen?"
+    },
+    {
+      "nr": 83,
+      "tekst": "Wer schreibt im Chat, was er sich laut nicht zu sagen traut?"
+    },
+    {
+      "nr": 84,
+      "tekst": "Wer beansprucht immer denselben Stuhl?"
+    },
+    {
+      "nr": 85,
+      "tekst": "Wer hat am meisten Geduld mit einem schwierigen Kunden?"
+    },
+    {
+      "nr": 86,
+      "tekst": "Wer speichert Dateien an einem Ort, den niemand wiederfindet?"
+    },
+    {
+      "nr": 87,
+      "tekst": "Wer ergreift bei einem Abschied als Erstes das Wort?"
+    },
+    {
+      "nr": 88,
+      "tekst": "Wen hättest du am liebsten als Nachbarn?"
+    },
+    {
+      "nr": 89,
+      "tekst": "Wer hatte früher einen ganz anderen Beruf im Kopf?"
+    },
+    {
+      "nr": 90,
+      "tekst": "Wer wäre der beste Chef und will es am wenigsten?"
+    },
+    {
+      "nr": 91,
+      "tekst": "Wer entschuldigt sich am häufigsten ohne Grund?"
+    },
+    {
+      "nr": 92,
+      "tekst": "Wer kümmert sich immer um den Kuchen?"
+    },
+    {
+      "nr": 93,
+      "tekst": "Wer traut sich als Erstes, dem Chef zu widersprechen?"
+    },
+    {
+      "nr": 94,
+      "tekst": "Wer würde am längsten weiterarbeiten, wenn das System ausfällt?"
+    },
+    {
+      "nr": 95,
+      "tekst": "Wer geht als Letztes, ohne dass es nötig ist?"
+    },
+    {
+      "nr": 96,
+      "tekst": "Wer fasst am Ende immer zusammen, was beschlossen wurde?"
+    },
+    {
+      "nr": 97,
+      "tekst": "Wer hat zu Hause ein ganz anderes Leben, als man denkt?"
+    },
+    {
+      "nr": 98,
+      "tekst": "Wer könnte am besten in einer ganz anderen Branche neu anfangen?"
+    },
+    {
+      "nr": 99,
+      "tekst": "Wer ist im Büro am meisten er selbst?"
+    },
+    {
+      "nr": 100,
+      "tekst": "Wer verhandelt am besten über etwas, das nicht ihm gehört?"
+    }
+  ]
+}

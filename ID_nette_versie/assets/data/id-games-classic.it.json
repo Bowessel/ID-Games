@@ -1,0 +1,411 @@
+{
+  "versie": "2026-11-24",
+  "taal": "it",
+  "id": "classic",
+  "naam": "Classic",
+  "omschrijving": "Il mix perfetto per ogni gruppo di amici.",
+  "bron": "id-games-classic.json",
+  "aantal": 100,
+  "vragen": [
+    {
+      "nr": 1,
+      "tekst": "Chi è il più casalingo?"
+    },
+    {
+      "nr": 2,
+      "tekst": "Chi è il più piacevole con cui chiacchierare?"
+    },
+    {
+      "nr": 3,
+      "tekst": "Chi ha lo stile più bello?"
+    },
+    {
+      "nr": 4,
+      "tekst": "Chi beve di più?"
+    },
+    {
+      "nr": 5,
+      "tekst": "Chi è il più tenace?"
+    },
+    {
+      "nr": 6,
+      "tekst": "A chi racconti più segreti?"
+    },
+    {
+      "nr": 7,
+      "tekst": "Chi ha gli occhi più belli?"
+    },
+    {
+      "nr": 8,
+      "tekst": "Chi avrà un giorno una grande villa?"
+    },
+    {
+      "nr": 9,
+      "tekst": "Chi è il più sarcastico?"
+    },
+    {
+      "nr": 10,
+      "tekst": "Chi si prende più spesso una cotta?"
+    },
+    {
+      "nr": 11,
+      "tekst": "Chi è il più goloso di dolci?"
+    },
+    {
+      "nr": 12,
+      "tekst": "Chi è il più timido?"
+    },
+    {
+      "nr": 13,
+      "tekst": "Di chi ci si può fidare di più?"
+    },
+    {
+      "nr": 14,
+      "tekst": "Chi è il più prepotente?"
+    },
+    {
+      "nr": 15,
+      "tekst": "Chi si sposerà per primo?"
+    },
+    {
+      "nr": 16,
+      "tekst": "Chi è il più fortunato?"
+    },
+    {
+      "nr": 17,
+      "tekst": "Chi è il più creativo?"
+    },
+    {
+      "nr": 18,
+      "tekst": "Chi si lamenta di più?"
+    },
+    {
+      "nr": 19,
+      "tekst": "Chi ha più amici?"
+    },
+    {
+      "nr": 20,
+      "tekst": "Chi mangia di più?"
+    },
+    {
+      "nr": 21,
+      "tekst": "Chi è il più dolce?"
+    },
+    {
+      "nr": 22,
+      "tekst": "Chi è sempre attaccato al telefono?"
+    },
+    {
+      "nr": 23,
+      "tekst": "Chi è la migliore figura materna o paterna?"
+    },
+    {
+      "nr": 24,
+      "tekst": "Chi chiameresti se fossi bloccato all'estero nel cuore della notte?"
+    },
+    {
+      "nr": 25,
+      "tekst": "Chi ha meno tatto?"
+    },
+    {
+      "nr": 26,
+      "tekst": "Chi ha il sorriso più bello?"
+    },
+    {
+      "nr": 27,
+      "tekst": "Chi vive in modo meno sano?"
+    },
+    {
+      "nr": 28,
+      "tekst": "Chi farà più strada?"
+    },
+    {
+      "nr": 29,
+      "tekst": "Chi è il più indeciso?"
+    },
+    {
+      "nr": 30,
+      "tekst": "Chi è più 'uno dei ragazzi'?"
+    },
+    {
+      "nr": 31,
+      "tekst": "Chi sgranocchia di più?"
+    },
+    {
+      "nr": 32,
+      "tekst": "Chi è il più sicuro di sé?"
+    },
+    {
+      "nr": 33,
+      "tekst": "Chi ha più influenza nel gruppo?"
+    },
+    {
+      "nr": 34,
+      "tekst": "Chi potrebbe condurre una doppia vita segreta?"
+    },
+    {
+      "nr": 35,
+      "tekst": "Chi è l'anima più romantica del gruppo?"
+    },
+    {
+      "nr": 36,
+      "tekst": "Chi dice più spesso una bugia a fin di bene?"
+    },
+    {
+      "nr": 37,
+      "tekst": "Chi indossa i vestiti più audaci?"
+    },
+    {
+      "nr": 38,
+      "tekst": "Chi sa ascoltare meglio?"
+    },
+    {
+      "nr": 39,
+      "tekst": "Chi avrà più figli in futuro?"
+    },
+    {
+      "nr": 40,
+      "tekst": "Chi è il più serio?"
+    },
+    {
+      "nr": 41,
+      "tekst": "Chi è il più vanitoso?"
+    },
+    {
+      "nr": 42,
+      "tekst": "Chi ha la vita più avvincente?"
+    },
+    {
+      "nr": 43,
+      "tekst": "Chi è il più ingenuo?"
+    },
+    {
+      "nr": 44,
+      "tekst": "Chi ha il taglio di capelli più bello?"
+    },
+    {
+      "nr": 45,
+      "tekst": "Con chi vorresti fare il giro del mondo?"
+    },
+    {
+      "nr": 46,
+      "tekst": "Per chi la famiglia è la cosa più importante?"
+    },
+    {
+      "nr": 47,
+      "tekst": "Chi è il più facile da prendere in giro?"
+    },
+    {
+      "nr": 48,
+      "tekst": "Chi potrebbe diventare famoso più in fretta?"
+    },
+    {
+      "nr": 49,
+      "tekst": "Chi ha più saggezza nel gruppo?"
+    },
+    {
+      "nr": 50,
+      "tekst": "Chi è il più geloso di natura?"
+    },
+    {
+      "nr": 51,
+      "tekst": "Chi si gode di più la vita?"
+    },
+    {
+      "nr": 52,
+      "tekst": "Chi è il più socievole e fa amicizia più facilmente?"
+    },
+    {
+      "nr": 53,
+      "tekst": "Chi ha il naso più bello?"
+    },
+    {
+      "nr": 54,
+      "tekst": "Di chi ti fidi meno al volante?"
+    },
+    {
+      "nr": 55,
+      "tekst": "Chi andrà a vivere all'estero per primo?"
+    },
+    {
+      "nr": 56,
+      "tekst": "Chi è il più positivo?"
+    },
+    {
+      "nr": 57,
+      "tekst": "A chi ti affideresti per un cambio di look?"
+    },
+    {
+      "nr": 58,
+      "tekst": "Chi ha più spesso la testa tra le nuvole?"
+    },
+    {
+      "nr": 59,
+      "tekst": "Chi è il più eroico?"
+    },
+    {
+      "nr": 60,
+      "tekst": "Chi ha più segreti?"
+    },
+    {
+      "nr": 61,
+      "tekst": "Chi è il più attento alla moda?"
+    },
+    {
+      "nr": 62,
+      "tekst": "Chi avrà la relazione più lunga?"
+    },
+    {
+      "nr": 63,
+      "tekst": "Chi si lascia convincere più facilmente?"
+    },
+    {
+      "nr": 64,
+      "tekst": "Chi è il più felice?"
+    },
+    {
+      "nr": 65,
+      "tekst": "Chi trovi più bello?"
+    },
+    {
+      "nr": 66,
+      "tekst": "Chi ama di più sperimentare?"
+    },
+    {
+      "nr": 67,
+      "tekst": "Chi ha il rapporto migliore con fratelli e sorelle?"
+    },
+    {
+      "nr": 68,
+      "tekst": "Chi è cambiato di più dalle superiori?"
+    },
+    {
+      "nr": 69,
+      "tekst": "Chi sa leggere meglio le persone?"
+    },
+    {
+      "nr": 70,
+      "tekst": "Chi rientra meglio nell'immagine di casetta, giardino e famiglia?"
+    },
+    {
+      "nr": 71,
+      "tekst": "Chi è il più bravo con le parole?"
+    },
+    {
+      "nr": 72,
+      "tekst": "Chi sarebbe il più impacciato a un primo appuntamento?"
+    },
+    {
+      "nr": 73,
+      "tekst": "Chi tratta meglio le proprie cose?"
+    },
+    {
+      "nr": 74,
+      "tekst": "Chi farà un giorno qualcosa di grande per l'umanità?"
+    },
+    {
+      "nr": 75,
+      "tekst": "Chi vorresti di più come compagno in una escape room?"
+    },
+    {
+      "nr": 76,
+      "tekst": "Chi è la nuora o il genero ideale?"
+    },
+    {
+      "nr": 77,
+      "tekst": "Chi ha più senso di responsabilità?"
+    },
+    {
+      "nr": 78,
+      "tekst": "Chi è la più 'ragazza-ragazza'?"
+    },
+    {
+      "nr": 79,
+      "tekst": "Chi ha meno opinioni?"
+    },
+    {
+      "nr": 80,
+      "tekst": "Chi sposerà il primo amore e ci resterà insieme?"
+    },
+    {
+      "nr": 81,
+      "tekst": "Chi si sente più a casa in questo gruppo?"
+    },
+    {
+      "nr": 82,
+      "tekst": "Chi avrà i figli più belli?"
+    },
+    {
+      "nr": 83,
+      "tekst": "Chi ci arriva sempre per ultimo?"
+    },
+    {
+      "nr": 84,
+      "tekst": "Con chi preferiresti finire in una brutta situazione?"
+    },
+    {
+      "nr": 85,
+      "tekst": "Chi spende più soldi per l'aspetto?"
+    },
+    {
+      "nr": 86,
+      "tekst": "Chi potrebbe scrivere un libro sulla propria vita?"
+    },
+    {
+      "nr": 87,
+      "tekst": "Chi si comporta in modo più maturo degli altri?"
+    },
+    {
+      "nr": 88,
+      "tekst": "Chi si troverebbe per primo su un sito di incontri?"
+    },
+    {
+      "nr": 89,
+      "tekst": "Chi sarà ancora più uguale a oggi tra molti anni?"
+    },
+    {
+      "nr": 90,
+      "tekst": "Chi è più probabile che tenga un diario?"
+    },
+    {
+      "nr": 91,
+      "tekst": "Chi è più probabile che emigri all'improvviso?"
+    },
+    {
+      "nr": 92,
+      "tekst": "Chi sceglieresti se dovessi scambiare un giorno della tua vita?"
+    },
+    {
+      "nr": 93,
+      "tekst": "Per chi l'aspetto conta di più in un uomo?"
+    },
+    {
+      "nr": 94,
+      "tekst": "Chi vivrà più a lungo?"
+    },
+    {
+      "nr": 95,
+      "tekst": "Chi dedicherà la propria vita a una buona causa?"
+    },
+    {
+      "nr": 96,
+      "tekst": "Chi avrebbe la storia di rottura più drammatica?"
+    },
+    {
+      "nr": 97,
+      "tekst": "Chi avrà il marito più bello?"
+    },
+    {
+      "nr": 98,
+      "tekst": "Per chi godersi la vita è lo scopo più importante?"
+    },
+    {
+      "nr": 99,
+      "tekst": "Chi fa nuove amicizie più facilmente?"
+    },
+    {
+      "nr": 100,
+      "tekst": "Chi potresti trovare un giorno al banco alimentare?"
+    }
+  ]
+}
