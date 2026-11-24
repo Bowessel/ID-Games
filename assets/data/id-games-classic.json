@@ -1,0 +1,410 @@
+{
+  "versie": "2026-11-24",
+  "taal": "nl",
+  "id": "classic",
+  "naam": "Classic",
+  "omschrijving": "De vertrouwde mix voor elke vriendengroep.",
+  "aantal": 100,
+  "vragen": [
+    {
+      "nr": 1,
+      "tekst": "Wie is de grootste huismus?"
+    },
+    {
+      "nr": 2,
+      "tekst": "Wie is de gezelligste prater?"
+    },
+    {
+      "nr": 3,
+      "tekst": "Wie heeft de leukste kledingstijl?"
+    },
+    {
+      "nr": 4,
+      "tekst": "Wie drinkt het meest?"
+    },
+    {
+      "nr": 5,
+      "tekst": "Wie is de grootste doorzetter?"
+    },
+    {
+      "nr": 6,
+      "tekst": "Wie vertel je de meeste geheimen?"
+    },
+    {
+      "nr": 7,
+      "tekst": "Wie heeft de mooiste ogen?"
+    },
+    {
+      "nr": 8,
+      "tekst": "Wie gaat er ooit een grote villa hebben?"
+    },
+    {
+      "nr": 9,
+      "tekst": "Wie is het meest sarcastisch?"
+    },
+    {
+      "nr": 10,
+      "tekst": "Wie heeft het vaakst een crush?"
+    },
+    {
+      "nr": 11,
+      "tekst": "Wie is een echt toetjesmens?"
+    },
+    {
+      "nr": 12,
+      "tekst": "Wie is het meest verlegen?"
+    },
+    {
+      "nr": 13,
+      "tekst": "Wie kan je het best vertrouwen?"
+    },
+    {
+      "nr": 14,
+      "tekst": "Wie is het meest bazig?"
+    },
+    {
+      "nr": 15,
+      "tekst": "Wie zal het eerst trouwen?"
+    },
+    {
+      "nr": 16,
+      "tekst": "Wie heeft het meeste geluk?"
+    },
+    {
+      "nr": 17,
+      "tekst": "Wie is het meest creatief?"
+    },
+    {
+      "nr": 18,
+      "tekst": "Wie klaagt het meest?"
+    },
+    {
+      "nr": 19,
+      "tekst": "Wie heeft de meeste vrienden?"
+    },
+    {
+      "nr": 20,
+      "tekst": "Wie eet het meest?"
+    },
+    {
+      "nr": 21,
+      "tekst": "Wie is het liefst?"
+    },
+    {
+      "nr": 22,
+      "tekst": "Wie is altijd met zijn of haar telefoon bezig?"
+    },
+    {
+      "nr": 23,
+      "tekst": "Wie is de beste moeder- of vaderfiguur?"
+    },
+    {
+      "nr": 24,
+      "tekst": "Wie zou je bellen als je midden in de nacht vastzit in het buitenland?"
+    },
+    {
+      "nr": 25,
+      "tekst": "Wie is het minst tactvol?"
+    },
+    {
+      "nr": 26,
+      "tekst": "Wie heeft de mooiste glimlach?"
+    },
+    {
+      "nr": 27,
+      "tekst": "Wie leeft het minst gezond?"
+    },
+    {
+      "nr": 28,
+      "tekst": "Wie gaat het meest bereiken?"
+    },
+    {
+      "nr": 29,
+      "tekst": "Wie is de grootste twijfelaar?"
+    },
+    {
+      "nr": 30,
+      "tekst": "Wie is het meest 'one of the guys'?"
+    },
+    {
+      "nr": 31,
+      "tekst": "Wie snoept het meest?"
+    },
+    {
+      "nr": 32,
+      "tekst": "Wie is het meest zelfverzekerd?"
+    },
+    {
+      "nr": 33,
+      "tekst": "Wie heeft de meeste invloed in de groep?"
+    },
+    {
+      "nr": 34,
+      "tekst": "Wie zou een geheim dubbelleven kunnen leiden?"
+    },
+    {
+      "nr": 35,
+      "tekst": "Wie is de meest romantische ziel van de groep?"
+    },
+    {
+      "nr": 36,
+      "tekst": "Wie gebruikt het vaakst een leugentje om bestwil?"
+    },
+    {
+      "nr": 37,
+      "tekst": "Wie draagt de meest gewaagde kleding?"
+    },
+    {
+      "nr": 38,
+      "tekst": "Wie kan er het best luisteren?"
+    },
+    {
+      "nr": 39,
+      "tekst": "Wie krijgt later de meeste kinderen?"
+    },
+    {
+      "nr": 40,
+      "tekst": "Wie is het serieust?"
+    },
+    {
+      "nr": 41,
+      "tekst": "Wie is het meest ijdel?"
+    },
+    {
+      "nr": 42,
+      "tekst": "Wie heeft het boeiendste leven?"
+    },
+    {
+      "nr": 43,
+      "tekst": "Wie is het meest naïef?"
+    },
+    {
+      "nr": 44,
+      "tekst": "Wie heeft het leukste kapsel?"
+    },
+    {
+      "nr": 45,
+      "tekst": "Met wie zou je wel eens op wereldreis willen?"
+    },
+    {
+      "nr": 46,
+      "tekst": "Wie vindt zijn of haar familie het belangrijkste?"
+    },
+    {
+      "nr": 47,
+      "tekst": "Wie is het makkelijkst voor de gek te houden?"
+    },
+    {
+      "nr": 48,
+      "tekst": "Wie zou het snelst beroemd kunnen worden?"
+    },
+    {
+      "nr": 49,
+      "tekst": "Wie heeft de meeste levenswijsheid in de groep?"
+    },
+    {
+      "nr": 50,
+      "tekst": "Wie is het meest jaloers aangelegd?"
+    },
+    {
+      "nr": 51,
+      "tekst": "Wie is de grootste genieter?"
+    },
+    {
+      "nr": 52,
+      "tekst": "Wie is het meest sociaal en maakt het makkelijkst vrienden?"
+    },
+    {
+      "nr": 53,
+      "tekst": "Wie heeft de mooiste neus?"
+    },
+    {
+      "nr": 54,
+      "tekst": "Wie vertrouw je het minst achter het stuur?"
+    },
+    {
+      "nr": 55,
+      "tekst": "Wie gaat er later het snelst in het buitenland wonen?"
+    },
+    {
+      "nr": 56,
+      "tekst": "Wie is er het meest positief?"
+    },
+    {
+      "nr": 57,
+      "tekst": "Wie zou je inschakelen voor een make-over?"
+    },
+    {
+      "nr": 58,
+      "tekst": "Wie heeft het meest een hoofd in de wolken?"
+    },
+    {
+      "nr": 59,
+      "tekst": "Wie is het meest heldhaftig?"
+    },
+    {
+      "nr": 60,
+      "tekst": "Wie heeft er de meeste geheimen?"
+    },
+    {
+      "nr": 61,
+      "tekst": "Wie is het meest modebewust?"
+    },
+    {
+      "nr": 62,
+      "tekst": "Wie zal er de langste relatie hebben?"
+    },
+    {
+      "nr": 63,
+      "tekst": "Wie laat zich het snelst overhalen?"
+    },
+    {
+      "nr": 64,
+      "tekst": "Wie is er het gelukkigst?"
+    },
+    {
+      "nr": 65,
+      "tekst": "Wie vind je het mooist?"
+    },
+    {
+      "nr": 66,
+      "tekst": "Wie is het meest experimenteel?"
+    },
+    {
+      "nr": 67,
+      "tekst": "Wie heeft de beste band met zijn broers en zussen?"
+    },
+    {
+      "nr": 68,
+      "tekst": "Wie is sinds de middelbare school het meest veranderd?"
+    },
+    {
+      "nr": 69,
+      "tekst": "Wie heeft het meeste mensenkennis?"
+    },
+    {
+      "nr": 70,
+      "tekst": "Wie past het best in het plaatje huisje-tuintje-boompje?"
+    },
+    {
+      "nr": 71,
+      "tekst": "Wie is verbaal het sterkst?"
+    },
+    {
+      "nr": 72,
+      "tekst": "Wie zou het meest ongemakkelijk zijn op een first date?"
+    },
+    {
+      "nr": 73,
+      "tekst": "Wie is het zuinigst op zijn of haar spullen?"
+    },
+    {
+      "nr": 74,
+      "tekst": "Wie gaat er ooit iets groots doen voor de mensheid?"
+    },
+    {
+      "nr": 75,
+      "tekst": "Wie zou je het best als partner in een escape room willen hebben?"
+    },
+    {
+      "nr": 76,
+      "tekst": "Wie is de ideale schoondochter of schoonzoon?"
+    },
+    {
+      "nr": 77,
+      "tekst": "Wie heeft er het meest verantwoordelijkheidsgevoel?"
+    },
+    {
+      "nr": 78,
+      "tekst": "Wie is het meest een meisje-meisje?"
+    },
+    {
+      "nr": 79,
+      "tekst": "Wie heeft het minst een mening?"
+    },
+    {
+      "nr": 80,
+      "tekst": "Wie trouwt en blijft er bij zijn of haar eerste liefde?"
+    },
+    {
+      "nr": 81,
+      "tekst": "Wie voelt zich het beste thuis in deze groep?"
+    },
+    {
+      "nr": 82,
+      "tekst": "Wie krijgt later de knapste kinderen?"
+    },
+    {
+      "nr": 83,
+      "tekst": "Wie is het laatst van begrip?"
+    },
+    {
+      "nr": 84,
+      "tekst": "Met wie zou je het liefst in een nare situatie belanden?"
+    },
+    {
+      "nr": 85,
+      "tekst": "Wie geeft het meeste geld uit aan uiterlijk?"
+    },
+    {
+      "nr": 86,
+      "tekst": "Wie zou een boek over zijn of haar leven kunnen schrijven?"
+    },
+    {
+      "nr": 87,
+      "tekst": "Wie gedraagt zich volwassener dan de rest?"
+    },
+    {
+      "nr": 88,
+      "tekst": "Wie zou er het snelst op een datingsite te vinden zijn?"
+    },
+    {
+      "nr": 89,
+      "tekst": "Wie zal er later nog het meest hetzelfde uitzien?"
+    },
+    {
+      "nr": 90,
+      "tekst": "Wie houdt het meest waarschijnlijk een dagboek bij?"
+    },
+    {
+      "nr": 91,
+      "tekst": "Wie is het meest waarschijnlijk om spontaan te emigreren?"
+    },
+    {
+      "nr": 92,
+      "tekst": "Wie zou je kiezen als je een dag van je leven moest ruilen?"
+    },
+    {
+      "nr": 93,
+      "tekst": "Wie vindt uiterlijk bij een man het belangrijkst?"
+    },
+    {
+      "nr": 94,
+      "tekst": "Wie leeft het langst?"
+    },
+    {
+      "nr": 95,
+      "tekst": "Wie gaat zijn of haar leven wijden aan een goed doel?"
+    },
+    {
+      "nr": 96,
+      "tekst": "Wie zou het meest dramatische break-upverhaal hebben?"
+    },
+    {
+      "nr": 97,
+      "tekst": "Wie krijgt de knapste man?"
+    },
+    {
+      "nr": 98,
+      "tekst": "Voor wie is genieten het belangrijkste doel in het leven?"
+    },
+    {
+      "nr": 99,
+      "tekst": "Wie maakt het makkelijkst nieuwe vrienden?"
+    },
+    {
+      "nr": 100,
+      "tekst": "Wie zal je later kunnen vinden bij de voedselbank?"
+    }
+  ]
+}

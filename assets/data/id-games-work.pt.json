@@ -1,0 +1,411 @@
+{
+  "versie": "2026-11-24",
+  "taal": "pt",
+  "id": "work",
+  "naam": "Work",
+  "omschrijving": "Humor de escritório, colegas e carreira.",
+  "bron": "id-games-work.json",
+  "aantal": 100,
+  "vragen": [
+    {
+      "nr": 1,
+      "tekst": "Quem chega atrasado com mais frequência?"
+    },
+    {
+      "nr": 2,
+      "tekst": "Quem fala mais numa reunião?"
+    },
+    {
+      "nr": 3,
+      "tekst": "Quem mais valoriza um bom salário?"
+    },
+    {
+      "nr": 4,
+      "tekst": "Quem tem o estilo mais marcante no escritório?"
+    },
+    {
+      "nr": 5,
+      "tekst": "Quem compartilha a tela errada sem querer?"
+    },
+    {
+      "nr": 6,
+      "tekst": "Quem ensina melhor os outros?"
+    },
+    {
+      "nr": 7,
+      "tekst": "Quem tem a mesa mais bagunçada?"
+    },
+    {
+      "nr": 8,
+      "tekst": "Quem fica mais tempo no happy hour de sexta?"
+    },
+    {
+      "nr": 9,
+      "tekst": "Quem lida pior com feedback?"
+    },
+    {
+      "nr": 10,
+      "tekst": "Quem conseguiria comandar melhor uma empresa que não tem nada a ver com esta área?"
+    },
+    {
+      "nr": 11,
+      "tekst": "Quem resolve melhor os problemas?"
+    },
+    {
+      "nr": 12,
+      "tekst": "Quem tem o hobby mais interessante que quase ninguém conhece?"
+    },
+    {
+      "nr": 13,
+      "tekst": "Quem fala menos na reunião e pensa mais?"
+    },
+    {
+      "nr": 14,
+      "tekst": "Quem mais faz café para os outros?"
+    },
+    {
+      "nr": 15,
+      "tekst": "Quem sobrevive a uma reestruturação sem ninguém saber como?"
+    },
+    {
+      "nr": 16,
+      "tekst": "Quem vai virar multimilionário?"
+    },
+    {
+      "nr": 17,
+      "tekst": "Quem manda e-mail às onze da noite?"
+    },
+    {
+      "nr": 18,
+      "tekst": "Quem fica mais calmo quando a coisa aperta?"
+    },
+    {
+      "nr": 19,
+      "tekst": "Quem organiza o passeio da equipe quando ninguém mais faz isso?"
+    },
+    {
+      "nr": 20,
+      "tekst": "Quem mantém a equipe unida sem isso estar na descrição do cargo?"
+    },
+    {
+      "nr": 21,
+      "tekst": "Quem é o mais engraçado sem nem tentar?"
+    },
+    {
+      "nr": 22,
+      "tekst": "Quem deixa mais xícaras largadas por aí?"
+    },
+    {
+      "nr": 23,
+      "tekst": "Quem vai estudar por mais tempo?"
+    },
+    {
+      "nr": 24,
+      "tekst": "Quem escreve os e-mails mais longos?"
+    },
+    {
+      "nr": 25,
+      "tekst": "Quem é o primeiro a cantar no karaokê da festa da empresa?"
+    },
+    {
+      "nr": 26,
+      "tekst": "Quem é o melhor organizador?"
+    },
+    {
+      "nr": 27,
+      "tekst": "Quem tem o trajeto mais longo e reclama menos dele?"
+    },
+    {
+      "nr": 28,
+      "tekst": "Quem tem mais e-mails não lidos?"
+    },
+    {
+      "nr": 29,
+      "tekst": "Quem chega primeiro na segunda de manhã?"
+    },
+    {
+      "nr": 30,
+      "tekst": "Quem conseguiria trabalhar disfarçado na concorrência?"
+    },
+    {
+      "nr": 31,
+      "tekst": "Quem vai conseguir o melhor emprego?"
+    },
+    {
+      "nr": 32,
+      "tekst": "Quem responde mais rápido a uma mensagem?"
+    },
+    {
+      "nr": 33,
+      "tekst": "Quem tira o almoço mais longo sem ninguém perceber?"
+    },
+    {
+      "nr": 34,
+      "tekst": "Quem faz mais elogios?"
+    },
+    {
+      "nr": 35,
+      "tekst": "Quem conseguiria virar o jogo com um cliente difícil numa única conversa?"
+    },
+    {
+      "nr": 36,
+      "tekst": "Quem mais fala dos planos para o fim de semana?"
+    },
+    {
+      "nr": 37,
+      "tekst": "Quem toma melhor as decisões difíceis?"
+    },
+    {
+      "nr": 38,
+      "tekst": "Quem tem mais abas abertas?"
+    },
+    {
+      "nr": 39,
+      "tekst": "Quem mais falta aos programas e é o que mais faz falta?"
+    },
+    {
+      "nr": 40,
+      "tekst": "Quem ainda vai estar aqui daqui a dez anos?"
+    },
+    {
+      "nr": 41,
+      "tekst": "Quem você mais gostaria de ter ao lado num prazo à meia-noite?"
+    },
+    {
+      "nr": 42,
+      "tekst": "Quem tem mais plantas na mesa?"
+    },
+    {
+      "nr": 43,
+      "tekst": "Quem usa mais siglas que ninguém entende?"
+    },
+    {
+      "nr": 44,
+      "tekst": "Quem leva mais jeito para uma carreira na política?"
+    },
+    {
+      "nr": 45,
+      "tekst": "Quem conhece todo mundo no prédio inteiro?"
+    },
+    {
+      "nr": 46,
+      "tekst": "Quem mais resmunga por coisas pequenas?"
+    },
+    {
+      "nr": 47,
+      "tekst": "Quem prefere ligar a digitar?"
+    },
+    {
+      "nr": 48,
+      "tekst": "Quem mostra mais fotos das férias?"
+    },
+    {
+      "nr": 49,
+      "tekst": "Quem mais aparece para perguntar algo que dava para mandar por e-mail?"
+    },
+    {
+      "nr": 50,
+      "tekst": "Quem seria o único a continuar trabalhando com o escritório pegando fogo?"
+    },
+    {
+      "nr": 51,
+      "tekst": "Quem é o mais sincero, mesmo quando não convém?"
+    },
+    {
+      "nr": 52,
+      "tekst": "Quem se enturma mais rápido com outro departamento numa confraternização?"
+    },
+    {
+      "nr": 53,
+      "tekst": "Quem sempre anda com um carregador?"
+    },
+    {
+      "nr": 54,
+      "tekst": "Quem vai ser o primeiro a abrir a própria empresa?"
+    },
+    {
+      "nr": 55,
+      "tekst": "Quem é o primeiro a mandar no grupo algo que não tem a ver com trabalho?"
+    },
+    {
+      "nr": 56,
+      "tekst": "Quem mais esquece de ligar o microfone?"
+    },
+    {
+      "nr": 57,
+      "tekst": "Quem é o único que questiona quando algo não bate?"
+    },
+    {
+      "nr": 58,
+      "tekst": "Quem tem a marmita mais organizada?"
+    },
+    {
+      "nr": 59,
+      "tekst": "Quem apresentaria melhor uma festa da firma?"
+    },
+    {
+      "nr": 60,
+      "tekst": "Quem mais leva o trabalho para casa na cabeça?"
+    },
+    {
+      "nr": 61,
+      "tekst": "Quem mais termina uma reunião no horário?"
+    },
+    {
+      "nr": 62,
+      "tekst": "Quem mais some por meia hora sem ninguém perceber?"
+    },
+    {
+      "nr": 63,
+      "tekst": "Quem é o mais curioso sobre os outros?"
+    },
+    {
+      "nr": 64,
+      "tekst": "Quem conseguiria liderar melhor uma equipe de cinquenta pessoas?"
+    },
+    {
+      "nr": 65,
+      "tekst": "Quem tem o fundo mais chamativo numa videochamada?"
+    },
+    {
+      "nr": 66,
+      "tekst": "Quem tem mais história para contar no dia seguinte à festa da firma?"
+    },
+    {
+      "nr": 67,
+      "tekst": "Quem mais almoça na mesa sem parar de trabalhar?"
+    },
+    {
+      "nr": 68,
+      "tekst": "Quem vive mais saudável das nove às cinco e menos fora desse horário?"
+    },
+    {
+      "nr": 69,
+      "tekst": "Quem mais assume trabalho dos outros?"
+    },
+    {
+      "nr": 70,
+      "tekst": "Quem aguentaria mais tempo num emprego horrível?"
+    },
+    {
+      "nr": 71,
+      "tekst": "Quem é o primeiro a pedir aumento?"
+    },
+    {
+      "nr": 72,
+      "tekst": "Quem tem mais lanchinhos na gaveta?"
+    },
+    {
+      "nr": 73,
+      "tekst": "Quem sempre fica sabendo primeiro do que está rolando?"
+    },
+    {
+      "nr": 74,
+      "tekst": "Quem sabe um atalho de teclado para cada programa?"
+    },
+    {
+      "nr": 75,
+      "tekst": "Quem começa toda reunião com uma história?"
+    },
+    {
+      "nr": 76,
+      "tekst": "Quem mais entende de algo que ninguém pergunta?"
+    },
+    {
+      "nr": 77,
+      "tekst": "Quem menos demonstra como realmente está?"
+    },
+    {
+      "nr": 78,
+      "tekst": "Quem você mandaria para uma feira para fechar clientes?"
+    },
+    {
+      "nr": 79,
+      "tekst": "Quem é o único que fala em voz alta o que todo mundo pensa?"
+    },
+    {
+      "nr": 80,
+      "tekst": "Quem seria o primeiro a colocar um robô no próprio lugar em vez do contrário?"
+    },
+    {
+      "nr": 81,
+      "tekst": "Para quem você ligaria se algo desse muito errado?"
+    },
+    {
+      "nr": 82,
+      "tekst": "Quem largaria o emprego por um ano de viagem?"
+    },
+    {
+      "nr": 83,
+      "tekst": "Quem escreve no chat o que não tem coragem de dizer em voz alta?"
+    },
+    {
+      "nr": 84,
+      "tekst": "Quem sempre pega a mesma cadeira?"
+    },
+    {
+      "nr": 85,
+      "tekst": "Quem tem mais paciência com um cliente difícil?"
+    },
+    {
+      "nr": 86,
+      "tekst": "Quem salva arquivos num lugar que ninguém encontra?"
+    },
+    {
+      "nr": 87,
+      "tekst": "Quem é o primeiro a falar numa despedida?"
+    },
+    {
+      "nr": 88,
+      "tekst": "Quem você mais gostaria de ter como vizinho?"
+    },
+    {
+      "nr": 89,
+      "tekst": "Quem antes pensava numa profissão completamente diferente?"
+    },
+    {
+      "nr": 90,
+      "tekst": "Quem seria o melhor chefe e é quem menos quer isso?"
+    },
+    {
+      "nr": 91,
+      "tekst": "Quem mais pede desculpa sem precisar?"
+    },
+    {
+      "nr": 92,
+      "tekst": "Quem sempre cuida do bolo?"
+    },
+    {
+      "nr": 93,
+      "tekst": "Quem tem coragem de enfrentar o chefe primeiro?"
+    },
+    {
+      "nr": 94,
+      "tekst": "Quem continuaria trabalhando por mais tempo com o sistema fora do ar?"
+    },
+    {
+      "nr": 95,
+      "tekst": "Quem é o último a ir embora sem precisar?"
+    },
+    {
+      "nr": 96,
+      "tekst": "Quem sempre resume no final o que foi decidido?"
+    },
+    {
+      "nr": 97,
+      "tekst": "Quem tem em casa uma vida completamente diferente do que você imagina?"
+    },
+    {
+      "nr": 98,
+      "tekst": "Quem conseguiria recomeçar melhor numa área totalmente diferente?"
+    },
+    {
+      "nr": 99,
+      "tekst": "Quem é mais autêntico no escritório?"
+    },
+    {
+      "nr": 100,
+      "tekst": "Quem negocia melhor algo que não é seu?"
+    }
+  ]
+}

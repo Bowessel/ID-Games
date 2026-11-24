@@ -1,0 +1,411 @@
+{
+  "versie": "2026-11-24",
+  "taal": "en",
+  "id": "work",
+  "naam": "Work",
+  "omschrijving": "Office humor, coworkers & career.",
+  "bron": "id-games-work.json",
+  "aantal": 100,
+  "vragen": [
+    {
+      "nr": 1,
+      "tekst": "Who is late the most often?"
+    },
+    {
+      "nr": 2,
+      "tekst": "Who talks the longest in a meeting?"
+    },
+    {
+      "nr": 3,
+      "tekst": "Who values a good salary the most?"
+    },
+    {
+      "nr": 4,
+      "tekst": "Who has the most distinctive dress style at the office?"
+    },
+    {
+      "nr": 5,
+      "tekst": "Who accidentally shares the wrong screen?"
+    },
+    {
+      "nr": 6,
+      "tekst": "Who is best at teaching others?"
+    },
+    {
+      "nr": 7,
+      "tekst": "Who has the messiest desk?"
+    },
+    {
+      "nr": 8,
+      "tekst": "Who stays the longest at Friday afternoon drinks?"
+    },
+    {
+      "nr": 9,
+      "tekst": "Who handles feedback the worst?"
+    },
+    {
+      "nr": 10,
+      "tekst": "Who could best run a company that has nothing to do with this industry?"
+    },
+    {
+      "nr": 11,
+      "tekst": "Who is best at solving problems?"
+    },
+    {
+      "nr": 12,
+      "tekst": "Who has the most interesting hobby that hardly anyone knows about?"
+    },
+    {
+      "nr": 13,
+      "tekst": "Who says the least in a meeting but thinks the most?"
+    },
+    {
+      "nr": 14,
+      "tekst": "Who makes the most coffee for everyone else?"
+    },
+    {
+      "nr": 15,
+      "tekst": "Who survives a reorganization without anyone knowing how?"
+    },
+    {
+      "nr": 16,
+      "tekst": "Who will become a multimillionaire?"
+    },
+    {
+      "nr": 17,
+      "tekst": "Who sends emails at eleven at night?"
+    },
+    {
+      "nr": 18,
+      "tekst": "Who stays the calmest when things get busy?"
+    },
+    {
+      "nr": 19,
+      "tekst": "Who organizes the team outing when nobody else does?"
+    },
+    {
+      "nr": 20,
+      "tekst": "Who keeps the team together without it being in their job description?"
+    },
+    {
+      "nr": 21,
+      "tekst": "Who is the funniest without even trying?"
+    },
+    {
+      "nr": 22,
+      "tekst": "Who leaves the most cups lying around?"
+    },
+    {
+      "nr": 23,
+      "tekst": "Who will study the longest?"
+    },
+    {
+      "nr": 24,
+      "tekst": "Who writes the longest emails?"
+    },
+    {
+      "nr": 25,
+      "tekst": "Who is the first to sing at karaoke at the company party?"
+    },
+    {
+      "nr": 26,
+      "tekst": "Who is the best organizer?"
+    },
+    {
+      "nr": 27,
+      "tekst": "Who has the longest commute and complains about it the least?"
+    },
+    {
+      "nr": 28,
+      "tekst": "Who has the most unread emails?"
+    },
+    {
+      "nr": 29,
+      "tekst": "Who is the first one in on Monday morning?"
+    },
+    {
+      "nr": 30,
+      "tekst": "Who could best work undercover at the competition?"
+    },
+    {
+      "nr": 31,
+      "tekst": "Who will land the best job?"
+    },
+    {
+      "nr": 32,
+      "tekst": "Who replies to a message the fastest?"
+    },
+    {
+      "nr": 33,
+      "tekst": "Who takes the longest lunch break without anyone noticing?"
+    },
+    {
+      "nr": 34,
+      "tekst": "Who gives the most compliments?"
+    },
+    {
+      "nr": 35,
+      "tekst": "Who could win over a difficult client in a single conversation?"
+    },
+    {
+      "nr": 36,
+      "tekst": "Who talks the most about their weekend plans?"
+    },
+    {
+      "nr": 37,
+      "tekst": "Who is best at making tough decisions?"
+    },
+    {
+      "nr": 38,
+      "tekst": "Who has the most tabs open?"
+    },
+    {
+      "nr": 39,
+      "tekst": "Who skips things the most often and is missed the most?"
+    },
+    {
+      "nr": 40,
+      "tekst": "Who will still be here in ten years?"
+    },
+    {
+      "nr": 41,
+      "tekst": "Who would you most like beside you for a midnight deadline?"
+    },
+    {
+      "nr": 42,
+      "tekst": "Who has the most plants on their desk?"
+    },
+    {
+      "nr": 43,
+      "tekst": "Who uses the most abbreviations nobody understands?"
+    },
+    {
+      "nr": 44,
+      "tekst": "Who is best suited for a career in politics?"
+    },
+    {
+      "nr": 45,
+      "tekst": "Who knows everyone in the whole building?"
+    },
+    {
+      "nr": 46,
+      "tekst": "Who grumbles the most about little things?"
+    },
+    {
+      "nr": 47,
+      "tekst": "Who would rather call than type?"
+    },
+    {
+      "nr": 48,
+      "tekst": "Who shows the most holiday photos?"
+    },
+    {
+      "nr": 49,
+      "tekst": "Who most often drops by to ask something that could have been an email?"
+    },
+    {
+      "nr": 50,
+      "tekst": "Who would be the only one to keep working if the office were on fire?"
+    },
+    {
+      "nr": 51,
+      "tekst": "Who is the most honest, even when it's inconvenient?"
+    },
+    {
+      "nr": 52,
+      "tekst": "Who connects with an unfamiliar department at drinks the fastest?"
+    },
+    {
+      "nr": 53,
+      "tekst": "Who always has a charging cable on them?"
+    },
+    {
+      "nr": 54,
+      "tekst": "Who will be the first to start their own business?"
+    },
+    {
+      "nr": 55,
+      "tekst": "Who is the first to post something non-work-related in the group chat?"
+    },
+    {
+      "nr": 56,
+      "tekst": "Who forgets to unmute the most often?"
+    },
+    {
+      "nr": 57,
+      "tekst": "Who is the only one to keep asking questions when something doesn't add up?"
+    },
+    {
+      "nr": 58,
+      "tekst": "Who has the most organized lunchbox?"
+    },
+    {
+      "nr": 59,
+      "tekst": "Who would be best at hosting a staff party?"
+    },
+    {
+      "nr": 60,
+      "tekst": "Who takes work home in their head the most?"
+    },
+    {
+      "nr": 61,
+      "tekst": "Who most often finishes a meeting on time?"
+    },
+    {
+      "nr": 62,
+      "tekst": "Who most often disappears unnoticed for half an hour?"
+    },
+    {
+      "nr": 63,
+      "tekst": "Who is the most curious about others?"
+    },
+    {
+      "nr": 64,
+      "tekst": "Who could best lead a team of fifty people?"
+    },
+    {
+      "nr": 65,
+      "tekst": "Who has the most eye-catching background on a video call?"
+    },
+    {
+      "nr": 66,
+      "tekst": "Who has the most stories to tell the day after a staff party?"
+    },
+    {
+      "nr": 67,
+      "tekst": "Who most often eats lunch at their desk?"
+    },
+    {
+      "nr": 68,
+      "tekst": "Who lives the healthiest from nine to five and the least outside of it?"
+    },
+    {
+      "nr": 69,
+      "tekst": "Who takes over the most work from others?"
+    },
+    {
+      "nr": 70,
+      "tekst": "Who would last the longest in a terrible job?"
+    },
+    {
+      "nr": 71,
+      "tekst": "Who is the first to ask for a raise?"
+    },
+    {
+      "nr": 72,
+      "tekst": "Who has the most snacks in their drawer?"
+    },
+    {
+      "nr": 73,
+      "tekst": "Who always knows first what's going on?"
+    },
+    {
+      "nr": 74,
+      "tekst": "Who knows a keyboard shortcut for every program?"
+    },
+    {
+      "nr": 75,
+      "tekst": "Who starts every meeting with an anecdote?"
+    },
+    {
+      "nr": 76,
+      "tekst": "Who knows the most about something nobody asks about?"
+    },
+    {
+      "nr": 77,
+      "tekst": "Who shows the least how they're really doing?"
+    },
+    {
+      "nr": 78,
+      "tekst": "Who would you send to a trade fair to bring in clients?"
+    },
+    {
+      "nr": 79,
+      "tekst": "Who is the only one to say out loud what everyone else is thinking?"
+    },
+    {
+      "nr": 80,
+      "tekst": "Who would be the first to put a robot in their own seat instead of the other way round?"
+    },
+    {
+      "nr": 81,
+      "tekst": "Who would you call if something really goes wrong?"
+    },
+    {
+      "nr": 82,
+      "tekst": "Who would quit their job for a year of travel?"
+    },
+    {
+      "nr": 83,
+      "tekst": "Who types in the chat what they don't dare to say out loud?"
+    },
+    {
+      "nr": 84,
+      "tekst": "Who always claims the same chair?"
+    },
+    {
+      "nr": 85,
+      "tekst": "Who has the most patience with a difficult client?"
+    },
+    {
+      "nr": 86,
+      "tekst": "Who saves files in places nobody can find?"
+    },
+    {
+      "nr": 87,
+      "tekst": "Who is the first to speak at a farewell?"
+    },
+    {
+      "nr": 88,
+      "tekst": "Who would you most like to have as a neighbor?"
+    },
+    {
+      "nr": 89,
+      "tekst": "Who once had a completely different career in mind?"
+    },
+    {
+      "nr": 90,
+      "tekst": "Who would be the best boss and wants it the least?"
+    },
+    {
+      "nr": 91,
+      "tekst": "Who says sorry the most when there's no need?"
+    },
+    {
+      "nr": 92,
+      "tekst": "Who always takes care of the cake?"
+    },
+    {
+      "nr": 93,
+      "tekst": "Who dares to stand up to the boss first?"
+    },
+    {
+      "nr": 94,
+      "tekst": "Who would keep working the longest when the system is down?"
+    },
+    {
+      "nr": 95,
+      "tekst": "Who is the last to leave without needing to be?"
+    },
+    {
+      "nr": 96,
+      "tekst": "Who always sums up at the end what has been decided?"
+    },
+    {
+      "nr": 97,
+      "tekst": "Who has a completely different life at home than you'd think?"
+    },
+    {
+      "nr": 98,
+      "tekst": "Who could best start over in a completely different industry?"
+    },
+    {
+      "nr": 99,
+      "tekst": "Who is the most themselves at the office?"
+    },
+    {
+      "nr": 100,
+      "tekst": "Who negotiates best over something that isn't theirs?"
+    }
+  ]
+}

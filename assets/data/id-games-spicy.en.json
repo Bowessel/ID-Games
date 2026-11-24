@@ -1,0 +1,411 @@
+{
+  "versie": "2026-11-24",
+  "taal": "en",
+  "id": "spicy",
+  "naam": "Spicy",
+  "omschrijving": "Hot, bold & completely unfiltered.",
+  "bron": "id-games-spicy.json",
+  "aantal": 100,
+  "vragen": [
+    {
+      "nr": 1,
+      "tekst": "Whose personality changes the most after four beers?"
+    },
+    {
+      "nr": 2,
+      "tekst": "Who is the easiest to pick up?"
+    },
+    {
+      "nr": 3,
+      "tekst": "Who is the least willing to hand over their phone?"
+    },
+    {
+      "nr": 4,
+      "tekst": "Who is the best in bed?"
+    },
+    {
+      "nr": 5,
+      "tekst": "Who most often comes home without their coat?"
+    },
+    {
+      "nr": 6,
+      "tekst": "Who gets rejected the most?"
+    },
+    {
+      "nr": 7,
+      "tekst": "Who is the first to dance on the table?"
+    },
+    {
+      "nr": 8,
+      "tekst": "Who only smokes when they've been drinking?"
+    },
+    {
+      "nr": 9,
+      "tekst": "Who is the first to go skinny-dipping?"
+    },
+    {
+      "nr": 10,
+      "tekst": "Who still checks an ex's profile now and then?"
+    },
+    {
+      "nr": 11,
+      "tekst": "Who would cheat the soonest?"
+    },
+    {
+      "nr": 12,
+      "tekst": "Who gets drunk the fastest?"
+    },
+    {
+      "nr": 13,
+      "tekst": "Who lies to family the most easily?"
+    },
+    {
+      "nr": 14,
+      "tekst": "Who dares to talk to a stranger in a bar first?"
+    },
+    {
+      "nr": 15,
+      "tekst": "Who has the most blackouts after a night out?"
+    },
+    {
+      "nr": 16,
+      "tekst": "Who is the best kisser?"
+    },
+    {
+      "nr": 17,
+      "tekst": "Who would do the most for money?"
+    },
+    {
+      "nr": 18,
+      "tekst": "Who starts cooking when drunk?"
+    },
+    {
+      "nr": 19,
+      "tekst": "Who has the weirdest search history?"
+    },
+    {
+      "nr": 20,
+      "tekst": "Who finds it hardest to let go?"
+    },
+    {
+      "nr": 21,
+      "tekst": "Who gets sentimental when the night gets long?"
+    },
+    {
+      "nr": 22,
+      "tekst": "Who is most up for a threesome?"
+    },
+    {
+      "nr": 23,
+      "tekst": "Who is the first to fall for a bad pick-up line?"
+    },
+    {
+      "nr": 24,
+      "tekst": "Who keeps going the longest at a festival?"
+    },
+    {
+      "nr": 25,
+      "tekst": "Who most often regrets what they said the next day?"
+    },
+    {
+      "nr": 26,
+      "tekst": "Who wears the cheapest underwear?"
+    },
+    {
+      "nr": 27,
+      "tekst": "Who takes home something from the bar that isn't theirs?"
+    },
+    {
+      "nr": 28,
+      "tekst": "Who always wants one more when everyone else wants to go home?"
+    },
+    {
+      "nr": 29,
+      "tekst": "Who is the worst at keeping a secret?"
+    },
+    {
+      "nr": 30,
+      "tekst": "Who has the most exes they'd rather not run into?"
+    },
+    {
+      "nr": 31,
+      "tekst": "Who can you wake up at night for sex?"
+    },
+    {
+      "nr": 32,
+      "tekst": "Who drunk-calls someone they would never call sober?"
+    },
+    {
+      "nr": 33,
+      "tekst": "Who flirts without even realizing it?"
+    },
+    {
+      "nr": 34,
+      "tekst": "Who is the first to send an apology text the next morning?"
+    },
+    {
+      "nr": 35,
+      "tekst": "Who is the most jealous in a relationship?"
+    },
+    {
+      "nr": 36,
+      "tekst": "Who has the least shame?"
+    },
+    {
+      "nr": 37,
+      "tekst": "Who says yes the fastest when someone offers something?"
+    },
+    {
+      "nr": 38,
+      "tekst": "Who gets clingy after a few drinks?"
+    },
+    {
+      "nr": 39,
+      "tekst": "Who dares to be the first to do something the whole bar watches?"
+    },
+    {
+      "nr": 40,
+      "tekst": "Who checks who viewed their story the most often?"
+    },
+    {
+      "nr": 41,
+      "tekst": "Who is the sexiest?"
+    },
+    {
+      "nr": 42,
+      "tekst": "Who picks fights when drunk?"
+    },
+    {
+      "nr": 43,
+      "tekst": "Who is the quickest to think someone is interested?"
+    },
+    {
+      "nr": 44,
+      "tekst": "Who wakes up in the strangest places?"
+    },
+    {
+      "nr": 45,
+      "tekst": "Who has had the most holiday romances?"
+    },
+    {
+      "nr": 46,
+      "tekst": "Who lies the most convincingly with a straight face?"
+    },
+    {
+      "nr": 47,
+      "tekst": "Who loses something on a night out the most often?"
+    },
+    {
+      "nr": 48,
+      "tekst": "Who would be most shocked by a random screenshot from the chats?"
+    },
+    {
+      "nr": 49,
+      "tekst": "Who meddles the most in what others do on a night out?"
+    },
+    {
+      "nr": 50,
+      "tekst": "Who stays friends with an ex the most easily?"
+    },
+    {
+      "nr": 51,
+      "tekst": "Who would strip the fastest for a million?"
+    },
+    {
+      "nr": 52,
+      "tekst": "Who is the first to pass out on the couch?"
+    },
+    {
+      "nr": 53,
+      "tekst": "Who goes home with someone the soonest?"
+    },
+    {
+      "nr": 54,
+      "tekst": "Who has the most messages they'd rather nobody read back?"
+    },
+    {
+      "nr": 55,
+      "tekst": "Who stays in bed the longest the next day?"
+    },
+    {
+      "nr": 56,
+      "tekst": "Who could have a secret crush on a teacher or colleague?"
+    },
+    {
+      "nr": 57,
+      "tekst": "Who is the first to sing along with the whole bar?"
+    },
+    {
+      "nr": 58,
+      "tekst": "Who shouts the loudest that they'll never join in, then does anyway?"
+    },
+    {
+      "nr": 59,
+      "tekst": "Who crawls back to someone who dumped them the fastest?"
+    },
+    {
+      "nr": 60,
+      "tekst": "Who would sign up for a TV dating show the soonest?"
+    },
+    {
+      "nr": 61,
+      "tekst": "Who is the wildest in bed?"
+    },
+    {
+      "nr": 62,
+      "tekst": "Who is worst at knowing when enough is enough?"
+    },
+    {
+      "nr": 63,
+      "tekst": "Who rejects others the harshest?"
+    },
+    {
+      "nr": 64,
+      "tekst": "Who most often has to check their phone to know what happened?"
+    },
+    {
+      "nr": 65,
+      "tekst": "Who would be best at seducing someone with words alone?"
+    },
+    {
+      "nr": 66,
+      "tekst": "Who has the most numbers saved under a fake name?"
+    },
+    {
+      "nr": 67,
+      "tekst": "Who drunkenly arranges a taxi for the whole group?"
+    },
+    {
+      "nr": 68,
+      "tekst": "Who would check their partner's phone?"
+    },
+    {
+      "nr": 69,
+      "tekst": "Who keeps a cool head when someone goes too far?"
+    },
+    {
+      "nr": 70,
+      "tekst": "Who takes a bet that can never be won?"
+    },
+    {
+      "nr": 71,
+      "tekst": "Who has the least experience?"
+    },
+    {
+      "nr": 72,
+      "tekst": "Who keeps drinking the most without you noticing?"
+    },
+    {
+      "nr": 73,
+      "tekst": "Who collects the most phone numbers without ever using them?"
+    },
+    {
+      "nr": 74,
+      "tekst": "Who acts the next day as if nothing happened?"
+    },
+    {
+      "nr": 75,
+      "tekst": "Who spends the most money on underwear nobody sees?"
+    },
+    {
+      "nr": 76,
+      "tekst": "Who goes the furthest for a good story?"
+    },
+    {
+      "nr": 77,
+      "tekst": "Who drunkenly buys a round nobody can afford?"
+    },
+    {
+      "nr": 78,
+      "tekst": "Who has the most photos on their phone nobody is allowed to see?"
+    },
+    {
+      "nr": 79,
+      "tekst": "Who has the biggest secret that nobody at this table knows?"
+    },
+    {
+      "nr": 80,
+      "tekst": "Who would handle an open relationship the worst?"
+    },
+    {
+      "nr": 81,
+      "tekst": "Who has kissed the most people?"
+    },
+    {
+      "nr": 82,
+      "tekst": "Who is the first to start talking about feelings once the bottle is empty?"
+    },
+    {
+      "nr": 83,
+      "tekst": "Who has the most patience with a date that's clearly going nowhere?"
+    },
+    {
+      "nr": 84,
+      "tekst": "Who makes the most drama out of a hangover?"
+    },
+    {
+      "nr": 85,
+      "tekst": "Who is the least picky when the bar is about to close?"
+    },
+    {
+      "nr": 86,
+      "tekst": "Who is the first to crack when the group keeps asking questions?"
+    },
+    {
+      "nr": 87,
+      "tekst": "Who would fill the entire conversation on a date by themselves?"
+    },
+    {
+      "nr": 88,
+      "tekst": "Who would be most shocked by what the others got up to in the past?"
+    },
+    {
+      "nr": 89,
+      "tekst": "Who has the most clearly defined type?"
+    },
+    {
+      "nr": 90,
+      "tekst": "Who is the only one left standing when everyone else runs away?"
+    },
+    {
+      "nr": 91,
+      "tekst": "Who talks about sex at the table the most easily?"
+    },
+    {
+      "nr": 92,
+      "tekst": "Who is the first to be turned away at the door?"
+    },
+    {
+      "nr": 93,
+      "tekst": "Who is the first to check if someone is still single?"
+    },
+    {
+      "nr": 94,
+      "tekst": "Who goes full throttle again the very next day?"
+    },
+    {
+      "nr": 95,
+      "tekst": "Who keeps talking the longest when everyone else has gone quiet?"
+    },
+    {
+      "nr": 96,
+      "tekst": "Who would be the first to buy a sex toy in a shop instead of online?"
+    },
+    {
+      "nr": 97,
+      "tekst": "Who has most often kept two people on the hook at the same time?"
+    },
+    {
+      "nr": 98,
+      "tekst": "Who holds back the most without you noticing?"
+    },
+    {
+      "nr": 99,
+      "tekst": "Who cancels a date for something better?"
+    },
+    {
+      "nr": 100,
+      "tekst": "Who stays out until the last bus and then waits for the first one?"
+    }
+  ]
+}

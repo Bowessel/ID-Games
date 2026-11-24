@@ -1,0 +1,411 @@
+{
+  "versie": "2026-11-24",
+  "taal": "de",
+  "id": "goofy",
+  "naam": "Goofy",
+  "omschrijving": "Absurd, schräg & völlig unlogisch.",
+  "bron": "id-games-goofy.json",
+  "aantal": 100,
+  "vragen": [
+    {
+      "nr": 1,
+      "tekst": "Wer hat die seltsamsten Angewohnheiten?"
+    },
+    {
+      "nr": 2,
+      "tekst": "Wenn wir alle einen Berg besteigen müssten, wer würde überleben und als Erstes oben sein?"
+    },
+    {
+      "nr": 3,
+      "tekst": "Wer hat die schönsten Füße?"
+    },
+    {
+      "nr": 4,
+      "tekst": "Wer könnte am ehesten eine Reality-Show gewinnen?"
+    },
+    {
+      "nr": 5,
+      "tekst": "Wer isst die seltsamsten Kombinationen?"
+    },
+    {
+      "nr": 6,
+      "tekst": "Wer landet am häufigsten im Krankenhaus?"
+    },
+    {
+      "nr": 7,
+      "tekst": "Wer hätte am besten im Mittelalter leben können?"
+    },
+    {
+      "nr": 8,
+      "tekst": "Wer ähnelt am meisten einer Katze?"
+    },
+    {
+      "nr": 9,
+      "tekst": "Wer hat die meisten Sachen, die zu nichts gut sind?"
+    },
+    {
+      "nr": 10,
+      "tekst": "Wer hält es am längsten auf einer einsamen Insel aus?"
+    },
+    {
+      "nr": 11,
+      "tekst": "Wer würde eine Zombie-Apokalypse am besten überleben?"
+    },
+    {
+      "nr": 12,
+      "tekst": "Wer wird als Erstes grau?"
+    },
+    {
+      "nr": 13,
+      "tekst": "Wer verbringt die meiste Zeit auf der Toilette?"
+    },
+    {
+      "nr": 14,
+      "tekst": "Wer glaubt als Erstes eine Geschichte, die keinen Sinn ergibt?"
+    },
+    {
+      "nr": 15,
+      "tekst": "Wer könnte am schnellsten Influencer werden?"
+    },
+    {
+      "nr": 16,
+      "tekst": "Wer steigt als Erstes in den falschen Zug?"
+    },
+    {
+      "nr": 17,
+      "tekst": "Wer sucht am häufigsten etwas, das er gerade in der Hand hält?"
+    },
+    {
+      "nr": 18,
+      "tekst": "Wer hätte sich im Jahr 1800 als Erstes verlaufen?"
+    },
+    {
+      "nr": 19,
+      "tekst": "Wer könnte am besten einen Hund erziehen und tut es trotzdem nicht?"
+    },
+    {
+      "nr": 20,
+      "tekst": "Wer führt am häufigsten Selbstgespräche?"
+    },
+    {
+      "nr": 21,
+      "tekst": "Wer hat am häufigsten einen 'Main Character'-Moment?"
+    },
+    {
+      "nr": 22,
+      "tekst": "Wer würde als Erstes vor einer Gans weglaufen?"
+    },
+    {
+      "nr": 23,
+      "tekst": "Wer könnte am längsten ohne Handy überleben?"
+    },
+    {
+      "nr": 24,
+      "tekst": "Wer hat das seltsamste Lachen?"
+    },
+    {
+      "nr": 25,
+      "tekst": "Wer würde eine Verschwörungstheorie erfinden, die die Leute wirklich glauben?"
+    },
+    {
+      "nr": 26,
+      "tekst": "Wer macht am häufigsten etwas kaputt, ohne es zu merken?"
+    },
+    {
+      "nr": 27,
+      "tekst": "Wer hat das seltsamste Ritual vor dem Schlafengehen?"
+    },
+    {
+      "nr": 28,
+      "tekst": "Wer würde bei einer Reise zum Mars ohne Rückweg mitmachen?"
+    },
+    {
+      "nr": 29,
+      "tekst": "Wer isst als Erstes etwas, das auf den Boden gefallen ist?"
+    },
+    {
+      "nr": 30,
+      "tekst": "Wer geht viral mit etwas, wofür er sich zutiefst schämt?"
+    },
+    {
+      "nr": 31,
+      "tekst": "Wer wäre der beste Stand-up-Comedian?"
+    },
+    {
+      "nr": 32,
+      "tekst": "Wer niest am lautesten?"
+    },
+    {
+      "nr": 33,
+      "tekst": "Wer würde aus Versehen eine Sekte gründen?"
+    },
+    {
+      "nr": 34,
+      "tekst": "Wer ist als Erstes am Ende, wenn drei Tage der Strom ausfällt?"
+    },
+    {
+      "nr": 35,
+      "tekst": "Wer läuft am häufigsten gegen eine Glastür?"
+    },
+    {
+      "nr": 36,
+      "tekst": "Wer legt alles in einer festen Reihenfolge hin?"
+    },
+    {
+      "nr": 37,
+      "tekst": "Wer war in einem früheren Leben etwas ganz anderes?"
+    },
+    {
+      "nr": 38,
+      "tekst": "Wer hat die unordentlichste Tasche?"
+    },
+    {
+      "nr": 39,
+      "tekst": "Wer redet lieber mit Tieren als mit Menschen?"
+    },
+    {
+      "nr": 40,
+      "tekst": "Wer könnte am längsten nur von Brot leben?"
+    },
+    {
+      "nr": 41,
+      "tekst": "Wer würde am besten in eine Königsfamilie passen?"
+    },
+    {
+      "nr": 42,
+      "tekst": "Wer verläuft sich in der eigenen Stadt?"
+    },
+    {
+      "nr": 43,
+      "tekst": "Wer übernimmt die Führung, wenn wirklich etwas schiefgeht?"
+    },
+    {
+      "nr": 44,
+      "tekst": "Wer hat die kältesten Hände?"
+    },
+    {
+      "nr": 45,
+      "tekst": "Wer glaubt ernsthaft, einmal Außerirdische gesehen zu haben?"
+    },
+    {
+      "nr": 46,
+      "tekst": "Wer riecht an allem, bevor es gegessen wird?"
+    },
+    {
+      "nr": 47,
+      "tekst": "Wer hat die seltsamsten Dinge im Kühlschrank?"
+    },
+    {
+      "nr": 48,
+      "tekst": "Wer wäre der schlechteste Zeitreisende?"
+    },
+    {
+      "nr": 49,
+      "tekst": "Wer bewahrt Dinge auf, die längst hätten weggeworfen werden müssen?"
+    },
+    {
+      "nr": 50,
+      "tekst": "Wer käme am besten mit einem Papagei zurecht?"
+    },
+    {
+      "nr": 51,
+      "tekst": "Wer ruft am häufigsten die falsche Person an?"
+    },
+    {
+      "nr": 52,
+      "tekst": "Wer findet ohne Handy aus dem Wald zurück?"
+    },
+    {
+      "nr": 53,
+      "tekst": "Wer schläft in der seltsamsten Haltung?"
+    },
+    {
+      "nr": 54,
+      "tekst": "Wer fliegt bei einer Castingshow als Erstes raus?"
+    },
+    {
+      "nr": 55,
+      "tekst": "Wer hält eine Pflanze am längsten am Leben?"
+    },
+    {
+      "nr": 56,
+      "tekst": "Wer repariert etwas mit Klebeband und findet es dann fertig?"
+    },
+    {
+      "nr": 57,
+      "tekst": "Wer hat den seltsamsten Gang, ohne es zu wissen?"
+    },
+    {
+      "nr": 58,
+      "tekst": "Wer traut sich, alles zu probieren, egal wie schlimm es aussieht?"
+    },
+    {
+      "nr": 59,
+      "tekst": "Wer wäre in einem anderen Jahrhundert genau derselbe?"
+    },
+    {
+      "nr": 60,
+      "tekst": "Wer isst als Erstes etwas, das man besser hätte liegen lassen?"
+    },
+    {
+      "nr": 61,
+      "tekst": "Wer kontrolliert am häufigsten, ob die Tür wirklich abgeschlossen ist?"
+    },
+    {
+      "nr": 62,
+      "tekst": "Wer besteht am längsten darauf, recht zu haben, obwohl alle wissen, dass es nicht stimmt?"
+    },
+    {
+      "nr": 63,
+      "tekst": "Wer würde einen Podcast starten, den niemand hört?"
+    },
+    {
+      "nr": 64,
+      "tekst": "Wer gerät wegen etwas in Panik, das nichts bedeutet?"
+    },
+    {
+      "nr": 65,
+      "tekst": "Wer schneidet beim Reden die meisten Grimassen?"
+    },
+    {
+      "nr": 66,
+      "tekst": "Wer lässt am häufigsten den Schlüssel drinnen liegen?"
+    },
+    {
+      "nr": 67,
+      "tekst": "Wer hat am meisten Angst vor etwas, das niemand gruselig findet?"
+    },
+    {
+      "nr": 68,
+      "tekst": "Wer könnte am besten ein Dorf ohne Strom leiten?"
+    },
+    {
+      "nr": 69,
+      "tekst": "Wer hat die meisten Kabel, von denen niemand weiß, wozu sie gehören?"
+    },
+    {
+      "nr": 70,
+      "tekst": "Wer hat einen Glücksbringer, von dem niemand weiß?"
+    },
+    {
+      "nr": 71,
+      "tekst": "Wer würde es am längsten in einem Haus voller Kameras ohne Streit aushalten?"
+    },
+    {
+      "nr": 72,
+      "tekst": "Wer holt für die anderen die Spinne aus der Dusche?"
+    },
+    {
+      "nr": 73,
+      "tekst": "Wer würde sich das verrückteste Tattoo stechen lassen?"
+    },
+    {
+      "nr": 74,
+      "tekst": "Wer hält eine Woche in der Kälte aus, ohne sich zu beschweren?"
+    },
+    {
+      "nr": 75,
+      "tekst": "Wem ist das Horoskop wichtiger als der Wetterbericht?"
+    },
+    {
+      "nr": 76,
+      "tekst": "Wer schläft als Erstes an einem Ort ein, wo das nicht hingehört?"
+    },
+    {
+      "nr": 77,
+      "tekst": "Wer hat die nutzloseste Sammlung?"
+    },
+    {
+      "nr": 78,
+      "tekst": "Wer kocht etwas, das gut aussieht und nach nichts schmeckt?"
+    },
+    {
+      "nr": 79,
+      "tekst": "Wer würde am besten in eine Zeit passen, in der niemand Fotos machte?"
+    },
+    {
+      "nr": 80,
+      "tekst": "Wer wird für etwas völlig Dummes berühmt?"
+    },
+    {
+      "nr": 81,
+      "tekst": "Wer stellt den Wecker und wird nie davon wach?"
+    },
+    {
+      "nr": 82,
+      "tekst": "Wer wäre der schlechteste Nachrichtensprecher?"
+    },
+    {
+      "nr": 83,
+      "tekst": "Wer würde am schnellsten gegen eine Möwe verlieren?"
+    },
+    {
+      "nr": 84,
+      "tekst": "Wer singt als Einziger bei Werbejingles mit?"
+    },
+    {
+      "nr": 85,
+      "tekst": "Wer macht beim Essen die auffälligsten Geräusche?"
+    },
+    {
+      "nr": 86,
+      "tekst": "Wer überzeugt die anderen von etwas, das gerade erst erfunden wurde?"
+    },
+    {
+      "nr": 87,
+      "tekst": "Wer baut als Erstes etwas Nutzloses aus Ästen?"
+    },
+    {
+      "nr": 88,
+      "tekst": "Wer kauft am häufigsten etwas, das nie benutzt wird?"
+    },
+    {
+      "nr": 89,
+      "tekst": "Wer würde als Ritter innerhalb eines Tages vom Pferd fallen?"
+    },
+    {
+      "nr": 90,
+      "tekst": "Wer isst am langsamsten von allen?"
+    },
+    {
+      "nr": 91,
+      "tekst": "Wen erwischt man als Erstes um 3 Uhr nachts beim Karaoke?"
+    },
+    {
+      "nr": 92,
+      "tekst": "Wer redet mit Geräten, als würden sie zuhören?"
+    },
+    {
+      "nr": 93,
+      "tekst": "Wer hat das meiste Talent, das zu nichts zu gebrauchen ist?"
+    },
+    {
+      "nr": 94,
+      "tekst": "Wer lässt den Abwasch am längsten stehen?"
+    },
+    {
+      "nr": 95,
+      "tekst": "Wer kann die Augen am längsten offen halten, ohne zu blinzeln?"
+    },
+    {
+      "nr": 96,
+      "tekst": "Wer erzählt eine Gruselgeschichte, als wäre sie wirklich passiert?"
+    },
+    {
+      "nr": 97,
+      "tekst": "Wer würde am besten in einen Western passen?"
+    },
+    {
+      "nr": 98,
+      "tekst": "Wer findet Frühstück zum Abendessen völlig normal?"
+    },
+    {
+      "nr": 99,
+      "tekst": "Wer könnte am besten mit Wölfen leben?"
+    },
+    {
+      "nr": 100,
+      "tekst": "Wer wird in jedem Katastrophenszenario als Erstes gefressen?"
+    }
+  ]
+}
