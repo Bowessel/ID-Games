@@ -17,7 +17,8 @@ Open daarna `http://localhost:8000`. In VS Code kan ook de extensie Live Server.
 - `index.html` — pagina-opbouw en semantische HTML
 - `assets/css/styles.css` — alle stijlen en responsive regels
 - `assets/js/main.js` — startpunt: taal laden, vaste knoppen koppelen, analytics laden
-- `assets/js/game.js` — spelverloop: schermen, uitleg (ook swipen), aantal vragen kiezen, rondes, vlaggen, onthulling en antwoord vorige ronde (tik op "Ronde N")
+- `assets/js/game.js` — spelverloop: schermen, uitleg (ook swipen), aantal vragen kiezen, rondes, vlaggen, opnieuw proberen na een fout antwoord, onthulling en antwoord vorige ronde (tik op "Ronde N")
+- `assets/js/show.js` — goed geraden: verjaardagstoeters rollen onder de goede vraag vandaan met een beetje confetti; fout: de vraag schudt en wordt doorgestreept, de groep mag opnieuw (met geluid en trillen)
 - `assets/js/settings.js` — aantal vragen per ronde (schuifbalk 2–12, standaard 10, onthouden in de browser) en het instellingenpaneel (tandwiel) met taalkeuze en schakelaars voor geluidseffecten, muziek en trillen
 - `assets/js/music.js` — achtergrondmuziek per editie, live gemaakt met Web Audio (geen muziekbestanden)
 - `assets/js/audio.js` — gedeelde Web Audio-context voor muziek en geluidseffecten

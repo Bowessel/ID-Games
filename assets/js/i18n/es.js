@@ -33,19 +33,16 @@ export default {
   secretStep2: "Coloca las IDs en orden según esta pregunta.",
   secretStep3: "A partir de ahora no digas nada, ni pistas.",
   guessLabel: "Una de estas preguntas es la correcta",
-  guessHint: "Pon una bandera en lo que suene más probable y dilo en voz alta. Sin reloj.",
+  guessHint: "Pon una bandera en lo que suene más probable y dilo en voz alta.",
   revealLabel: "Era esta",
-  revealTip: "Esta vez no acertasteis.",
   revealHint: "Quien ordena ya puede hablar.",
   tallyOne: "1 bandera puesta",
   tallyMany: "{n} banderas puestas",
   flagOne: "Marcad solo una pregunta antes de revelar la respuesta.",
   flagNone: "Primero poned una bandera en la pregunta que elegís.",
-  winTitle: "¡BINGO!",
+  tryAgain: "¡Vaya! Intentadlo otra vez.",
+  nextQuestion: "Ir a la siguiente pregunta",
   winSub: "¡Acertasteis! De verdad os conocéis.",
-  loseTitle: "Vaya…",
-  loseSub: "¡Fallasteis! Suerte en la próxima ronda.",
-  tapToContinue: "Toca para continuar",
   sound: "Efectos de sonido",
   music: "Música de fondo",
   vibration: "Vibración",
@@ -64,10 +61,10 @@ export default {
   prevAnswerNone: "Todavía no se ha jugado ninguna ronda.",
   prevAnswerHint: "Toca para ver la respuesta de la ronda anterior",
   steps: [
-    { title: "Pon tus IDs en la mesa", body: "Todos ponen sus IDs en medio. El juego ocurre en la mesa; el móvil solo ayuda un poco." },
+    { title: "Pon tus IDs en la mesa", body: "Todos ponen su ID en la mesa. El juego se desarrolla en el centro." },
     { title: "Un jugador recibe una pregunta secreta", body: "Cada ronda, un jugador ve una pregunta. El resto mira hacia otro lado y no sabe nada." },
     { title: "Ese jugador ordena las tarjetas", body: "Ordena las IDs según su pregunta, de más a menos, sin decir una palabra." },
-    { title: "El grupo habla en voz alta", body: "El grupo ve varias preguntas, de las que exactamente una es correcta. Marca lo que parezca probable, habladlo juntos, sin temporizador." },
-    { title: "Elegid una respuesta juntos", body: "Una respuesta para todo el grupo. Luego el móvil muestra qué pregunta era y si acertasteis." }
+    { title: "El grupo habla en voz alta", body: "El grupo ve varias preguntas, de las que exactamente una es correcta. Marca lo que parezca probable y habladlo juntos." },
+    { title: "Elegid una respuesta juntos", body: "Una respuesta para todo el grupo. El móvil muestra si es correcta. ¿Fallasteis? Podéis intentarlo otra vez." }
   ]
 };

@@ -33,19 +33,16 @@ export default {
   secretStep2: "Lege die Ausweise in der Reihenfolge dieser Frage.",
   secretStep3: "Sag ab jetzt nichts mehr, auch keine Hinweise.",
   guessLabel: "Eine dieser Fragen ist es",
-  guessHint: "Setzt eine Flagge bei dem, was wahrscheinlich klingt, und sprecht es laut aus. Keine Uhr.",
+  guessHint: "Setzt eine Flagge bei dem, was wahrscheinlich klingt, und sprecht es laut aus.",
   revealLabel: "Es war diese",
-  revealTip: "Diesmal leider daneben.",
   revealHint: "Der Sortierer darf jetzt sprechen.",
   tallyOne: "1 Flagge gesetzt",
   tallyMany: "{n} Flaggen gesetzt",
   flagOne: "Markiert nur eine Frage, bevor ihr die Antwort aufdecken könnt.",
   flagNone: "Setzt zuerst eine Flagge bei der Frage, die ihr wählt.",
-  winTitle: "VOLLTREFFER!",
+  tryAgain: "Leider falsch, versucht es noch einmal.",
+  nextQuestion: "Zur nächsten Frage",
   winSub: "Richtig geraten! Ihr kennt euch wirklich.",
-  loseTitle: "Schade…",
-  loseSub: "Daneben! Nächste Runde klappt's.",
-  tapToContinue: "Tippen zum Weitermachen",
   sound: "Soundeffekte",
   music: "Hintergrundmusik",
   vibration: "Vibration",
@@ -64,10 +61,10 @@ export default {
   prevAnswerNone: "Es wurde noch keine Runde gespielt.",
   prevAnswerHint: "Tippen für die Antwort der letzten Runde",
   steps: [
-    { title: "Leg deine Ausweise auf den Tisch", body: "Alle legen ihre Ausweise in die Mitte. Das Spiel passiert auf dem Tisch; das Handy hilft nur ein bisschen." },
+    { title: "Leg deine Ausweise auf den Tisch", body: "Alle legen ihre Ausweise auf den Tisch. Das Spiel findet in der Mitte statt." },
     { title: "Ein Spieler erhält eine geheime Frage", body: "Jede Runde sieht ein Spieler eine Frage. Der Rest schaut weg und weiß nichts." },
     { title: "Dieser Spieler legt die Reihenfolge fest", body: "Er sortiert die Ausweise nach seiner Frage, von „am meisten“ bis „am wenigsten“, ohne ein Wort zu sagen." },
-    { title: "Die Gruppe diskutiert laut", body: "Die Gruppe sieht mehrere Fragen, von denen genau eine stimmt. Setzt eine Flagge bei dem, was wahrscheinlich klingt, und besprecht es gemeinsam, ohne Zeitdruck." },
-    { title: "Wählt gemeinsam eine Antwort", body: "Eine Antwort für die ganze Gruppe. Danach zeigt das Handy, welche Frage es war und ob ihr richtig lagt." }
+    { title: "Die Gruppe diskutiert laut", body: "Die Gruppe sieht mehrere Fragen, von denen genau eine stimmt. Setzt eine Flagge bei dem, was wahrscheinlich klingt, und besprecht es gemeinsam." },
+    { title: "Wählt gemeinsam eine Antwort", body: "Eine Antwort für die ganze Gruppe. Das Handy zeigt, ob sie stimmt. Falsch? Dann dürft ihr es noch einmal versuchen." }
   ]
 };

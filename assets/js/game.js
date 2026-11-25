@@ -5,7 +5,7 @@ import { t, getSteps } from "./i18n/index.js";
 import { setMode, resetTheme, getModeQuestions as getQuestions } from "./modes.js";
 import { ART, STEP_THEMES, createFlag } from "./assets.js";
 import { getQuestionCount, renderCountOptions } from "./settings.js";
-import { playReveal, stopShow, nudge } from "./show.js";
+import { playWin, playMiss, stopShow, nudge } from "./show.js";
 import { playMusic, stopMusic } from "./music.js";
 
 const SCREENS = ["s-home", "s-intro", "s-count", "s-hand", "s-secret", "s-guess", "s-reveal"];
@@ -16,13 +16,16 @@ let screen = "s-home";
 let step = 0, round = 0, answer = 0;
 let roundOrder = [];
 let prevAnswer = null;      /* antwoord van de vorige ronde (vraagnummer) */
-let pick = null;           /* de gevlagde vraag waarmee de groep onthulde */
-let lastRevealed = null;    /* antwoord van de laatst onthulde (= echt gespeelde) ronde */
+let pick = null;           /* de gevlagde vraag waarmee de groep het laatst probeerde */
+let lastRevealed = null;    /* antwoord van de laatst gespeelde ronde (voor "Ronde N") */
+let repaintTimer = 0;
 const used = new Set();    /* vragen die al getoond zijn (suggestie of antwoord) */
 const marks = new Set();   /* wat de groep deze ronde onthoudt */
+const wrongPicks = new Set();   /* vragen die de groep deze ronde al fout koos (doorgestreept) */
 
 /* ---------- schermen en knoppen ---------- */
 function show(id) {
+  if (id !== "s-reveal") stopShow();   /* doorgeklikt: confetti en toeters opruimen */
   screen = id;
   hideLastAnswer();
   SCREENS.forEach((s) => { $(s).hidden = s !== id; });
@@ -136,11 +139,12 @@ function slideIn(dir) {
 }
 
 /* Swipen door de spelregels: naar links = volgende, naar rechts = vorige.
-   Alleen binnen de uitleg: op de eerste en laatste stap veert de kaart terug.
-   Verder na de uitleg gaat alleen via de knop "Begin het spel". */
+   Je moet een flink stuk vegen (40% van de kaartbreedte, minstens 120px); korter vegen
+   laat de kaart terugveren. Alleen binnen de uitleg: op de eerste en laatste stap veert
+   de kaart altijd terug. Verder na de uitleg gaat alleen via de knop "Begin het spel". */
 function initSwipe() {
   const card = $("s-intro").querySelector(".intro-card");
-  const THRESHOLD = 60;
+  const threshold = () => Math.max(120, card.offsetWidth * 0.4);
   let startX = 0, startY = 0, dx = 0, axis = null, pointer = null;
 
   card.addEventListener("pointerdown", (e) => {
@@ -175,8 +179,9 @@ function initSwipe() {
     pointer = null;
     if (axis !== "x") return;
     const lastStep = getSteps().length - 1;
-    if (dx < -THRESHOLD && step < lastStep) { step++; renderIntro(1); return; }
-    if (dx > THRESHOLD && step > 0) { step--; renderIntro(-1); return; }
+    const need = threshold();
+    if (dx < -need && step < lastStep) { step++; renderIntro(1); return; }
+    if (dx > need && step > 0) { step--; renderIntro(-1); return; }
     card.style.transition = "transform .3s cubic-bezier(.34,1.56,.64,1)";
     card.style.transform = "";
   };
@@ -254,6 +259,7 @@ function renderSecret() {
 
 function toGuess() {
   marks.clear();
+  wrongPicks.clear();
   renderGuess();
 }
 
@@ -262,12 +268,23 @@ function renderGuess() {
   setRoundTag();
   paint($("list"), false);
   tally();
-  setActions([[t("reveal"), "primary", tryReveal]]);
+  guessActions();
   show("s-guess");
 }
 
+/* Knoppen onder het raden. Na een fout antwoord komt er "Helaas, probeer nog een keer"
+   boven de knop en eronder de keuze om door te gaan naar de volgende vraag. */
+function guessActions() {
+  const acts = [[t("reveal"), "primary", tryReveal]];
+  if (wrongPicks.size) acts.push([t("nextQuestion"), "plain", skipQuestion]);
+  setActions(acts);
+  if (wrongPicks.size && marks.size === 0) showFlagWarning(t("tryAgain"), "is-miss");
+}
+
 /* Onthullen kan pas als er precies één vraag gevlagd is. Anders trilt de knop
-   en verschijnt er een zinnetje boven de knop. */
+   en verschijnt er een zinnetje boven de knop.
+   Goed: naar het onthulscherm met toeters. Fout: de vraag schudt "nee" en wordt
+   doorgestreept; de groep mag opnieuw kiezen of naar de volgende vraag. */
 function tryReveal() {
   if (marks.size !== 1) {
     showFlagWarning(marks.size === 0 ? t("flagNone") : t("flagOne"));
@@ -275,19 +292,35 @@ function tryReveal() {
     return;
   }
   pick = [...marks][0];
-  renderReveal();
-  playReveal(pick === answer);
+  if (pick === answer) {
+    renderReveal();
+    playWin($("list2").querySelector("li.hit"));
+    return;
+  }
+  wrongPicks.add(pick);
+  marks.delete(pick);
+  const wait = playMiss($("list").querySelector(`[data-q="${pick}"]`));
+  tally();
+  guessActions();
+  clearTimeout(repaintTimer);   /* na het schudden de vraag doorstrepen */
+  repaintTimer = setTimeout(() => { if (screen === "s-guess") paint($("list"), false); }, wait);
 }
 
-function showFlagWarning(text) {
+/* Opgeven: door naar de volgende vraag. Het antwoord is daarna te zien via "Ronde N". */
+function skipQuestion() {
+  lastRevealed = answer;
+  newRound();
+}
+
+function showFlagWarning(text, kind = "") {
   let warn = $("flagWarn");
   if (!warn) {
     warn = document.createElement("p");
     warn.id = "flagWarn";
-    warn.className = "flag-warn";
     warn.setAttribute("role", "alert");
     $("actions").prepend(warn);
   }
+  warn.className = `flag-warn ${kind}`.trim();
   warn.textContent = text;
 }
 
@@ -298,14 +331,12 @@ function hideFlagWarning() {
   if (btn) btn.classList.remove("shake");
 }
 
-/* Onthulling (de show zelf start in tryReveal, zodat een taalwissel hem niet herhaalt) */
+/* Onthulling na een goed antwoord (de toeters starten in tryReveal, zodat een taalwissel
+   ze niet herhaalt) */
 function renderReveal() {
   setRoundTag();
   lastRevealed = answer;
-  const correct = pick === answer;
-  const tip = $("reveal-tip");
-  tip.textContent = correct ? t("winSub") : t("revealTip");
-  tip.classList.toggle("is-win", correct);
+  $("reveal-tip").textContent = t("winSub");
   paint($("list2"), true);
   setActions([
     [t("nextRound"), "primary is-cobalt", newRound],
@@ -328,18 +359,22 @@ function paint(el, hit) {
   for (const i of roundOrder) {
     const li = document.createElement("li");
     if (hit) {
-      li.className = (i === answer) ? (i === pick ? "hit picked" : "hit") : (i === pick ? "wrong" : "miss");
+      li.className = (i === answer) ? (i === pick ? "hit picked" : "hit") : (wrongPicks.has(i) ? "wrong" : "miss");
       const row = document.createElement("div");
       row.className = "still";
       row.append(createFlag(), questionText(i));
       li.appendChild(row);
     } else {
+      const out = wrongPicks.has(i);   /* al fout gekozen: doorgestreept, niet meer te kiezen */
       const b = document.createElement("button");
       b.type = "button";
-      b.className = "row" + (marks.has(i) ? " on" : "");
+      b.className = "row" + (marks.has(i) ? " on" : "") + (out ? " out" : "");
+      b.dataset.q = String(i);
+      b.disabled = out;
       b.setAttribute("aria-pressed", marks.has(i) ? "true" : "false");
       b.append(createFlag(), questionText(i));
       b.addEventListener("click", () => {
+        if (wrongPicks.has(i)) return;
         const on = !marks.has(i);
         if (on) marks.add(i); else marks.delete(i);
         b.classList.toggle("on", on);
@@ -373,6 +408,7 @@ export async function startMode(id) {
   playMusic(id);   /* achtergrondmuziek van deze editie (als muziek aan staat) */
   used.clear();
   marks.clear();
+  wrongPicks.clear();
   roundOrder = [];
   prevAnswer = null;
   lastRevealed = null;

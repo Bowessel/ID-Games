@@ -39,7 +39,7 @@ export function vibrate(pattern) {
   /* iPhone: elke tril wordt één of meer tikken (lange tril = snelle reeks tikken) */
   let at = 0;
   list.forEach((ms, i) => {
-    if (i % 2 === 0) {
+    if (i % 2 === 0 && ms > 0) {
       const ticks = Math.max(1, Math.round(ms / 100));
       for (let k = 0; k < ticks; k++) {
         const when = at + k * 70;

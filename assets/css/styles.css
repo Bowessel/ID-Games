@@ -357,9 +357,11 @@ p{margin:0;color:var(--ink-soft);font-weight:500}
 /* Uitleg-kaart (swipebaar: horizontaal vegen is voor ons, verticaal scrollt de pagina) */
 .intro-card{
   background:var(--surface);border:2px solid var(--border);border-radius:18px;
-  padding:20px 18px 22px;box-shadow:var(--shadow-lg);
+  padding:20px 18px 22px;box-shadow:var(--shadow-lg);text-align:center;
   touch-action:pan-y;-webkit-user-select:none;user-select:none;will-change:transform;
 }
+/* Gecentreerde tekst: regels even lang verdelen, zodat er geen los woord onderaan hangt */
+.intro-card p{text-wrap:balance}
 .art{
   display:flex;justify-content:center;align-items:center;
   background:var(--step-bg);border:1.5px solid var(--border);border-radius:12px;
@@ -514,7 +516,7 @@ li.miss .flag{opacity:.2}
 .hint{text-align:center;font-size:.88rem;color:var(--ink-soft);padding-top:10px}
 .result{
   text-align:center;font-size:.86rem;font-weight:800;letter-spacing:.03em;
-  color:#fff;background:var(--coral);border:2px solid var(--border);
+  color:#fff;background:var(--emerald);border:2px solid var(--border);
   border-radius:12px;padding:12px 14px;margin-top:14px;box-shadow:var(--shadow-sm);
 }
 @media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
@@ -730,7 +732,13 @@ li.hit.picked .still{box-shadow:inset 6px 0 0 var(--amber)}
 li.wrong .still{background:#FEE2E2;color:#991B1B;font-weight:700;text-decoration:line-through;text-decoration-thickness:2px}
 li.wrong .pole{stroke:#991B1B}
 li.wrong .cloth{fill:#DC2626;stroke:#991B1B}
-.result.is-win{background:var(--emerald)}
+/* Fout gekozen tijdens het raden: rood doorgestreept en niet nog eens te kiezen */
+.row.out,.row.out:hover{background:#FEE2E2;color:#991B1B;cursor:default}
+.row.out .txt{text-decoration:line-through;text-decoration-thickness:2px}
+.row.out .pole{stroke:#E5A3A3}
+.row.out .cloth{fill:none;stroke:#E5A3A3}
+/* "Helaas, probeer nog een keer" boven de knop */
+.flag-warn.is-miss{background:var(--coral);border:2px solid var(--border)}
 
 /* Schakelaars (geluid, muziek, trillen) in het instellingenpaneel */
 .toggle-row{
@@ -759,80 +767,32 @@ li.wrong .cloth{fill:#DC2626;stroke:#991B1B}
 .switch input:active + .switch-track::after{width:23px}
 .switch input:checked:active + .switch-track::after{transform:translateX(19px)}
 
-/* De show-laag over de hele pagina */
-.show{
-  position:fixed;inset:0;z-index:40;display:grid;place-items:center;cursor:pointer;
-  -webkit-tap-highlight-color:transparent;animation:showIn .25s ease both;
-}
-.show.show-out{animation:showOut .35s ease both}
-@keyframes showIn{from{opacity:0}to{opacity:1}}
-@keyframes showOut{to{opacity:0}}
-.show-canvas{position:absolute;inset:0;width:100%;height:100%}
-.show-card{position:relative;text-align:center;padding:0 24px;pointer-events:none}
-.show-title{
-  margin:0;font-family:var(--display);font-weight:700;line-height:1;letter-spacing:-.02em;
-  font-size:clamp(3.2rem,17vw,5.5rem);
-}
-.show-sub{margin:14px 0 0;font-size:1.1rem;font-weight:800}
-.show-skip{
-  position:absolute;bottom:calc(28px + env(safe-area-inset-bottom,0px));left:0;right:0;margin:0;text-align:center;
-  font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;opacity:.7;
-}
+/* =========================================================
+   GOED GERADEN (zie show.js): verjaardagstoeters rollen onder de goede vraag vandaan,
+   met een klein beetje confetti. Het scherm zelf verandert niet.
+   ========================================================= */
+.fx-layer{position:fixed;inset:0;z-index:15;pointer-events:none;overflow:hidden}
+/* De toeters: papieren rolletje met inktrand en witte streepjes op het rechte stuk */
+.fx-blowers{position:absolute;inset:0;width:100%;height:100%}
+.fx-blowers path{fill:none;stroke-linecap:round;stroke-linejoin:round}
+.fx-blowers .ink{stroke:#14171F;stroke-width:10}
+.fx-blowers .paper{stroke-width:7}
+.fx-blowers .stripes{stroke:#fff;stroke-width:7;stroke-dasharray:4 7;stroke-linecap:butt}
+/* Confetti: snippers, rondjes en slingertjes met een inktrandje, net als de rest van de app */
+.fx-bit{position:absolute;opacity:0;border:1.5px solid #14171F;will-change:transform,opacity}
+.fx-bit.is-rect{width:8px;height:12px;margin:-6px 0 0 -4px;border-radius:2px}
+.fx-bit.is-dot{width:8px;height:8px;margin:-4px 0 0 -4px;border-radius:50%}
+.fx-bit.is-strip{width:5px;height:16px;margin:-8px 0 0 -2.5px;border-radius:3px}
 
-/* Goed en fout zijn spiegelbeelden: een figuurtje bovenin met iets dat eronder valt,
-   een doorschijnende laag over het spel en de titel in het midden. */
-.show-card{margin-top:40px}
-.show-sky{position:absolute;top:16%;left:50%;width:170px;margin-left:-85px;animation:skyIn 1s ease both}
-.show-sky svg{width:100%;display:block;animation:sway 3s ease-in-out infinite}
-@keyframes skyIn{from{transform:translateY(-60px);opacity:0}}
-@keyframes sway{50%{transform:translateX(8px)}}
-.show-drops{position:relative;height:150px;margin-top:-6px}
-.show-drops i{position:absolute;top:0;animation:rain .9s linear infinite}
-.show-drops i:nth-child(14n+1){left:18%;animation-delay:.05s}.show-drops i:nth-child(14n+2){left:26%;animation-delay:.45s}
-.show-drops i:nth-child(14n+3){left:33%;animation-delay:.2s}.show-drops i:nth-child(14n+4){left:40%;animation-delay:.7s}
-.show-drops i:nth-child(14n+5){left:47%;animation-delay:.1s}.show-drops i:nth-child(14n+6){left:54%;animation-delay:.55s}
-.show-drops i:nth-child(14n+7){left:61%;animation-delay:.3s}.show-drops i:nth-child(14n+8){left:68%;animation-delay:.8s}
-.show-drops i:nth-child(14n+9){left:75%;animation-delay:.15s}.show-drops i:nth-child(14n+10){left:22%;animation-delay:.6s}
-.show-drops i:nth-child(14n+11){left:37%;animation-delay:.38s}.show-drops i:nth-child(14n+12){left:51%;animation-delay:.85s}
-.show-drops i:nth-child(14n+13){left:65%;animation-delay:.25s}.show-drops i:nth-child(14n+14){left:79%;animation-delay:.5s}
-@keyframes rain{from{transform:translateY(0);opacity:0}15%{opacity:.85}to{transform:translateY(140px);opacity:0}}
-
-/* Goed: laag in de kleur van de editie, lachende ster met dwarrelende confetti, titel huppelt binnen */
-.show-win{background:rgba(20,23,31,.45);background:color-mix(in srgb, var(--cobalt) 62%, transparent);backdrop-filter:blur(1.5px)}
-.show-win .show-sky{width:130px;margin-left:-65px}
-.show-win .show-sky svg{animation:twinkle 2.4s ease-in-out infinite}
-.show-win .star{fill:var(--amber)}
-.show-win .show-title{color:#fff;text-shadow:0 3px 0 #14171F;animation:hop .9s cubic-bezier(.34,1.56,.64,1) .2s both}
-.show-win .show-sub{color:#fff;animation:rise .5s ease .7s both}
-.show-win .show-skip{color:#fff}
-.show-confetti{margin-top:-14px}
-.show-confetti i{width:7px;height:10px;border-radius:2px;border:1.5px solid #14171F;animation-name:flutter;animation-duration:1.7s}
-.show-confetti i:nth-child(4n+1){background:var(--amber)}
-.show-confetti i:nth-child(4n+2){background:#fff}
-.show-confetti i:nth-child(4n+3){background:var(--coral)}
-.show-confetti i:nth-child(4n+4){background:var(--cobalt-soft)}
-@keyframes twinkle{0%,100%{transform:rotate(-6deg) scale(1)}50%{transform:rotate(6deg) scale(1.06)}}
-@keyframes hop{0%{transform:translateY(30px) scale(.85);opacity:0}60%{transform:translateY(-8px) scale(1.04);opacity:1}100%{transform:none}}
-@keyframes flutter{
-  from{transform:translate(0,0) rotate(0);opacity:0}
-  15%{opacity:1}
-  50%{transform:translate(8px,70px) rotate(160deg)}
-  to{transform:translate(-6px,140px) rotate(320deg);opacity:0}
+/* De goede vraag: glans over de rij, de vlag wappert en de tekst maakt een sprongetje */
+li.fx-cheer .still{position:relative;overflow:hidden}
+li.fx-cheer .still::after{
+  content:"";position:absolute;inset:0;pointer-events:none;transform:translateX(-110%);
+  background:linear-gradient(105deg,transparent 35%,rgba(255,255,255,.5) 50%,transparent 65%);
+  animation:fxShine .9s ease forwards;
 }
-
-/* Fout: alles wordt grijs, regenwolk, titel zakt treurig door */
-html.is-sad .shell{filter:grayscale(1) brightness(.92);transition:filter .6s ease}
-.show-lose{background:rgba(60,64,72,.55);backdrop-filter:blur(1.5px)}
-.show-lose .show-title{color:#E5E7EB;text-shadow:0 3px 0 #14171F;animation:droop 2.2s cubic-bezier(.5,0,.3,1) .3s both}
-.show-lose .show-sub{color:#fff;animation:rise .5s ease 1.2s both}
-.show-lose .show-skip{color:#fff}
-@keyframes droop{
-  0%{transform:translateY(-40px);opacity:0}
-  25%{transform:translateY(0);opacity:1}
-  55%{transform:translateY(6px) rotate(-4deg)}
-  100%{transform:translateY(26px) rotate(-9deg) scaleY(.92);opacity:.9}
-}
-.show-rain i{width:3px;height:16px;border-radius:2px;background:#93C5FD;opacity:.85}
-
-/* Minder beweging: rustige versie zonder vallende druppels of confetti */
-.show-calm .show-drops{display:none}
+li.fx-cheer .cloth{animation:fxWave .7s ease-in-out 2}
+li.fx-cheer .txt{animation:fxHop .5s cubic-bezier(.34,1.56,.64,1)}
+@keyframes fxShine{to{transform:translateX(110%)}}
+@keyframes fxWave{25%{transform:skewY(-12deg) scaleX(1.12)}50%{transform:skewY(6deg) scaleX(.92)}75%{transform:skewY(-8deg) scaleX(1.06)}}
+@keyframes fxHop{40%{transform:translateY(-4px)}}

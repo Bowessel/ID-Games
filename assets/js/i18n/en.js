@@ -33,19 +33,16 @@ export default {
   secretStep2: "Lay the IDs in order according to this question.",
   secretStep3: "Say nothing from now on, no hints either.",
   guessLabel: "One of these questions is the one",
-  guessHint: "Place a flag on what sounds likely and talk it through out loud. No timer.",
+  guessHint: "Place a flag on what sounds likely and talk it through out loud.",
   revealLabel: "It was this one",
-  revealTip: "Not this time, you missed it.",
   revealHint: "The sorter may talk now.",
   tallyOne: "1 flag placed",
   tallyMany: "{n} flags placed",
   flagOne: "Flag just one question before you can reveal the answer.",
   flagNone: "First place a flag on the question you're going for.",
-  winTitle: "NAILED IT!",
+  tryAgain: "Not quite, try again.",
+  nextQuestion: "Go to next question",
   winSub: "Right guess! You really know each other.",
-  loseTitle: "Oh no…",
-  loseSub: "Missed it! Better luck next round.",
-  tapToContinue: "Tap to continue",
   sound: "Sound effects",
   music: "Background music",
   vibration: "Vibration",
@@ -64,10 +61,10 @@ export default {
   prevAnswerNone: "No previous round has been played yet.",
   prevAnswerHint: "Tap for the previous round's answer",
   steps: [
-    { title: "Lay your IDs on the table", body: "Everyone places their ID in the middle. The game happens on the table; the phone only helps a little." },
+    { title: "Lay your IDs on the table", body: "Everyone puts their ID on the table. The game happens in the middle." },
     { title: "One player gets a secret question", body: "Each round, one player sees a question. The rest look away and know nothing." },
     { title: "That player arranges the order", body: "They sort the IDs according to their question, from most to least, without saying a word." },
-    { title: "The group discusses out loud", body: "The group sees a set of questions, of which exactly one is correct. Place a flag on what sounds likely, talk it through together, no timer." },
-    { title: "Choose one answer together", body: "One answer for the whole group. Then the phone reveals which question it was and whether you got it right." }
+    { title: "The group discusses out loud", body: "The group sees a set of questions, of which exactly one is correct. Place a flag on what sounds likely and talk it through together." },
+    { title: "Choose one answer together", body: "One answer for the whole group. The phone shows whether it's right. Wrong? Then you can try again." }
   ]
 };

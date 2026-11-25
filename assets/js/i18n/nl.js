@@ -32,20 +32,17 @@ export default {
   secretStep1: "Houd het scherm naar beneden.",
   secretStep2: "Leg de ID's op volgorde volgens deze vraag.",
   secretStep3: "Zeg vanaf nu niets meer, ook geen hints.",
-  guessLabel: "Eén van deze vragen is het",
-  guessHint: "Zet een vlag bij wat kansrijk klinkt en praat het hardop uit. Geen klok.",
+  guessLabel: "Één van deze vragen is het",
+  guessHint: "Zet een vlag bij wat kansrijk klinkt en praat het hardop uit.",
   revealLabel: "Het was deze",
-  revealTip: "Ernaast, dit keer niet geraden.",
   revealHint: "De legger mag nu praten.",
   tallyOne: "1 vlag geplant",
   tallyMany: "{n} vlaggen geplant",
   flagOne: "Vlag nog maar één vraag voordat je het antwoord kunt onthullen.",
   flagNone: "Zet eerst een vlag bij de vraag die jullie kiezen.",
-  winTitle: "RAAK!",
+  tryAgain: "Helaas, probeer nog een keer.",
+  nextQuestion: "Ga naar volgende vraag",
   winSub: "Goed geraden! Jullie kennen elkaar echt.",
-  loseTitle: "Helaas…",
-  loseSub: "Ernaast! Volgende ronde beter.",
-  tapToContinue: "Tik om verder te gaan",
   sound: "Geluidseffecten",
   music: "Achtergrondmuziek",
   vibration: "Trillen",
@@ -64,10 +61,10 @@ export default {
   prevAnswerNone: "Er is nog geen vorige ronde gespeeld.",
   prevAnswerHint: "Tik voor het antwoord van de vorige ronde",
   steps: [
-    { title: "Leg je ID's op tafel", body: "Iedereen legt zijn ID in het midden. Het spel speelt zich af op tafel, de telefoon helpt alleen een handje." },
+    { title: "Leg je ID's op tafel", body: "Iedereen legt zijn ID op tafel. Het spel speelt zich af in het midden." },
     { title: "Eén speler krijgt een geheime vraag", body: "Elke ronde ziet één speler een vraag. De rest kijkt weg en weet van niets." },
     { title: "Die speler legt de volgorde", body: "Hij rangschikt de ID's volgens zijn vraag, van meest naar minst. Zonder een woord te zeggen." },
-    { title: "De rest overlegt hardop", body: "De groep krijgt een handvol vragen te zien waarvan er precies één klopt. Zet een vlag bij wat kansrijk klinkt, praat het samen uit, er is geen klok." },
-    { title: "Kies samen één antwoord", body: "Eén antwoord voor de hele groep. Daarna laat de telefoon zien welke vraag het was en of jullie het goed hadden." }
+    { title: "De rest overlegt hardop", body: "De groep krijgt een handvol vragen te zien waarvan er precies één klopt. Zet een vlag bij wat kansrijk klinkt, praat het samen uit." },
+    { title: "Kies samen één antwoord", body: "Eén antwoord voor de hele groep. De telefoon laat zien of het klopt. Fout? Dan mogen jullie het nog een keer proberen." }
   ]
 };

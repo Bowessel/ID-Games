@@ -33,19 +33,16 @@ export default {
   secretStep2: "Metti le carte in ordine secondo questa domanda.",
   secretStep3: "Da adesso non dire più nulla, nessun indizio.",
   guessLabel: "Una di queste domande è quella giusta",
-  guessHint: "Metti una bandiera su ciò che sembra probabile e dillo ad alta voce. Nessun timer.",
+  guessHint: "Metti una bandiera su ciò che sembra probabile e dillo ad alta voce.",
   revealLabel: "Era questa",
-  revealTip: "Questa volta niente da fare.",
   revealHint: "Chi ha ordinato può parlare adesso.",
   tallyOne: "1 bandiera messa",
   tallyMany: "{n} bandiere messe",
   flagOne: "Segnate una sola domanda prima di rivelare la risposta.",
   flagNone: "Prima mettete una bandiera sulla domanda che scegliete.",
-  winTitle: "CENTRO!",
+  tryAgain: "Peccato, riprovate.",
+  nextQuestion: "Vai alla domanda successiva",
   winSub: "Indovinato! Vi conoscete davvero.",
-  loseTitle: "Peccato…",
-  loseSub: "Sbagliato! Andrà meglio al prossimo round.",
-  tapToContinue: "Tocca per continuare",
   sound: "Effetti sonori",
   music: "Musica di sottofondo",
   vibration: "Vibrazione",
@@ -64,10 +61,10 @@ export default {
   prevAnswerNone: "Non è ancora stato giocato nessun round.",
   prevAnswerHint: "Tocca per la risposta del round precedente",
   steps: [
-    { title: "Metti le tue carte sul tavolo", body: "Tutti mettono le proprie carte al centro. Il gioco si svolge sul tavolo; il telefono aiuta solo un po'." },
+    { title: "Metti le tue carte sul tavolo", body: "Tutti mettono la propria carta sul tavolo. Il gioco si svolge al centro." },
     { title: "Un giocatore riceve una domanda segreta", body: "Ogni round un giocatore vede una domanda. Gli altri distolgono lo sguardo e non sanno nulla." },
     { title: "Quel giocatore ordina le carte", body: "Ordina le carte secondo la domanda, dal più al meno, senza dire una parola." },
-    { title: "Il gruppo parla ad alta voce", body: "Il gruppo vede diverse domande, di cui una sola è corretta. Metti una bandiera su ciò che sembra plausibile, discutetene insieme, senza timer." },
-    { title: "Scegliete insieme una risposta", body: "Una risposta per tutto il gruppo. Poi il telefono rivela quale domanda era e se avete indovinato." }
+    { title: "Il gruppo parla ad alta voce", body: "Il gruppo vede diverse domande, di cui una sola è corretta. Metti una bandiera su ciò che sembra plausibile e discutetene insieme." },
+    { title: "Scegliete insieme una risposta", body: "Una risposta per tutto il gruppo. Il telefono mostra se è giusta. Sbagliato? Potete riprovare." }
   ]
 };

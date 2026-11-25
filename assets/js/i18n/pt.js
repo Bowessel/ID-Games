@@ -33,19 +33,16 @@ export default {
   secretStep2: "Coloque os IDs em ordem conforme esta pergunta.",
   secretStep3: "A partir de agora, não diga nada, nem dicas.",
   guessLabel: "Uma dessas perguntas é a certa",
-  guessHint: "Coloque uma bandeira na opção mais provável e diga em voz alta. Sem relógio.",
+  guessHint: "Coloque uma bandeira na opção mais provável e diga em voz alta.",
   revealLabel: "Era esta",
-  revealTip: "Desta vez não acertaram.",
   revealHint: "Quem ordenou pode falar agora.",
   tallyOne: "1 bandeira marcada",
   tallyMany: "{n} bandeiras marcadas",
   flagOne: "Marquem só uma pergunta antes de revelar a resposta.",
   flagNone: "Primeiro coloquem uma bandeira na pergunta que vocês escolheram.",
-  winTitle: "NA MOSCA!",
+  tryAgain: "Que pena, tentem de novo.",
+  nextQuestion: "Ir para a próxima pergunta",
   winSub: "Acertaram! Vocês se conhecem mesmo.",
-  loseTitle: "Que pena…",
-  loseSub: "Erraram! Mais sorte na próxima rodada.",
-  tapToContinue: "Toque para continuar",
   sound: "Efeitos sonoros",
   music: "Música de fundo",
   vibration: "Vibração",
@@ -64,10 +61,10 @@ export default {
   prevAnswerNone: "Nenhuma rodada foi jogada ainda.",
   prevAnswerHint: "Toque para ver a resposta da rodada anterior",
   steps: [
-    { title: "Coloque seus IDs na mesa", body: "Todos colocam seus IDs no centro. O jogo acontece na mesa; o celular ajuda só um pouco." },
+    { title: "Coloque seus IDs na mesa", body: "Todos colocam seu ID na mesa. O jogo acontece no centro." },
     { title: "Um jogador recebe uma pergunta secreta", body: "Cada rodada, um jogador vê uma pergunta. Os outros olham para o lado e não sabem de nada." },
     { title: "Esse jogador organiza a ordem", body: "Ele organiza os IDs conforme a pergunta, do mais ao menos, sem dizer uma palavra." },
-    { title: "O grupo discute em voz alta", body: "O grupo vê várias perguntas, das quais exatamente uma está correta. Coloque uma bandeira no que parece provável, discutam juntos, sem temporizador." },
-    { title: "Escolham uma resposta juntos", body: "Uma resposta para todo o grupo. Depois o celular revela qual era a pergunta e se vocês acertaram." }
+    { title: "O grupo discute em voz alta", body: "O grupo vê várias perguntas, das quais exatamente uma está correta. Coloque uma bandeira no que parece provável e discutam juntos." },
+    { title: "Escolham uma resposta juntos", body: "Uma resposta para todo o grupo. O celular mostra se está certa. Erraram? Podem tentar de novo." }
   ]
 };

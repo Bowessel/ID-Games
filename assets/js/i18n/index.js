@@ -82,7 +82,7 @@ const STATIC_TEXTS = {
   "guess-label": "guessLabel",
   "guess-hint": "guessHint",
   "reveal-label": "revealLabel",
-  "reveal-tip": "revealTip",
+  "reveal-tip": "winSub",
   "reveal-hint": "revealHint",
   "count-title": "countTitle",
   "count-body": "countBody",
