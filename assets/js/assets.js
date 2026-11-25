@@ -50,17 +50,15 @@ export const ART = [
  + '<path d="M154 94h64M154 108h40" stroke="#7C3AED" stroke-width="2.2" stroke-linecap="round"/>'
  + '</svg>',
 /* 5 onthulling */
-'<svg viewBox="0 0 260 160" aria-hidden="true">'
+'<svg viewBox="0 0 260 126" aria-hidden="true">'
  + '<rect x="28" y="12" width="204" height="26" rx="7" fill="#FFFFFF" stroke="#14171F" stroke-width="1.8"/>'
  + '<path d="M44 25h104" stroke="#8C93A3" stroke-width="2" stroke-linecap="round"/>'
- + '<rect x="28" y="47" width="204" height="32" rx="8" fill="#10B981" stroke="#14171F" stroke-width="2.2"/>'
+ + '<rect x="28" y="47" width="204" height="32" rx="8" fill="#2563EB" stroke="#14171F" stroke-width="2.2"/>'
  + '<path d="M44 63h120" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>'
  + '<circle cx="206" cy="63" r="10" fill="#F59E0B" stroke="#14171F" stroke-width="1.8"/>'
  + '<path d="M201 63l3.5 3.5 6-6.5" stroke="#14171F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>'
  + '<rect x="28" y="88" width="204" height="26" rx="7" fill="#FFFFFF" stroke="#14171F" stroke-width="1.8"/>'
  + '<path d="M44 101h88" stroke="#8C93A3" stroke-width="2" stroke-linecap="round"/>'
- + '<path d="M104 134h52l-5 18h-42z" fill="#FF5A5F" stroke="#14171F" stroke-width="2" stroke-linejoin="round"/>'
- + '<path d="M102 134h56" stroke="#14171F" stroke-width="2.2" stroke-linecap="round"/>'
  + '</svg>'
 ];
 
@@ -68,10 +66,10 @@ export const ART = [
    meekleuren met het thema van de gekozen editie (zie [data-mode] in styles.css). */
 export const STEP_THEMES = [
   ["var(--cobalt)", "var(--cobalt-soft)"],   /* hoofdkleur van de editie */
-  ["var(--coral)", "var(--coral-soft)"],     /* accent */
+  ["var(--rule2)", "var(--rule2-soft)"],     /* eigen kleur per editie, zie --rule2 in styles.css */
   ["var(--cobalt)", "var(--cobalt-soft)"],
-  ["var(--violet)", "var(--violet-soft)"],
-  ["var(--emerald)", "var(--emerald-soft)"]
+  ["var(--rule4)", "var(--rule4-soft)"],
+  ["var(--cobalt)", "var(--cobalt-soft)"]   /* laatste stap: weer de hoofdkleur van de editie */
 ];
 
 /* Vlag-icoon voor de vragenlijst */

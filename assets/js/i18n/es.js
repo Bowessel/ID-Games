@@ -35,18 +35,21 @@ export default {
   guessLabel: "Una de estas preguntas es la correcta",
   guessHint: "Pon una bandera en lo que suene más probable y dilo en voz alta. Sin reloj.",
   revealLabel: "Era esta",
-  revealTip: "¿Fallaste? Trago.",
+  revealTip: "Esta vez no acertasteis.",
   revealHint: "Quien ordena ya puede hablar.",
   tallyOne: "1 bandera puesta",
   tallyMany: "{n} banderas puestas",
   flagOne: "Marcad solo una pregunta antes de revelar la respuesta.",
   flagNone: "Primero poned una bandera en la pregunta que elegís.",
   winTitle: "¡BINGO!",
-  winSub: "¡Acertasteis! Nadie tiene que beber.",
+  winSub: "¡Acertasteis! De verdad os conocéis.",
   loseTitle: "Vaya…",
-  loseSub: "Fallasteis. ¡Todos a beber un trago!",
+  loseSub: "¡Fallasteis! Suerte en la próxima ronda.",
   tapToContinue: "Toca para continuar",
-  sound: "Sonido",
+  sound: "Efectos de sonido",
+  music: "Música de fondo",
+  vibration: "Vibración",
+  language: "Idioma",
   setupLabel: "Ajustes",
   countTitle: "¿Cuántas preguntas por ronda?",
   countBody: "Cada ronda el grupo ve este número de preguntas, y solo una es la correcta. Más preguntas lo hacen más difícil.",
@@ -65,6 +68,6 @@ export default {
     { title: "Un jugador recibe una pregunta secreta", body: "Cada ronda, un jugador ve una pregunta. El resto mira hacia otro lado y no sabe nada." },
     { title: "Ese jugador ordena las tarjetas", body: "Ordena las IDs según su pregunta, de más a menos, sin decir una palabra." },
     { title: "El grupo habla en voz alta", body: "El grupo ve varias preguntas, de las que exactamente una es correcta. Marca lo que parezca probable, habladlo juntos, sin temporizador." },
-    { title: "Elegid una respuesta juntos", body: "Una respuesta para todo el grupo. Luego el móvil muestra qué pregunta era. Si falláis, bebéis." }
+    { title: "Elegid una respuesta juntos", body: "Una respuesta para todo el grupo. Luego el móvil muestra qué pregunta era y si acertasteis." }
   ]
 };

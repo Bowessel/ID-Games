@@ -17,8 +17,11 @@ Open daarna `http://localhost:8000`. In VS Code kan ook de extensie Live Server.
 - `index.html` — pagina-opbouw en semantische HTML
 - `assets/css/styles.css` — alle stijlen en responsive regels
 - `assets/js/main.js` — startpunt: taal laden, vaste knoppen koppelen, analytics laden
-- `assets/js/game.js` — spelverloop: schermen, uitleg, aantal vragen kiezen, rondes, vlaggen, onthulling en antwoord vorige ronde (tik op "Ronde N")
-- `assets/js/settings.js` — aantal vragen per ronde (schuifbalk 2–12, standaard 10, onthouden in de browser) en het instellingenpaneel (tandwiel)
+- `assets/js/game.js` — spelverloop: schermen, uitleg (ook swipen), aantal vragen kiezen, rondes, vlaggen, onthulling en antwoord vorige ronde (tik op "Ronde N")
+- `assets/js/settings.js` — aantal vragen per ronde (schuifbalk 2–12, standaard 10, onthouden in de browser) en het instellingenpaneel (tandwiel) met taalkeuze en schakelaars voor geluidseffecten, muziek en trillen
+- `assets/js/music.js` — achtergrondmuziek per editie, live gemaakt met Web Audio (geen muziekbestanden)
+- `assets/js/audio.js` — gedeelde Web Audio-context voor muziek en geluidseffecten
+- `assets/js/haptics.js` — trillen bij goed/fout antwoord (Android: vibrate, iPhone: haptische tik via iOS 18-schakelaar)
 - `assets/js/assets.js` — SVG-illustraties, kleurthema's per uitlegstap en het vlag-icoon
 - `assets/js/analytics.js` — Google Tag Manager
 - `assets/js/modes.js` — edities (Classic, Spicy, Work, Goofy): vragen laden en het kleurthema van de editie
@@ -26,7 +29,8 @@ Open daarna `http://localhost:8000`. In VS Code kan ook de extensie Live Server.
 - `assets/js/i18n/<taal>.js` — schermteksten en spelregels per taal
 - `assets/data/id-games-<editie>.json` — de vragen per editie (Nederlands, de bron)
 - `assets/data/id-games-<editie>.<taal>.json` — vertaling van die vragen (en, de, es, fr, it, pt), gekoppeld via `nr`
-- `assets/images/` — afbeeldingen voor toekomstige uitbreidingen
+- `favicon.png` — logo (192×192) voor Google-zoekresultaten, vaste link https://id-games.nl/favicon.png; niet verplaatsen of hernoemen
+- `assets/images/` — favicon.ico en apple-touch-icon (browser en beginscherm)
 
 ## Ondersteunde talen
 

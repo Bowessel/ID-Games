@@ -8,7 +8,7 @@ import { getLang } from "./i18n/index.js";
 export const MODES = ["classic", "spicy", "work", "goofy"];
 
 /* Kleur van de adresbalk op telefoons, passend bij het thema in styles.css */
-const THEME_COLORS = { classic: "#FAF7F2", spicy: "#FFF5F3", work: "#F7F1EA", goofy: "#FBF7FF" };
+const THEME_COLORS = { home: "#FAF7F2", classic: "#F2F6FD", spicy: "#FFF5F3", work: "#F7F1EA", goofy: "#FBF7FF" };
 
 let mode = "classic";
 const sources = {};       /* editie → [{ nr, tekst }] (Nederlands) */
@@ -85,7 +85,7 @@ export function applyTheme(id = mode) {
   if (meta) meta.setAttribute("content", THEME_COLORS[id]);
 }
 
-/* Terug naar het overzicht: neutraal (Classic) thema */
+/* Terug naar het overzicht: neutraal crème thema (geen editie gekozen) */
 export function resetTheme() {
-  applyTheme("classic");
+  applyTheme("home");
 }

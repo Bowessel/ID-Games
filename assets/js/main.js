@@ -4,6 +4,7 @@ import { loadSavedLang, setLang, applyTranslations, t } from "./i18n/index.js";
 import { showHome, startMode, rerender, isInRound, onTagClick } from "./game.js";
 import { loadSavedCount, initSettings, openSettings, refreshSettings } from "./settings.js";
 import { prepareLanguage } from "./modes.js";
+import { unlockAudio } from "./audio.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -31,6 +32,7 @@ for (const id of ["classic", "spicy", "work", "goofy"]) {
   $(`btn-${id}`).addEventListener("click", async () => {
     if (starting) return;            /* dubbel tikken tijdens het laden negeren */
     starting = true;
+    unlockAudio();                   /* nu, tijdens de tik: anders mag de muziek niet starten */
     try {
       await startMode(id);
     } catch (err) {

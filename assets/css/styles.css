@@ -27,6 +27,12 @@
   --violet:#7C3AED;
   --violet-soft:#F5F3FF;
 
+  /* Kleuren van uitlegstap 2 en 4. Standaard het accent van de editie; Classic maakt ze blauw. */
+  --rule2:var(--coral);
+  --rule2-soft:var(--coral-soft);
+  --rule4:var(--violet);
+  --rule4-soft:var(--violet-soft);
+
   /* Dynamisch stap-accent (wordt per uitlegstap aangepast) */
   --step-accent:var(--cobalt);
   --step-bg:var(--cobalt-soft);
@@ -348,10 +354,11 @@ p{margin:0;color:var(--ink-soft);font-weight:500}
 @keyframes rise{from{opacity:0;transform:translateY(10px) scale(.985)}to{opacity:1;transform:none}}
 .center{text-align:center}
 
-/* Uitleg-kaart */
+/* Uitleg-kaart (swipebaar: horizontaal vegen is voor ons, verticaal scrollt de pagina) */
 .intro-card{
   background:var(--surface);border:2px solid var(--border);border-radius:18px;
   padding:20px 18px 22px;box-shadow:var(--shadow-lg);
+  touch-action:pan-y;-webkit-user-select:none;user-select:none;will-change:transform;
 }
 .art{
   display:flex;justify-content:center;align-items:center;
@@ -401,7 +408,6 @@ p{margin:0;color:var(--ink-soft);font-weight:500}
   box-shadow:var(--shadow-md);font-size:1rem;letter-spacing:.01em;
 }
 .primary.is-cobalt{background:var(--cobalt)}
-.primary.is-emerald{background:var(--emerald);color:#fff}
 .quiet{
   background:var(--surface);color:var(--ink);
   box-shadow:var(--shadow-sm);
@@ -506,7 +512,7 @@ li.miss .flag{opacity:.2}
   text-transform:uppercase;color:var(--coral);padding-top:12px;min-height:1.4em;
 }
 .hint{text-align:center;font-size:.88rem;color:var(--ink-soft);padding-top:10px}
-.sip{
+.result{
   text-align:center;font-size:.86rem;font-weight:800;letter-spacing:.03em;
   color:#fff;background:var(--coral);border:2px solid var(--border);
   border-radius:12px;padding:12px 14px;margin-top:14px;box-shadow:var(--shadow-sm);
@@ -578,38 +584,55 @@ button.tag:focus-visible,.icon-btn:focus-visible{outline:3px solid var(--cobalt)
 .panel-close:active{transform:translateY(3px);box-shadow:0 1px 0 var(--border)}
 .panel-close:focus-visible{outline:3px solid var(--cobalt);outline-offset:3px}
 
-/* Kopbalk-indeling. Breed: logo · tag · taal · tandwiel op één regel.
-   Telefoon: alles samen past niet leesbaar (±435px + 36px marge nodig), dus logo + taal + tandwiel
-   bovenaan en de tag op een eigen regel eronder, rechts uitgelijnd. */
+/* Kopbalk-indeling: logo links, tag + tandwiel rechts op één regel.
+   Heel smalle telefoons (< 360px): de tag krijgt een eigen regel eronder, rechts uitgelijnd. */
 .bar .tag{margin-left:auto;flex:none}
-.header-actions,.wordmark-btn,.lang-switch{flex:none}
-@media (max-width:479px){
+.header-actions,.wordmark-btn{flex:none}
+@media (max-width:359px){
   .bar{flex-wrap:wrap;row-gap:8px}
   .bar::after{content:"";order:2;flex-basis:100%;height:0}
   .header-actions{order:1;margin-left:auto}
   .bar .tag{order:3}
 }
 
+/* Taalkeuze in het instellingenpaneel */
+.lang-row{margin:12px 0 18px}
+.lang-row .lang-switch{font-size:.85rem;padding:8px 12px;min-width:140px}
+
 /* Schuifbalk aantal vragen (2–12) */
-.count-picker{margin-top:16px;--thumb:30px}
-.count-value{margin:0 0 6px;text-align:center;color:var(--ink)}
-.count-value .num{font-family:var(--display);font-weight:700;font-size:2.4rem;line-height:1}
-.count-value .unit{font-size:.75rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft)}
+.count-picker{margin-top:16px;--thumb:30px;--track:14px}
+/* Gekozen aantal: getal in een blokje, "vragen" ernaast, samen precies gecentreerd */
+.count-value{display:flex;align-items:center;justify-content:center;gap:10px;margin:0 0 16px}
+.count-value .num{
+  display:inline-grid;place-items:center;min-width:62px;height:54px;padding:0 12px;
+  font-family:var(--ui);font-weight:800;font-size:1.9rem;line-height:1;
+  font-variant-numeric:lining-nums tabular-nums;letter-spacing:-.02em;
+  color:#fff;background:var(--cobalt);border:2px solid var(--border);border-radius:14px;
+  box-shadow:var(--shadow-md);
+}
+.count-value .num.bump{animation:bump .22s cubic-bezier(.34,1.56,.64,1)}
+@keyframes bump{40%{transform:scale(1.12) rotate(-2deg)}}
+.count-value .unit{
+  font-size:.8rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);
+}
 .count-range{
   -webkit-appearance:none;appearance:none;display:block;width:100%;height:var(--thumb);margin:0;
   background:transparent;cursor:pointer;touch-action:pan-y;
 }
 .count-range:focus{outline:none}
+/* Spoor zonder border (binnenrand via schaduw): zo staat de knop exact in het midden.
+   De vulling loopt tot het midden van de knop. */
 .count-range::-webkit-slider-runnable-track{
-  height:12px;border-radius:99px;border:2px solid var(--border);
-  background:linear-gradient(to right,var(--cobalt) var(--fill,50%),var(--surface) var(--fill,50%));
+  height:var(--track);border-radius:99px;box-shadow:inset 0 0 0 2px var(--border);
+  background:linear-gradient(to right,var(--cobalt) calc(var(--thumb) / 2 + (100% - var(--thumb)) * var(--f,.5)),var(--surface) 0);
 }
 .count-range::-moz-range-track{
-  height:8px;border-radius:99px;border:2px solid var(--border);
-  background:linear-gradient(to right,var(--cobalt) var(--fill,50%),var(--surface) var(--fill,50%));
+  height:var(--track);border-radius:99px;box-shadow:inset 0 0 0 2px var(--border);
+  background:linear-gradient(to right,var(--cobalt) calc(var(--thumb) / 2 + (100% - var(--thumb)) * var(--f,.5)),var(--surface) 0);
 }
 .count-range::-webkit-slider-thumb{
-  -webkit-appearance:none;appearance:none;width:var(--thumb);height:var(--thumb);margin-top:-11px;
+  -webkit-appearance:none;appearance:none;box-sizing:border-box;width:var(--thumb);height:var(--thumb);
+  margin-top:calc((var(--track) - var(--thumb)) / 2);
   border-radius:50%;background:var(--amber);border:2px solid var(--border);box-shadow:0 2px 0 var(--border);
 }
 .count-range::-moz-range-thumb{
@@ -619,17 +642,26 @@ button.tag:focus-visible,.icon-btn:focus-visible{outline:3px solid var(--cobalt)
 .count-range:focus-visible::-webkit-slider-thumb{outline:3px solid var(--cobalt);outline-offset:2px}
 .count-range:focus-visible::-moz-range-thumb{outline:3px solid var(--cobalt);outline-offset:2px}
 /* Getallen onder de balk, gecentreerd onder elke knoppositie */
-.count-ticks{display:flex;justify-content:space-between;padding:0 calc(var(--thumb) / 2 - 11px);margin-top:4px}
+.count-ticks{display:flex;justify-content:space-between;padding:0 calc(var(--thumb) / 2 - 11px);margin-top:6px}
 .count-ticks button{
   width:22px;padding:4px 0;border:0;background:none;cursor:pointer;text-align:center;
-  font-size:.78rem;font-weight:700;color:var(--ink-muted);
+  font-size:.78rem;font-weight:700;color:var(--ink-muted);font-variant-numeric:tabular-nums;
 }
-.count-ticks button.on{color:var(--ink);font-weight:800}
+.count-ticks button.on{color:var(--cobalt);font-weight:800}
 
 /* =========================================================
    THEMA PER EDITIE: de hele app kleurt mee met de gekozen tegel.
-   (html[data-mode] wordt gezet in modes.js; het overzicht gebruikt Classic)
+   (html[data-mode] wordt gezet in modes.js; het overzicht gebruikt de neutrale crème basis)
    ========================================================= */
+html[data-mode="classic"]{
+  --bg:#F2F6FD; --bg-rgb:242,246,253; --surface-alt:#E8EFFB; --border-subtle:#D5E0F0;
+  --cobalt-soft:#E6F0FF;
+  /* Alle spelregels in tinten blauw */
+  --rule2:#0284C7; --rule2-soft:#E0F2FE;
+  --rule4:#1E40AF; --rule4-soft:#E3EAFF;
+  --glow-1:rgba(37,99,235,.13); --glow-2:rgba(96,165,250,.08);
+  --pattern:radial-gradient(rgba(37,99,235,.11) 1px, transparent 1px);
+}
 body{transition:background-color .3s ease}
 html[data-mode="spicy"]{
   --bg:#FFF5F3; --bg-rgb:255,245,243; --surface-alt:#FDE8E4; --border-subtle:#F3D5CF;
@@ -655,7 +687,7 @@ html[data-mode="goofy"]{
   --cobalt:#9333EA; --cobalt-soft:#F3E8FF;
   --coral:#C026D3; --coral-soft:#FAE8FF;
   --amber:#BEF264; --amber-soft:#F7FEE7;
-  --violet:#0284C7; --violet-soft:#E0F2FE;
+  --violet:#A855F7; --violet-soft:#F1E6FF;
   --glow-1:rgba(255,58,242,.10); --glow-2:rgba(56,189,248,.08);
   --pattern:conic-gradient(from 200deg at 80% 0%, rgba(255,58,242,.06), rgba(163,230,53,.06), rgba(56,189,248,.06), rgba(250,204,21,.06), rgba(255,58,242,.06));
 }
@@ -669,10 +701,9 @@ html[data-mode="goofy"] body::after{background-size:100% 100%,100% 100%}
 .art svg [stroke="#2563EB"]{stroke:var(--cobalt)}
 .art svg [fill="#60A5FA"]{fill:var(--cobalt);fill-opacity:.55}
 .art svg [fill="#DBEAFE"],.art svg [fill="#EFF6FF"]{fill:var(--cobalt-soft)}
-.art svg [fill="#FF5A5F"]{fill:var(--coral)}
+.art svg [fill="#FF5A5F"]{fill:var(--step-accent)}
 .art svg [fill="#F59E0B"]{fill:var(--amber)}
-.art svg [stroke="#7C3AED"]{stroke:var(--violet)}
-.art svg [fill="#10B981"]{fill:var(--emerald)}
+.art svg [stroke="#7C3AED"]{stroke:var(--step-accent)}
 
 /* Labeltjes op de editie-tegels */
 .mode-spicy .mode-pill{background:#FEF2F2;color:#991B1B}
@@ -699,24 +730,34 @@ li.hit.picked .still{box-shadow:inset 6px 0 0 var(--amber)}
 li.wrong .still{background:#FEE2E2;color:#991B1B;font-weight:700;text-decoration:line-through;text-decoration-thickness:2px}
 li.wrong .pole{stroke:#991B1B}
 li.wrong .cloth{fill:#DC2626;stroke:#991B1B}
-.sip.is-win{background:var(--emerald)}
+.result.is-win{background:var(--emerald)}
 
-/* Geluidsschakelaar in het instellingenpaneel */
+/* Schakelaars (geluid, muziek, trillen) in het instellingenpaneel */
 .toggle-row{
   display:flex;align-items:center;justify-content:space-between;margin-top:16px;
   font-size:.9rem;font-weight:700;color:var(--ink);cursor:pointer;
 }
-.toggle-row input{
-  -webkit-appearance:none;appearance:none;width:50px;height:28px;margin:0;border-radius:99px;cursor:pointer;
-  background:var(--border-subtle);border:2px solid var(--border);position:relative;transition:background .2s ease;
+/* Schakelaar: een onzichtbare checkbox over een getekend spoor met knop. Het spoor heeft geen
+   border maar een binnenrand (inset-schaduw), zodat de knop exact in het midden blijft zitten. */
+.switch{position:relative;flex:none;width:52px;height:30px}
+.switch input{
+  position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:pointer;z-index:1;
 }
-.toggle-row input::after{
-  content:"";position:absolute;top:2px;left:2px;width:20px;height:20px;border-radius:50%;
-  background:#fff;border:2px solid var(--border);transition:transform .2s ease;
+.switch-track{
+  position:absolute;inset:0;border-radius:99px;
+  background:var(--border-subtle);box-shadow:inset 0 0 0 2px var(--border),0 2px 0 var(--border);
+  transition:background .2s ease;
 }
-.toggle-row input:checked{background:var(--cobalt)}
-.toggle-row input:checked::after{transform:translateX(22px)}
-.toggle-row input:focus-visible{outline:3px solid var(--cobalt);outline-offset:2px}
+.switch-track::after{
+  content:"";position:absolute;top:5px;left:5px;width:20px;height:20px;box-sizing:border-box;
+  border-radius:50%;background:#fff;border:2px solid var(--border);
+  transition:transform .22s cubic-bezier(.34,1.56,.64,1);
+}
+.switch input:checked + .switch-track{background:var(--cobalt)}
+.switch input:checked + .switch-track::after{transform:translateX(22px)}
+.switch input:focus-visible + .switch-track{outline:3px solid var(--cobalt);outline-offset:2px}
+.switch input:active + .switch-track::after{width:23px}
+.switch input:checked:active + .switch-track::after{transform:translateX(19px)}
 
 /* De show-laag over de hele pagina */
 .show{
@@ -738,29 +779,50 @@ li.wrong .cloth{fill:#DC2626;stroke:#991B1B}
   font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;opacity:.7;
 }
 
-/* Goed: donkere nachtlucht met vuurwerk, titel knalt binnen */
-.show-win{background:radial-gradient(120% 80% at 50% 100%, #1E1B4B 0%, #0B0A1F 70%)}
-.show-win .show-title{
-  color:#FFD54A;text-shadow:0 4px 0 var(--coral),0 0 40px rgba(255,213,74,.6);
-  animation:boom .9s cubic-bezier(.17,1.6,.4,1) .15s both, glow 1.2s ease-in-out 1.1s infinite alternate;
-}
+/* Goed en fout zijn spiegelbeelden: een figuurtje bovenin met iets dat eronder valt,
+   een doorschijnende laag over het spel en de titel in het midden. */
+.show-card{margin-top:40px}
+.show-sky{position:absolute;top:16%;left:50%;width:170px;margin-left:-85px;animation:skyIn 1s ease both}
+.show-sky svg{width:100%;display:block;animation:sway 3s ease-in-out infinite}
+@keyframes skyIn{from{transform:translateY(-60px);opacity:0}}
+@keyframes sway{50%{transform:translateX(8px)}}
+.show-drops{position:relative;height:150px;margin-top:-6px}
+.show-drops i{position:absolute;top:0;animation:rain .9s linear infinite}
+.show-drops i:nth-child(14n+1){left:18%;animation-delay:.05s}.show-drops i:nth-child(14n+2){left:26%;animation-delay:.45s}
+.show-drops i:nth-child(14n+3){left:33%;animation-delay:.2s}.show-drops i:nth-child(14n+4){left:40%;animation-delay:.7s}
+.show-drops i:nth-child(14n+5){left:47%;animation-delay:.1s}.show-drops i:nth-child(14n+6){left:54%;animation-delay:.55s}
+.show-drops i:nth-child(14n+7){left:61%;animation-delay:.3s}.show-drops i:nth-child(14n+8){left:68%;animation-delay:.8s}
+.show-drops i:nth-child(14n+9){left:75%;animation-delay:.15s}.show-drops i:nth-child(14n+10){left:22%;animation-delay:.6s}
+.show-drops i:nth-child(14n+11){left:37%;animation-delay:.38s}.show-drops i:nth-child(14n+12){left:51%;animation-delay:.85s}
+.show-drops i:nth-child(14n+13){left:65%;animation-delay:.25s}.show-drops i:nth-child(14n+14){left:79%;animation-delay:.5s}
+@keyframes rain{from{transform:translateY(0);opacity:0}15%{opacity:.85}to{transform:translateY(140px);opacity:0}}
+
+/* Goed: laag in de kleur van de editie, lachende ster met dwarrelende confetti, titel huppelt binnen */
+.show-win{background:rgba(20,23,31,.45);background:color-mix(in srgb, var(--cobalt) 62%, transparent);backdrop-filter:blur(1.5px)}
+.show-win .show-sky{width:130px;margin-left:-65px}
+.show-win .show-sky svg{animation:twinkle 2.4s ease-in-out infinite}
+.show-win .star{fill:var(--amber)}
+.show-win .show-title{color:#fff;text-shadow:0 3px 0 #14171F;animation:hop .9s cubic-bezier(.34,1.56,.64,1) .2s both}
 .show-win .show-sub{color:#fff;animation:rise .5s ease .7s both}
 .show-win .show-skip{color:#fff}
-.show-burst{
-  position:absolute;left:50%;top:50%;width:520px;height:520px;margin:-260px 0 0 -260px;pointer-events:none;
-  background:repeating-conic-gradient(from 0deg, rgba(255,213,74,.16) 0 10deg, transparent 10deg 20deg);
-  border-radius:50%;animation:spin 8s linear infinite, burstIn .8s ease both;
-  -webkit-mask:radial-gradient(circle, #000 30%, transparent 70%);mask:radial-gradient(circle, #000 30%, transparent 70%);
+.show-confetti{margin-top:-14px}
+.show-confetti i{width:7px;height:10px;border-radius:2px;border:1.5px solid #14171F;animation-name:flutter;animation-duration:1.7s}
+.show-confetti i:nth-child(4n+1){background:var(--amber)}
+.show-confetti i:nth-child(4n+2){background:#fff}
+.show-confetti i:nth-child(4n+3){background:var(--coral)}
+.show-confetti i:nth-child(4n+4){background:var(--cobalt-soft)}
+@keyframes twinkle{0%,100%{transform:rotate(-6deg) scale(1)}50%{transform:rotate(6deg) scale(1.06)}}
+@keyframes hop{0%{transform:translateY(30px) scale(.85);opacity:0}60%{transform:translateY(-8px) scale(1.04);opacity:1}100%{transform:none}}
+@keyframes flutter{
+  from{transform:translate(0,0) rotate(0);opacity:0}
+  15%{opacity:1}
+  50%{transform:translate(8px,70px) rotate(160deg)}
+  to{transform:translate(-6px,140px) rotate(320deg);opacity:0}
 }
-@keyframes boom{0%{transform:scale(.1) rotate(-12deg);opacity:0}60%{transform:scale(1.25) rotate(4deg);opacity:1}100%{transform:scale(1) rotate(-3deg)}}
-@keyframes glow{to{text-shadow:0 4px 0 var(--coral),0 0 70px rgba(255,213,74,.95)}}
-@keyframes spin{to{transform:rotate(360deg)}}
-@keyframes burstIn{from{transform:scale(.2);opacity:0}}
 
 /* Fout: alles wordt grijs, regenwolk, titel zakt treurig door */
 html.is-sad .shell{filter:grayscale(1) brightness(.92);transition:filter .6s ease}
 .show-lose{background:rgba(60,64,72,.55);backdrop-filter:blur(1.5px)}
-.show-lose .show-card{margin-top:40px}
 .show-lose .show-title{color:#E5E7EB;text-shadow:0 3px 0 #14171F;animation:droop 2.2s cubic-bezier(.5,0,.3,1) .3s both}
 .show-lose .show-sub{color:#fff;animation:rise .5s ease 1.2s both}
 .show-lose .show-skip{color:#fff}
@@ -770,23 +832,7 @@ html.is-sad .shell{filter:grayscale(1) brightness(.92);transition:filter .6s eas
   55%{transform:translateY(6px) rotate(-4deg)}
   100%{transform:translateY(26px) rotate(-9deg) scaleY(.92);opacity:.9}
 }
-.show-cloud{position:absolute;top:16%;left:50%;width:170px;margin-left:-85px;animation:cloudIn 1s ease both}
-.show-cloud svg{width:100%;display:block;animation:sway 3s ease-in-out infinite}
-@keyframes cloudIn{from{transform:translateY(-60px);opacity:0}}
-@keyframes sway{50%{transform:translateX(8px)}}
-.show-rain{position:relative;height:150px;margin-top:-6px}
-.show-rain i{
-  position:absolute;top:0;width:3px;height:16px;border-radius:2px;background:#93C5FD;opacity:.85;
-  animation:rain .9s linear infinite;
-}
-.show-rain i:nth-child(14n+1){left:18%;animation-delay:.05s}.show-rain i:nth-child(14n+2){left:26%;animation-delay:.45s}
-.show-rain i:nth-child(14n+3){left:33%;animation-delay:.2s}.show-rain i:nth-child(14n+4){left:40%;animation-delay:.7s}
-.show-rain i:nth-child(14n+5){left:47%;animation-delay:.1s}.show-rain i:nth-child(14n+6){left:54%;animation-delay:.55s}
-.show-rain i:nth-child(14n+7){left:61%;animation-delay:.3s}.show-rain i:nth-child(14n+8){left:68%;animation-delay:.8s}
-.show-rain i:nth-child(14n+9){left:75%;animation-delay:.15s}.show-rain i:nth-child(14n+10){left:22%;animation-delay:.6s}
-.show-rain i:nth-child(14n+11){left:37%;animation-delay:.38s}.show-rain i:nth-child(14n+12){left:51%;animation-delay:.85s}
-.show-rain i:nth-child(14n+13){left:65%;animation-delay:.25s}.show-rain i:nth-child(14n+14){left:79%;animation-delay:.5s}
-@keyframes rain{from{transform:translateY(0);opacity:0}15%{opacity:.85}to{transform:translateY(140px);opacity:0}}
+.show-rain i{width:3px;height:16px;border-radius:2px;background:#93C5FD;opacity:.85}
 
-/* Minder beweging: rustige versie zonder vuurwerk/animaties */
-.show-calm .show-burst,.show-calm .show-rain{display:none}
+/* Minder beweging: rustige versie zonder vallende druppels of confetti */
+.show-calm .show-drops{display:none}

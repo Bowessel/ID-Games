@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Lokale omgevingen en afhankelijkheden
+.env
+.env.*
+node_modules/
+
+# Logs en tijdelijke bestanden
+*.log
+*.tmp
+*.bak
+
+# Map- en systeemcache
+Thumbs.db
+Desktop.ini
+.cache/

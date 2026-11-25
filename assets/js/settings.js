@@ -1,7 +1,11 @@
 /* Instellingen: hoeveel vragen de groep per ronde ziet, plus het instellingenpaneel
-   (tandwiel rechtsboven). De keuze wordt onthouden in de browser. */
+   (tandwiel rechtsboven) met schakelaars voor geluidseffecten, muziek en trillen.
+   Alle keuzes worden onthouden in de browser. */
 import { t } from "./i18n/index.js";
 import { isSoundOn, setSoundOn } from "./show.js";
+import { isMusicOn, setMusicOn } from "./music.js";
+import { isVibrationOn, setVibrationOn, vibrate } from "./haptics.js";
+import { unlockAudio } from "./audio.js";
 
 export const MIN_COUNT = 2;
 export const MAX_COUNT = 12;
@@ -46,14 +50,24 @@ function syncPicker(picker) {
   if (!range) return;   /* paneel nog nooit geopend: nog geen balk getekend */
   range.value = String(count);
   range.setAttribute("aria-valuetext", t("countAria", { n: count }));
-  range.style.setProperty("--fill", `${((count - MIN_COUNT) / (MAX_COUNT - MIN_COUNT)) * 100}%`);
-  picker.querySelector(".count-value .num").textContent = String(count);
+  range.style.setProperty("--f", String((count - MIN_COUNT) / (MAX_COUNT - MIN_COUNT)));
+  const num = picker.querySelector(".count-value .num");
+  if (num.textContent !== String(count)) {
+    const changed = num.textContent !== "";
+    num.textContent = String(count);
+    if (changed) {   /* getal veert even op als je schuift */
+      num.classList.remove("bump");
+      void num.offsetWidth;
+      num.classList.add("bump");
+    }
+  }
   picker.querySelectorAll(".count-ticks button").forEach((b) => {
     b.classList.toggle("on", Number(b.dataset.count) === count);
   });
 }
 
-/* Tekent een schuifbalk 2–12 met het gekozen getal erboven en de getallen eronder */
+/* Tekent een schuifbalk 2–12 met het gekozen getal (in een blokje, met "vragen" ernaast)
+   erboven en de getallen eronder */
 export function renderCountOptions(container) {
   container.textContent = "";
 
@@ -65,7 +79,7 @@ export function renderCountOptions(container) {
   const unit = document.createElement("span");
   unit.className = "unit";
   unit.textContent = t("questionsUnit");
-  value.append(num, " ", unit);
+  value.append(num, unit);
 
   const range = document.createElement("input");
   range.type = "range";
@@ -131,6 +145,18 @@ export function initSettings() {
   const sound = $("soundToggle");
   sound.checked = isSoundOn();
   sound.addEventListener("change", () => setSoundOn(sound.checked));
+  const music = $("musicToggle");
+  music.checked = isMusicOn();
+  music.addEventListener("change", () => {
+    unlockAudio();
+    setMusicOn(music.checked);
+  });
+  const vib = $("vibrateToggle");
+  vib.checked = isVibrationOn();
+  vib.addEventListener("change", () => {
+    setVibrationOn(vib.checked);
+    if (vib.checked) vibrate([40]);   /* even voelen dat het aan staat */
+  });
   $("settingsClose").addEventListener("click", () => closeSettings());
   overlay.addEventListener("click", (event) => {
     if (event.target === overlay) closeSettings();
@@ -147,7 +173,7 @@ function onKey(event) {
       return;
     }
     if (event.key !== "Tab") return;
-    const items = [...overlay.querySelectorAll("input, button:not([tabindex=\"-1\"])")];
+    const items = [...overlay.querySelectorAll("select, input, button:not([tabindex=\"-1\"])")];
     const first = items[0];
     const last = items[items.length - 1];
     if (!overlay.contains(document.activeElement)) {

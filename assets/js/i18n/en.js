@@ -35,18 +35,21 @@ export default {
   guessLabel: "One of these questions is the one",
   guessHint: "Place a flag on what sounds likely and talk it through out loud. No timer.",
   revealLabel: "It was this one",
-  revealTip: "Wrong guess? Take a sip.",
+  revealTip: "Not this time, you missed it.",
   revealHint: "The sorter may talk now.",
   tallyOne: "1 flag placed",
   tallyMany: "{n} flags placed",
   flagOne: "Flag just one question before you can reveal the answer.",
   flagNone: "First place a flag on the question you're going for.",
   winTitle: "NAILED IT!",
-  winSub: "Right guess! Nobody has to drink.",
+  winSub: "Right guess! You really know each other.",
   loseTitle: "Oh no…",
-  loseSub: "Wrong. Everybody take a sip!",
+  loseSub: "Missed it! Better luck next round.",
   tapToContinue: "Tap to continue",
-  sound: "Sound",
+  sound: "Sound effects",
+  music: "Background music",
+  vibration: "Vibration",
+  language: "Language",
   setupLabel: "Setup",
   countTitle: "How many questions per round?",
   countBody: "Each round the group sees this many questions, and exactly one is right. More questions makes it harder.",
@@ -65,6 +68,6 @@ export default {
     { title: "One player gets a secret question", body: "Each round, one player sees a question. The rest look away and know nothing." },
     { title: "That player arranges the order", body: "They sort the IDs according to their question, from most to least, without saying a word." },
     { title: "The group discusses out loud", body: "The group sees a set of questions, of which exactly one is correct. Place a flag on what sounds likely, talk it through together, no timer." },
-    { title: "Choose one answer together", body: "One answer for the whole group. Then the phone reveals which question it was. If you missed it, you drink." }
+    { title: "Choose one answer together", body: "One answer for the whole group. Then the phone reveals which question it was and whether you got it right." }
   ]
 };

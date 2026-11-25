@@ -35,18 +35,21 @@ export default {
   guessLabel: "Uma dessas perguntas é a certa",
   guessHint: "Coloque uma bandeira na opção mais provável e diga em voz alta. Sem relógio.",
   revealLabel: "Era esta",
-  revealTip: "Errou? Gole.",
+  revealTip: "Desta vez não acertaram.",
   revealHint: "Quem ordenou pode falar agora.",
   tallyOne: "1 bandeira marcada",
   tallyMany: "{n} bandeiras marcadas",
   flagOne: "Marquem só uma pergunta antes de revelar a resposta.",
   flagNone: "Primeiro coloquem uma bandeira na pergunta que vocês escolheram.",
   winTitle: "NA MOSCA!",
-  winSub: "Acertaram! Ninguém precisa beber.",
+  winSub: "Acertaram! Vocês se conhecem mesmo.",
   loseTitle: "Que pena…",
-  loseSub: "Erraram. Todo mundo bebe um gole!",
+  loseSub: "Erraram! Mais sorte na próxima rodada.",
   tapToContinue: "Toque para continuar",
-  sound: "Som",
+  sound: "Efeitos sonoros",
+  music: "Música de fundo",
+  vibration: "Vibração",
+  language: "Idioma",
   setupLabel: "Ajustes",
   countTitle: "Quantas perguntas por rodada?",
   countBody: "A cada rodada o grupo vê esse número de perguntas, e só uma está certa. Mais perguntas deixam o jogo mais difícil.",
@@ -65,6 +68,6 @@ export default {
     { title: "Um jogador recebe uma pergunta secreta", body: "Cada rodada, um jogador vê uma pergunta. Os outros olham para o lado e não sabem de nada." },
     { title: "Esse jogador organiza a ordem", body: "Ele organiza os IDs conforme a pergunta, do mais ao menos, sem dizer uma palavra." },
     { title: "O grupo discute em voz alta", body: "O grupo vê várias perguntas, das quais exatamente uma está correta. Coloque uma bandeira no que parece provável, discutam juntos, sem temporizador." },
-    { title: "Escolham uma resposta juntos", body: "Uma resposta para todo o grupo. Depois o celular revela qual era a pergunta. Se vocês errarem, bebem." }
+    { title: "Escolham uma resposta juntos", body: "Uma resposta para todo o grupo. Depois o celular revela qual era a pergunta e se vocês acertaram." }
   ]
 };

@@ -35,18 +35,21 @@ export default {
   guessLabel: "L'une de ces questions est la bonne",
   guessHint: "Place un drapeau sur ce qui semble probable et dis-le à voix haute. Pas de chrono.",
   revealLabel: "C'était celle-ci",
-  revealTip: "Mauvaise réponse ? Gorgée.",
+  revealTip: "Pas cette fois, c'est raté.",
   revealHint: "Celui qui classe peut maintenant parler.",
   tallyOne: "1 drapeau posé",
   tallyMany: "{n} drapeaux posés",
   flagOne: "Ne marquez qu'une seule question avant de révéler la réponse.",
   flagNone: "Placez d'abord un drapeau sur la question que vous choisissez.",
   winTitle: "BINGO !",
-  winSub: "Bien vu ! Personne ne boit.",
+  winSub: "Bien vu ! Vous vous connaissez vraiment.",
   loseTitle: "Dommage…",
-  loseSub: "Raté. Tout le monde boit une gorgée !",
+  loseSub: "Raté ! Ce sera pour la prochaine manche.",
   tapToContinue: "Touche pour continuer",
-  sound: "Son",
+  sound: "Effets sonores",
+  music: "Musique de fond",
+  vibration: "Vibrations",
+  language: "Langue",
   setupLabel: "Réglages",
   countTitle: "Combien de questions par manche ?",
   countBody: "À chaque manche, le groupe voit ce nombre de questions, dont une seule est la bonne. Plus il y en a, plus c'est difficile.",
@@ -65,6 +68,6 @@ export default {
     { title: "Un joueur reçoit une question secrète", body: "Chaque manche, un joueur voit une question. Les autres regardent ailleurs et ne savent rien." },
     { title: "Ce joueur organise l'ordre", body: "Il range les cartes selon sa question, du plus au moins, sans dire un mot." },
     { title: "Le groupe discute à voix haute", body: "Le groupe voit plusieurs questions, dont exactement une est correcte. Place un drapeau sur ce qui paraît probable, discutez-en ensemble, sans minuteur." },
-    { title: "Choisissez une réponse ensemble", body: "Une réponse pour tout le groupe. Puis le téléphone révèle quelle question c'était. Si vous vous êtes trompés, vous buvez." }
+    { title: "Choisissez une réponse ensemble", body: "Une réponse pour tout le groupe. Puis le téléphone révèle quelle question c'était et si vous avez vu juste." }
   ]
 };

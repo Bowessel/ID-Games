@@ -35,18 +35,21 @@ export default {
   guessLabel: "Eén van deze vragen is het",
   guessHint: "Zet een vlag bij wat kansrijk klinkt en praat het hardop uit. Geen klok.",
   revealLabel: "Het was deze",
-  revealTip: "Fout geraden? Slok.",
+  revealTip: "Ernaast, dit keer niet geraden.",
   revealHint: "De legger mag nu praten.",
   tallyOne: "1 vlag geplant",
   tallyMany: "{n} vlaggen geplant",
   flagOne: "Vlag nog maar één vraag voordat je het antwoord kunt onthullen.",
   flagNone: "Zet eerst een vlag bij de vraag die jullie kiezen.",
   winTitle: "RAAK!",
-  winSub: "Goed geraden! Niemand hoeft te drinken.",
+  winSub: "Goed geraden! Jullie kennen elkaar echt.",
   loseTitle: "Helaas…",
-  loseSub: "Ernaast. Iedereen een slok!",
+  loseSub: "Ernaast! Volgende ronde beter.",
   tapToContinue: "Tik om verder te gaan",
-  sound: "Geluid",
+  sound: "Geluidseffecten",
+  music: "Achtergrondmuziek",
+  vibration: "Trillen",
+  language: "Taal",
   setupLabel: "Instellen",
   countTitle: "Hoeveel vragen per ronde?",
   countBody: "De groep ziet elke ronde zoveel vragen, waarvan er één klopt. Meer vragen maakt het moeilijker.",
@@ -65,6 +68,6 @@ export default {
     { title: "Eén speler krijgt een geheime vraag", body: "Elke ronde ziet één speler een vraag. De rest kijkt weg en weet van niets." },
     { title: "Die speler legt de volgorde", body: "Hij rangschikt de ID's volgens zijn vraag, van meest naar minst. Zonder een woord te zeggen." },
     { title: "De rest overlegt hardop", body: "De groep krijgt een handvol vragen te zien waarvan er precies één klopt. Zet een vlag bij wat kansrijk klinkt, praat het samen uit, er is geen klok." },
-    { title: "Kies samen één antwoord", body: "Eén antwoord voor de hele groep. Daarna laat de telefoon zien welke vraag het was. Zat je ernaast, dan drink je." }
+    { title: "Kies samen één antwoord", body: "Eén antwoord voor de hele groep. Daarna laat de telefoon zien welke vraag het was en of jullie het goed hadden." }
   ]
 };

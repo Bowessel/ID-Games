@@ -35,18 +35,21 @@ export default {
   guessLabel: "Una di queste domande è quella giusta",
   guessHint: "Metti una bandiera su ciò che sembra probabile e dillo ad alta voce. Nessun timer.",
   revealLabel: "Era questa",
-  revealTip: "Hai sbagliato? Sorso.",
+  revealTip: "Questa volta niente da fare.",
   revealHint: "Chi ha ordinato può parlare adesso.",
   tallyOne: "1 bandiera messa",
   tallyMany: "{n} bandiere messe",
   flagOne: "Segnate una sola domanda prima di rivelare la risposta.",
   flagNone: "Prima mettete una bandiera sulla domanda che scegliete.",
   winTitle: "CENTRO!",
-  winSub: "Indovinato! Nessuno deve bere.",
+  winSub: "Indovinato! Vi conoscete davvero.",
   loseTitle: "Peccato…",
-  loseSub: "Sbagliato. Un sorso per tutti!",
+  loseSub: "Sbagliato! Andrà meglio al prossimo round.",
   tapToContinue: "Tocca per continuare",
-  sound: "Suono",
+  sound: "Effetti sonori",
+  music: "Musica di sottofondo",
+  vibration: "Vibrazione",
+  language: "Lingua",
   setupLabel: "Impostazioni",
   countTitle: "Quante domande per round?",
   countBody: "Ogni round il gruppo vede questo numero di domande, di cui una sola è giusta. Più domande lo rendono più difficile.",
@@ -65,6 +68,6 @@ export default {
     { title: "Un giocatore riceve una domanda segreta", body: "Ogni round un giocatore vede una domanda. Gli altri distolgono lo sguardo e non sanno nulla." },
     { title: "Quel giocatore ordina le carte", body: "Ordina le carte secondo la domanda, dal più al meno, senza dire una parola." },
     { title: "Il gruppo parla ad alta voce", body: "Il gruppo vede diverse domande, di cui una sola è corretta. Metti una bandiera su ciò che sembra plausibile, discutetene insieme, senza timer." },
-    { title: "Scegliete insieme una risposta", body: "Una risposta per tutto il gruppo. Poi il telefono rivela quale domanda era. Se avete sbagliato, bevete." }
+    { title: "Scegliete insieme una risposta", body: "Una risposta per tutto il gruppo. Poi il telefono rivela quale domanda era e se avete indovinato." }
   ]
 };

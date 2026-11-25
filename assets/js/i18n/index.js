@@ -92,7 +92,10 @@ const STATIC_TEXTS = {
   "settings-count-label": "settingsCount",
   "settings-note": "settingsNote",
   "settingsClose": "done",
-  "settings-sound-label": "sound"
+  "settings-sound-label": "sound",
+  "settings-music-label": "music",
+  "settings-vibrate-label": "vibration",
+  "settings-lang-label": "language"
 };
 
 /* Vertaalde attributen: element-id → { attribuut: vertaalsleutel } */

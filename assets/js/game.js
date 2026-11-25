@@ -6,6 +6,7 @@ import { setMode, resetTheme, getModeQuestions as getQuestions } from "./modes.j
 import { ART, STEP_THEMES, createFlag } from "./assets.js";
 import { getQuestionCount, renderCountOptions } from "./settings.js";
 import { playReveal, stopShow, nudge } from "./show.js";
+import { playMusic, stopMusic } from "./music.js";
 
 const SCREENS = ["s-home", "s-intro", "s-count", "s-hand", "s-secret", "s-guess", "s-reveal"];
 const ROUND_SCREENS = ["s-hand", "s-secret", "s-guess", "s-reveal"];
@@ -86,7 +87,8 @@ function renderHome() {
 }
 
 /* ---------- uitleg ---------- */
-function renderIntro() {
+/* dir: 1 = vooruit, -1 = terug (de kaart schuift dan van die kant binnen), 0 = gewoon tonen */
+function renderIntro(dir = 0) {
   const steps = getSteps();
   const [accent, soft] = STEP_THEMES[step];
   document.documentElement.style.setProperty("--step-accent", accent);
@@ -100,7 +102,7 @@ function renderIntro() {
     '<span class="dot' + (i === step ? " on" : "") + '"></span>').join("");
 
   const last = step === steps.length - 1;
-  const acts = [[last ? t("start") : t("next"), last ? "primary is-emerald" : "primary is-cobalt", nextStep]];
+  const acts = [[last ? t("start") : t("next"), "primary is-cobalt", nextStep]];
   if (step > 0) acts.push([t("back"), "quiet", prevStep]);
   else {
     acts.push([t("skip"), "plain", renderCount]);
@@ -108,23 +110,87 @@ function renderIntro() {
   }
   setActions(acts);
   show("s-intro");
+  slideIn(dir);
 }
 
 function nextStep() {
-  if (step < getSteps().length - 1) { step++; renderIntro(); }
+  if (step < getSteps().length - 1) { step++; renderIntro(1); }
   else renderCount();
 }
 
 function prevStep() {
-  if (step > 0) { step--; renderIntro(); }
+  if (step > 0) { step--; renderIntro(-1); }
 }
+
+const reducedMotion = () => window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+function slideIn(dir) {
+  const card = $("s-intro").querySelector(".intro-card");
+  card.style.transition = "";
+  card.style.transform = "";
+  if (!dir || reducedMotion() || !card.animate) return;
+  card.animate(
+    [{ transform: `translateX(${dir * 70}px)`, opacity: 0 }, { transform: "none", opacity: 1 }],
+    { duration: 280, easing: "cubic-bezier(.22,1,.36,1)" }
+  );
+}
+
+/* Swipen door de spelregels: naar links = volgende, naar rechts = vorige.
+   Alleen binnen de uitleg: op de eerste en laatste stap veert de kaart terug.
+   Verder na de uitleg gaat alleen via de knop "Begin het spel". */
+function initSwipe() {
+  const card = $("s-intro").querySelector(".intro-card");
+  const THRESHOLD = 60;
+  let startX = 0, startY = 0, dx = 0, axis = null, pointer = null;
+
+  card.addEventListener("pointerdown", (e) => {
+    if (e.pointerType === "mouse" && e.button !== 0) return;
+    pointer = e.pointerId;
+    startX = e.clientX;
+    startY = e.clientY;
+    dx = 0;
+    axis = null;
+  });
+
+  card.addEventListener("pointermove", (e) => {
+    if (e.pointerId !== pointer) return;
+    const mx = e.clientX - startX;
+    const my = e.clientY - startY;
+    if (axis === null && Math.hypot(mx, my) > 8) {
+      axis = Math.abs(mx) > Math.abs(my) ? "x" : "y";
+      if (axis === "x") {
+        try { card.setPointerCapture(pointer); } catch { /* niet nodig */ }
+      }
+    }
+    if (axis !== "x") return;
+    const lastStep = getSteps().length - 1;
+    const atEdge = (mx < 0 && step === lastStep) || (mx > 0 && step === 0);
+    dx = atEdge ? mx * 0.2 : mx;   /* rand van de uitleg: alleen een beetje meegeven */
+    card.style.transition = "none";
+    card.style.transform = `translateX(${dx}px) rotate(${dx / 45}deg)`;
+  });
+
+  const end = (e) => {
+    if (e.pointerId !== pointer) return;
+    pointer = null;
+    if (axis !== "x") return;
+    const lastStep = getSteps().length - 1;
+    if (dx < -THRESHOLD && step < lastStep) { step++; renderIntro(1); return; }
+    if (dx > THRESHOLD && step > 0) { step--; renderIntro(-1); return; }
+    card.style.transition = "transform .3s cubic-bezier(.34,1.56,.64,1)";
+    card.style.transform = "";
+  };
+  card.addEventListener("pointerup", end);
+  card.addEventListener("pointercancel", end);
+}
+initSwipe();
 
 /* ---------- aantal vragen kiezen (na de spelregels) ---------- */
 function renderCount() {
   setTag(t("setupLabel"), false);
   renderCountOptions($("countOptions"));
   setActions([
-    [t("start"), "primary is-emerald", startGame],
+    [t("start"), "primary is-cobalt", startGame],
     [t("back"), "quiet", renderIntro]
   ]);
   show("s-count");
@@ -182,7 +248,7 @@ function renderSecret() {
   setRoundTag();
   $("tag").disabled = true;   /* legger ziet de geheime vraag: geen tweede vraag tonen */
   $("q").textContent = getQuestions()[answer];
-  setActions([[t("placed"), "primary is-emerald", toGuess]]);
+  setActions([[t("placed"), "primary is-cobalt", toGuess]]);
   show("s-secret");
 }
 
@@ -296,6 +362,7 @@ function tally() {
 /* ---------- publiek ---------- */
 export function showHome() {
   stopShow();
+  stopMusic();
   renderHome();
 }
 
@@ -303,6 +370,7 @@ export function showHome() {
    betekent een nieuwe vragenpot, dus de spelstand begint opnieuw. */
 export async function startMode(id) {
   await setMode(id);
+  playMusic(id);   /* achtergrondmuziek van deze editie (als muziek aan staat) */
   used.clear();
   marks.clear();
   roundOrder = [];

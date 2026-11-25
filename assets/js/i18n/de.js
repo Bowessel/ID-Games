@@ -35,18 +35,21 @@ export default {
   guessLabel: "Eine dieser Fragen ist es",
   guessHint: "Setzt eine Flagge bei dem, was wahrscheinlich klingt, und sprecht es laut aus. Keine Uhr.",
   revealLabel: "Es war diese",
-  revealTip: "Falsch geraten? Schluck.",
+  revealTip: "Diesmal leider daneben.",
   revealHint: "Der Sortierer darf jetzt sprechen.",
   tallyOne: "1 Flagge gesetzt",
   tallyMany: "{n} Flaggen gesetzt",
   flagOne: "Markiert nur eine Frage, bevor ihr die Antwort aufdecken könnt.",
   flagNone: "Setzt zuerst eine Flagge bei der Frage, die ihr wählt.",
   winTitle: "VOLLTREFFER!",
-  winSub: "Richtig geraten! Niemand muss trinken.",
+  winSub: "Richtig geraten! Ihr kennt euch wirklich.",
   loseTitle: "Schade…",
-  loseSub: "Daneben. Alle einen Schluck!",
+  loseSub: "Daneben! Nächste Runde klappt's.",
   tapToContinue: "Tippen zum Weitermachen",
-  sound: "Ton",
+  sound: "Soundeffekte",
+  music: "Hintergrundmusik",
+  vibration: "Vibration",
+  language: "Sprache",
   setupLabel: "Einrichten",
   countTitle: "Wie viele Fragen pro Runde?",
   countBody: "Die Gruppe sieht jede Runde so viele Fragen, von denen genau eine stimmt. Mehr Fragen machen es schwieriger.",
@@ -65,6 +68,6 @@ export default {
     { title: "Ein Spieler erhält eine geheime Frage", body: "Jede Runde sieht ein Spieler eine Frage. Der Rest schaut weg und weiß nichts." },
     { title: "Dieser Spieler legt die Reihenfolge fest", body: "Er sortiert die Ausweise nach seiner Frage, von „am meisten“ bis „am wenigsten“, ohne ein Wort zu sagen." },
     { title: "Die Gruppe diskutiert laut", body: "Die Gruppe sieht mehrere Fragen, von denen genau eine stimmt. Setzt eine Flagge bei dem, was wahrscheinlich klingt, und besprecht es gemeinsam, ohne Zeitdruck." },
-    { title: "Wählt gemeinsam eine Antwort", body: "Eine Antwort für die ganze Gruppe. Danach zeigt das Handy, welche Frage es war. Lagt ihr daneben, trinkt ihr." }
+    { title: "Wählt gemeinsam eine Antwort", body: "Eine Antwort für die ganze Gruppe. Danach zeigt das Handy, welche Frage es war und ob ihr richtig lagt." }
   ]
 };
